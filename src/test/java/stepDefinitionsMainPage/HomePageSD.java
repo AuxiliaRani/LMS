@@ -18,8 +18,8 @@ public class HomePageSD {
 	   
 	}
 
-	@Then("Admin should land on the home page")
-	public void admin_should_land_on_the_home_page() {
+	@Then("Admin should land on the {string} page")
+	public void admin_should_land_on_the_page(String string) {
 	   
 	   
 	}
