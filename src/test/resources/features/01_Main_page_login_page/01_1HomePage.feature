@@ -2,9 +2,8 @@
 Feature: Home Page Verification
 
 	Background:
-		Given Admin launch the browser
+	Given Admin launch the browser
     
-
 	@TC_HomePage_01
   Scenario: Verify admin is able to land on home page
     When Admin gives the correct LMS portal URL
@@ -19,14 +18,12 @@ Feature: Home Page Verification
   Scenario: Admin verifies for broken link on the LMS portal
     When  Admin gives the correct LMS portal URL
     Then Admin should receive "Https response >= 400" error for the LMS link
-    And The link is broken
-    
+    And The link is broken    
   
  	@TC_HomePage_04
   Scenario: Admin verifies correct spellings in all fields on the LMS portal
     When Admin gives the correct LMS portal URL
-    Then Admin should see correct spellings in all fields on the LMS portal
-        
+    Then Admin should see correct spellings in all fields on the LMS portal        
   
   @TC_HomePage_05
   Scenario:  Admin verifies the presence of the LMS logo
@@ -38,12 +35,12 @@ Feature: Home Page Verification
     When Admin gives the correct LMS portal URL 
     Then Admin should see that the Logo is properly aligned
     
-    @TC_HomePage_07
+  @TC_HomePage_07
   Scenario: Admin verifies the presence of the Login button
     When Admin gives the correct LMS portal URL 
     Then Admin should see the "Login" button in LMS Portal
     
-    @TC_HomePage_08
+  @TC_HomePage_08
   Scenario:  Admin verifies that the Login button is clickable on LMS Portal
     When Admin gives the correct LMS portal URL 
     Then Admin should be able to click the "Login" button on LMS Portal
