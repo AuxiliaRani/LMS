@@ -1,0 +1,8 @@
+[INFO ] 2023-09-09 21:51:04.986 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-09 21:51:04.988 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-09 21:51:07.575 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-09 21:51:07.600 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 09:42:02.089 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 09:42:02.091 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 09:42:03.703 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 09:42:03.733 [main] LoggerLoad - Closing Driver
