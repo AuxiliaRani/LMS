@@ -1,119 +1,83 @@
-@Register
-Feature: User Validates the register page in DS Algo
-@TC_Register_01
-  Scenario: User launch home page of an dsalgo project
-    Given The user opens DS Algo portal link
-    When The user clicks the "Get Started" button
-    Then The user should be redirected to the home page
-    
-  @TC_Register_02
-  Scenario: The user is presented with error message for empty fields below Username textbox
-    Given The user opens Register Page
-    When The user clicks "Register" button with all fields empty
-    Then It should display an error "Please fill out this field." below Username textbox
+#Author: Amruta
+@Attendance
+Feature: Manage Attendance Page verification
 
-  @TC_Register_03
-  Scenario: The user is presented with error message for empty fields below Password textbox
-    Given The user opens Register Page
-    When  The user clicks "Register" button after entering username with other fields empty
-			 | username        |
-			 | Numpy@sdet117_1 |
-    Then It should display an error "Please fill out this field." below Password textbox
-    
-  
- 	@TC_Register_04
-  Scenario: The user is presented with error message for empty fields below Password Confirmation textbox
-   	Given The user opens Register Page
-    When The user clicks "Register" button after entering "username" and "password" with Password Confirmation field empty
-			 | 	 username      | password     |
-			 | Numpy@sdet117_1 | testpassword |
-    Then It should display an error "Please fill out this field." below Password Confirmation textbox
-        
-  
-  @TC_Register_05
-  Scenario: The user is presented with error message for invalid username
-    Given The user opens Register Page
-    When The user enters a "username" with characters other than Letters, digits and "@/./+/-/_"
-				| username | password     | password confirmation |
-				| &**&**&  | testpassword | testpassword          |
-    Then It should display an error message "Please enter a valid username"
-    
-  @TC_Register_06
-  Scenario:  The user is presented with error message for username already exists
-    Given The user opens Register Page
-    When The user enters a valid existing "username" with "password" and "password confirmation"
-	      | username     		| password  | password confirmation |
-	      | Numpy@sdet117_1 | RT56YUabc | RT56YUabc  							|
-    Then It should display an error message "Username already exists"
-    
-    @TC_Register_07
-  Scenario:  The user is presented with error message for password mismatch
-    Given The user opens Register Page
-    When The user clicks "Register" button after entering valid "username" and different passwords in "password" and "password confirmation" fields
-	      | username     		| password     | password confirmation |
-	      | Numpy@sdet117_1 | testpassword | testpassword1   | 
-    Then It should display an error message "password_mismatch:The two password fields didn’t match."
-    
-    @TC_Register_08
-  Scenario:  The user is presented with error message for password with characters less than 8
-    Given The user opens Register Page
-    When he user enters a valid "username" and "password" with characters less than 8
-	      | username     		| password | password confirmation |
-	      | Numpy@sdet117_1 | a1b2c3d  | a1b2c3d            |
-    Then It should display an error message "Password should contain at least 8 characters"
-    
-    @TC_Register_09
-  Scenario:  The user is presented with error message for password with only numbers
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" with only numbers
-      | username     	 	| password | password confirmation |
-      | Numpy@sdet117_1 | 12345678 |              12345678 |
-    Then It should display an error message "Password can’t be entirely numeric."
-    
-     @TC_Register_10
-  Scenario:  The user is presented with error message for password too similar to your other personal information
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" similar to username
-      | username     		| password   	| password confirmation |
-      | Numpy@sdet117_1 | testsdet117 | testsdet117         |
-    Then It should display an error message "password can’t be too similar to your other personal information."
-    
-    
-     @TC_Register_11
-  Scenario:  The user is presented with error message for commonly used password
-    Given The user opens Register Page
-    When The user enters a valid "username" and commonly used password "password"
-      | username     	| password 	 | password confirmation |
-      | Numpy@sdet117_1 | Welcome1 | Welcome1          |
-    Then It should display an error message "Password can’t be commonly used password"
-    
-    
-     @TC_Register_12
-  Scenario:  The user is succesfully able to register 
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" and "password confirmation"
-      | username     | password  | password confirmation |
-      | NumpyTesters_3 | RT56YU@78 | RT56YU@78       |
-    Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as NumpyTesters_3"
-   		
-    
-     @TC_Register_13
-  Scenario Outline:  The user is able to signout from the registered page
-    Given The user is in the Sign in page
-    When The user clicks the "Sign Out" link
-    Then The user should be redirected to the homepage with the message "Logged out successfully"
-   
-    #
-     #@TC_Register_14
-  #Scenario Outline:  The user is able to signin with registered credential
-    #Given The user is in the Sign in page
-    #When The user enters a valid "<username>" and "<password>"
-    #Then click login button to verify
-    #
-    #Examples: 
-      #| username   			| password  |
-      #| Numpy@sdet117_15 | RT56YU@78 |
- 
-    
-    
-    
+  Background: Logged on the LMS portal as Admin for Attendance module 
+    Given Admin is on dashboard page after Login for Attendance module
+    When Admin clicks "Attendance" on the navigation bar
+
+  @TC_Attendance_01
+  Scenario: Validate the header of the page for Attendance module
+    Then Admin should see the Manage attendance in header
+
+  @TC_Attendance_02
+  Scenario: Validate response time from dashboard page to attendance page
+    Then Maximum navigation time in milliseconds, defaults to 30 seconds for Attendance module
+
+  @TC_Attendance_03
+  Scenario: Validate the broken link on Attendance module
+    Then The link is broken HTTP response >= 400 for Attendance module
+
+  @TC_Attendance_04
+  Scenario: Verify LMS title or Attendance module
+    Then Admin should see LMS -Learning management system  as title for Attendance module
+
+  @TC_Attendance_05
+  Scenario: Verify the alignment of the Manage Attendance header
+    Then Manage attendance header should be in left side of the page
+
+  @TC_Attendance_06
+  Scenario: Validate text in manage attendance page
+    Then Admin should see correct spelling for the all the fields on manage attendance page
+
+  @TC_Attendance_07
+  Scenario: Verify delete icon below the header on manage attendance page
+    Then Admin should see disabled delete icon below the "Manage Attendance"
+
+  @TC_Attendance_08
+  Scenario: Verify search bar on the Attendance page
+    Then Admin should see search bar on the attendance page
+
+  @TC_Attendance_09
+  Scenario: Verify add new Attendance button on Attendance page
+    Then Admin should see +Add New Attendance button on the attendance page
+
+  @TC_Attendance_10
+  Scenario: Verify data table on the attendance page
+    Then Admin should see data table on the Manage Attendance Page With following column headers - Check box symbol,Class ID, Student Id,Preasent, Edit,Delete
+
+  @TC_Attendance_11
+  Scenario: Verify Edit icon in the data table for Attendance Module
+    Then Edit Icon in each row of data table only when entries are available for Attendance Module
+
+  @TC_Attendance_12
+  Scenario: Verify Edit icon when no data in the table for Attendance Module
+    Then Edit Icon in each row of data table only when entries are available for Attendance Module
+
+  @TC_Attendance_13
+  Scenario: Verify delete icon in the data table for Attendance Module
+    Then Delete Icon in each row of data table only  when entries are available for Attendance Module
+
+  @TC_Attendance_14
+  Scenario: Verify delete icon when no data in the table for Attendance Module
+    Then Admin cant see delete Icon in data table for Attendance Module
+
+  @TC_Attendance_15
+  Scenario: Verify sort icon in the data table for Attendance Module
+    Then Admin should see sort icon near the column headers except for Edit and Delete for Attendance Module
+
+  @TC_Attendance_16
+  Scenario: Verify check box in the data table for Attendance Module
+    Then Admin should see check box in the all rows  of data table for Attendance Module
+
+  @TC_Attendance_17
+  Scenario: Validate the number entries displaying for Attendance Module
+    Then Above the footer Admin should see the text as "Showing x to y of z entries" below the table for Attendance Module
+
+  @TC_Attendance_18
+  Scenario: Verify Pagination control below the data table for Attendance Module
+    Then Admin should see the pagination controls under the data table for Attendance Module
+
+  @TC_Attendance_19
+  Scenario: Validate footer text for Attendance Module
+    Then Admin should see the text with total number classes in the data table for Attendance Module

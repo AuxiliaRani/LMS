@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -60,7 +61,7 @@ public class MainPage {
 		}
 		return isRequired;
 
-	}
+	} 
 
 	// Method to check whether password is empty
 	public Boolean getEmptyRequiredPwdField() {

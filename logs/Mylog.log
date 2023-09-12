@@ -1,0 +1,1093 @@
+[INFO ] 2023-09-11 12:50:00.700 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 12:50:00.702 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 12:50:36.208 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 12:50:36.341 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.341 [main] LoggerLoad - [@Attendance, @TC_Attendance_01] : Validate the header of the page for Attendance module
+[INFO ] 2023-09-11 12:50:36.341 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.367 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.368 [main] LoggerLoad - [@Attendance, @TC_Attendance_02] : Validate response time from dashboard page to attendance page
+[INFO ] 2023-09-11 12:50:36.368 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.377 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.377 [main] LoggerLoad - [@Attendance, @TC_Attendance_03] : Validate the broken link on Attendance module
+[INFO ] 2023-09-11 12:50:36.377 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.386 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.387 [main] LoggerLoad - [@Attendance, @TC_Attendance_04] : Verify LMS title or Attendance module
+[INFO ] 2023-09-11 12:50:36.387 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.401 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.401 [main] LoggerLoad - [@Attendance, @TC_Attendance_05] : Verify the alignment of the Manage Attendance header
+[INFO ] 2023-09-11 12:50:36.401 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.412 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.412 [main] LoggerLoad - [@Attendance, @TC_Attendance_06] : Validate text in manage attendance page
+[INFO ] 2023-09-11 12:50:36.412 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.426 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.426 [main] LoggerLoad - [@Attendance, @TC_Attendance_07] : Verify delete icon below the header on manage attendance page
+[INFO ] 2023-09-11 12:50:36.426 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.432 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.433 [main] LoggerLoad - [@Attendance, @TC_Attendance_08] : Verify search bar on the Attendance page
+[INFO ] 2023-09-11 12:50:36.434 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.445 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.446 [main] LoggerLoad - [@Attendance, @TC_Attendance_09] : Verify add new Attendance button on Attendance page
+[INFO ] 2023-09-11 12:50:36.446 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.457 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.457 [main] LoggerLoad - [@Attendance, @TC_Attendance_10] : Verify data table on the attendance page
+[INFO ] 2023-09-11 12:50:36.457 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.462 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.462 [main] LoggerLoad - [@Attendance, @TC_Attendance_11] : Verify Edit icon in the data table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.462 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.468 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.468 [main] LoggerLoad - [@Attendance, @TC_Attendance_12] : Verify Edit icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.468 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.477 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.477 [main] LoggerLoad - [@Attendance, @TC_Attendance_13] : Verify delete icon in the data table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.477 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.482 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.483 [main] LoggerLoad - [@Attendance, @TC_Attendance_14] : Verify delete icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.483 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.489 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.490 [main] LoggerLoad - [@Attendance, @TC_Attendance_15] : Verify sort icon in the data table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.490 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.497 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.497 [main] LoggerLoad - [@Attendance, @TC_Attendance_16] : Verify check box in the data table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.497 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.501 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.501 [main] LoggerLoad - [@Attendance, @TC_Attendance_17] : Validate the number entries displaying for Attendance Module
+[INFO ] 2023-09-11 12:50:36.501 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.507 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.507 [main] LoggerLoad - [@Attendance, @TC_Attendance_18] : Verify Pagination control below the data table for Attendance Module
+[INFO ] 2023-09-11 12:50:36.507 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.513 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 12:50:36.514 [main] LoggerLoad - [@Attendance, @TC_Attendance_19] : Validate footer text for Attendance Module
+[INFO ] 2023-09-11 12:50:36.514 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 12:50:36.518 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 14:43:43.712 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 14:43:43.716 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 14:43:50.095 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 14:43:50.323 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.324 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_20] : Verify all label text for Attendance module
+[INFO ] 2023-09-11 14:43:50.324 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.365 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.366 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_21] : Verify dropdown box is present for Attendance module
+[INFO ] 2023-09-11 14:43:50.366 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.387 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.387 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_22] : Verify close button in attendance details popup window for Attendance module
+[INFO ] 2023-09-11 14:43:50.387 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.408 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.408 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_23] : Verify the alignment of the close button for Attendance module
+[INFO ] 2023-09-11 14:43:50.408 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.423 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.423 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_24] : Verify the text on first dropdown select a program name for Attendance module
+[INFO ] 2023-09-11 14:43:50.423 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.450 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.451 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_25] : Verify the text on second dropdown select class name for Attendance module
+[INFO ] 2023-09-11 14:43:50.451 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.462 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.462 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_26] : Verify the text on third dropdown select students for Attendance module
+[INFO ] 2023-09-11 14:43:50.462 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.471 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.471 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_27] : Verify the text on fourth dropdown select attendance for Attendance module
+[INFO ] 2023-09-11 14:43:50.472 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.479 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.479 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_28] : Verify all the text inside the dropdown box is gray color for Attendance module
+[INFO ] 2023-09-11 14:43:50.479 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.486 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.486 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_29] : Verify save button is present for Attendance module
+[INFO ] 2023-09-11 14:43:50.486 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.494 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.494 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_30] : Verify cancel button is present for Attendance module
+[INFO ] 2023-09-11 14:43:50.494 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.500 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 14:43:50.501 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_31] : Verify order of the label in attendance details page for Attendance module
+[INFO ] 2023-09-11 14:43:50.501 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 14:43:50.508 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:03:09.300 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:03:09.303 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:03:16.385 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:03:16.765 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:16.766 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:16.766 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:16.868 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:16.868 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:16.868 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:16.911 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:16.911 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:16.911 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:16.944 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:16.945 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:16.945 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:16.976 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:16.976 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:16.976 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.005 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.005 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:17.005 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.028 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.028 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:17.029 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.047 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.048 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:17.048 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.070 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.070 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:17.070 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.087 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.087 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:17.087 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.116 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.116 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:17.116 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.138 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.139 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:17.139 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.160 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.160 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:17.160 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.192 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.192 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:17.192 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.209 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.209 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:17.209 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.223 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.223 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:17.223 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.244 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.244 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:17.244 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.271 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.271 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:17.271 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.292 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.292 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:17.293 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.320 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.321 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:17.321 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.341 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.342 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:17.342 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.373 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.373 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:17.373 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.390 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.390 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:17.390 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.404 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.404 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:17.404 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.421 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.421 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:17.421 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.431 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.431 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:17.432 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.464 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.464 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:17.464 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.476 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.477 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:17.477 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.495 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.495 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:17.496 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.505 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.506 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:17.506 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.519 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.519 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:17.519 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.536 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.536 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:17.536 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.559 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.559 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:17.559 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.571 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.572 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:17.572 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.590 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.590 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:17.590 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.609 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.610 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:17.610 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.658 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.658 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:17.676 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:17.893 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:17.893 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:17.911 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.074 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.075 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.075 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.221 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.221 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:18.221 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.237 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.238 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:18.238 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.247 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.248 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:18.248 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.271 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.271 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:18.271 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.284 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.285 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:18.285 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.292 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.292 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:18.292 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.301 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.301 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:18.301 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.312 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.313 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:18.313 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.325 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.326 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:18.326 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.338 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.338 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:18.338 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.347 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.347 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:18.347 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.357 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.357 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:18.357 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.368 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.368 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.368 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.395 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.395 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:18.395 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.404 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.405 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:18.405 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.411 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.411 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:18.411 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.423 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.423 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:18.423 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.435 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.436 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:18.436 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.445 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.446 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:18.446 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.455 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.455 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:18.455 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.462 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.462 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:18.462 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.482 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.483 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:18.483 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.491 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.491 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:18.492 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.500 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.501 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:18.501 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.513 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.515 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:18.515 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.535 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.535 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.535 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.550 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.550 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:18.550 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.559 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.560 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:18.560 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.568 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.568 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:18.568 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.583 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.584 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:18.584 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.591 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.591 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:18.591 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.596 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.597 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:18.597 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.606 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.606 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:18.606 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.622 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.622 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:18.622 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.631 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.631 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:18.631 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.647 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.647 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:18.647 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.658 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.658 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:18.658 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.666 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.666 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:18.666 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.677 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.677 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.677 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.709 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.709 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:18.710 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.720 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.720 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:18.720 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.730 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.730 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:18.730 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.736 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.736 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:18.736 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.742 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.742 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:18.742 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.750 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.750 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:18.750 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.759 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.760 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:18.760 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.774 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.775 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:18.776 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.788 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.789 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:18.789 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.797 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.797 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:18.797 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.805 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.805 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:18.805 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.815 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.815 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:18.815 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.823 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.823 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.823 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.842 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.843 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-09-11 17:03:18.843 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.848 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.848 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-09-11 17:03:18.848 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.862 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.862 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-09-11 17:03:18.862 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.871 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.871 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-09-11 17:03:18.871 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.878 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.878 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-09-11 17:03:18.878 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.890 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.890 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
+[INFO ] 2023-09-11 17:03:18.890 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.898 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.898 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
+[INFO ] 2023-09-11 17:03:18.898 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.908 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.908 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-09-11 17:03:18.908 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.962 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.962 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
+[INFO ] 2023-09-11 17:03:18.962 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.971 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.971 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-09-11 17:03:18.971 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.977 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.977 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
+[INFO ] 2023-09-11 17:03:18.977 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.985 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.985 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
+[INFO ] 2023-09-11 17:03:18.985 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:18.990 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:18.991 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
+[INFO ] 2023-09-11 17:03:18.992 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.015 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.015 [main] LoggerLoad - [@Attendance, @TC_Attendance_01] : Validate the header of the page for Attendance module
+[INFO ] 2023-09-11 17:03:19.015 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.024 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.025 [main] LoggerLoad - [@Attendance, @TC_Attendance_02] : Validate response time from dashboard page to attendance page
+[INFO ] 2023-09-11 17:03:19.025 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.031 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.035 [main] LoggerLoad - [@Attendance, @TC_Attendance_03] : Validate the broken link on Attendance module
+[INFO ] 2023-09-11 17:03:19.036 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.044 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.044 [main] LoggerLoad - [@Attendance, @TC_Attendance_04] : Verify LMS title or Attendance module
+[INFO ] 2023-09-11 17:03:19.044 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.053 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.054 [main] LoggerLoad - [@Attendance, @TC_Attendance_05] : Verify the alignment of the Manage Attendance header
+[INFO ] 2023-09-11 17:03:19.054 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.062 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.062 [main] LoggerLoad - [@Attendance, @TC_Attendance_06] : Validate text in manage attendance page
+[INFO ] 2023-09-11 17:03:19.062 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.067 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.067 [main] LoggerLoad - [@Attendance, @TC_Attendance_07] : Verify delete icon below the header on manage attendance page
+[INFO ] 2023-09-11 17:03:19.067 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.072 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.072 [main] LoggerLoad - [@Attendance, @TC_Attendance_08] : Verify search bar on the Attendance page
+[INFO ] 2023-09-11 17:03:19.073 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.077 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.077 [main] LoggerLoad - [@Attendance, @TC_Attendance_09] : Verify add new Attendance button on Attendance page
+[INFO ] 2023-09-11 17:03:19.078 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.085 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.086 [main] LoggerLoad - [@Attendance, @TC_Attendance_10] : Verify data table on the attendance page
+[INFO ] 2023-09-11 17:03:19.086 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.093 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.093 [main] LoggerLoad - [@Attendance, @TC_Attendance_11] : Verify Edit icon in the data table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.093 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.098 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.098 [main] LoggerLoad - [@Attendance, @TC_Attendance_12] : Verify Edit icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.098 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.107 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.107 [main] LoggerLoad - [@Attendance, @TC_Attendance_13] : Verify delete icon in the data table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.108 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.119 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.119 [main] LoggerLoad - [@Attendance, @TC_Attendance_14] : Verify delete icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.119 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.126 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.126 [main] LoggerLoad - [@Attendance, @TC_Attendance_15] : Verify sort icon in the data table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.127 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.134 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.134 [main] LoggerLoad - [@Attendance, @TC_Attendance_16] : Verify check box in the data table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.134 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.139 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.140 [main] LoggerLoad - [@Attendance, @TC_Attendance_17] : Validate the number entries displaying for Attendance Module
+[INFO ] 2023-09-11 17:03:19.140 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.150 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.150 [main] LoggerLoad - [@Attendance, @TC_Attendance_18] : Verify Pagination control below the data table for Attendance Module
+[INFO ] 2023-09-11 17:03:19.150 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.168 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.169 [main] LoggerLoad - [@Attendance, @TC_Attendance_19] : Validate footer text for Attendance Module
+[INFO ] 2023-09-11 17:03:19.169 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.191 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.191 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_20] : Verify all label text for Attendance module
+[INFO ] 2023-09-11 17:03:19.191 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.203 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.203 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_21] : Verify dropdown box is present for Attendance module
+[INFO ] 2023-09-11 17:03:19.203 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.217 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.217 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_22] : Verify close button in attendance details popup window for Attendance module
+[INFO ] 2023-09-11 17:03:19.217 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.228 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.228 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_23] : Verify the alignment of the close button for Attendance module
+[INFO ] 2023-09-11 17:03:19.228 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.249 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.253 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_24] : Verify the text on first dropdown select a program name for Attendance module
+[INFO ] 2023-09-11 17:03:19.253 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.271 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.271 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_25] : Verify the text on second dropdown select class name for Attendance module
+[INFO ] 2023-09-11 17:03:19.271 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.283 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.283 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_26] : Verify the text on third dropdown select students for Attendance module
+[INFO ] 2023-09-11 17:03:19.283 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.290 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.291 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_27] : Verify the text on fourth dropdown select attendance for Attendance module
+[INFO ] 2023-09-11 17:03:19.291 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.308 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.309 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_28] : Verify all the text inside the dropdown box is gray color for Attendance module
+[INFO ] 2023-09-11 17:03:19.309 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.315 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.315 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_29] : Verify save button is present for Attendance module
+[INFO ] 2023-09-11 17:03:19.315 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.320 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.320 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_30] : Verify cancel button is present for Attendance module
+[INFO ] 2023-09-11 17:03:19.320 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.324 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.325 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_31] : Verify order of the label in attendance details page for Attendance module
+[INFO ] 2023-09-11 17:03:19.325 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.334 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.334 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_32] : Validate all program name is reflecting in the dropdown for Attendance module
+[INFO ] 2023-09-11 17:03:19.334 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.343 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.343 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_33] : Validate all class name  is reflecting in the dropdown for Attendance module
+[INFO ] 2023-09-11 17:03:19.343 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.348 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.348 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_34] : Validate attendance field dropdown all mandatory keywords for Attendance module
+[INFO ] 2023-09-11 17:03:19.348 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.353 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.353 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_35] : Verify spellings in the attendance field drop down for Attendance module
+[INFO ] 2023-09-11 17:03:19.353 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.358 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.358 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_36] : Validate date picker for Attendance module
+[INFO ] 2023-09-11 17:03:19.358 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.363 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.363 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_37] : validate date picker should be correct format for Attendance module
+[INFO ] 2023-09-11 17:03:19.363 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.367 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.368 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_38] : Validate right arrow in data picker to navigate to next month for Attendance module
+[INFO ] 2023-09-11 17:03:19.368 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.372 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.373 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_39] : Validate left arrow in data picker to navigate to previous month for Attendance module
+[INFO ] 2023-09-11 17:03:19.373 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.378 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.379 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_40] : Validate current date is highlighted in the date picker for Attendance module
+[INFO ] 2023-09-11 17:03:19.379 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.383 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.383 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_41] : Validate selected date is highlighted in the date pickerfor Attendance module
+[INFO ] 2023-09-11 17:03:19.383 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.388 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.388 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_43] : Validate admin able to create new attendance data
+[INFO ] 2023-09-11 17:03:19.388 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.392 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.392 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_44] : Validate admin able to create new attendance data without program name
+[INFO ] 2023-09-11 17:03:19.392 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.396 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.396 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_45] : Validate admin able to create new attendance data without class name
+[INFO ] 2023-09-11 17:03:19.396 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.401 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.401 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_46] : Validate admin able to create new attendance data without student name
+[INFO ] 2023-09-11 17:03:19.401 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.409 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.411 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_47] : Validate admin able to create new attendance data without attendances
+[INFO ] 2023-09-11 17:03:19.412 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.418 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.418 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_48] : Validate admin able to create new attendance data without attendance date
+[INFO ] 2023-09-11 17:03:19.418 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.422 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.422 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_49] : Validate admin able to create new attendance by selecting future date
+[INFO ] 2023-09-11 17:03:19.422 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.428 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.428 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_50] : Validate admin able to update  attendance data
+[INFO ] 2023-09-11 17:03:19.428 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.432 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.432 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_51] : Validate admin able to update attendance data without program name 05
+[INFO ] 2023-09-11 17:03:19.432 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.436 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.436 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_52] : Validate admin able to update attendance data without class name 05
+[INFO ] 2023-09-11 17:03:19.436 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.440 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.440 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_53] : Validate admin able to create new attendance data without student name 05
+[INFO ] 2023-09-11 17:03:19.440 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.443 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.443 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_54] : Validate admin able to create new attendance data without attendances 05
+[INFO ] 2023-09-11 17:03:19.443 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.448 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.448 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_55] : Validate admin able to create new attendance data without attendance date 05
+[INFO ] 2023-09-11 17:03:19.448 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.452 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.452 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_56] : Validate admin able to create new attendance by selecting future date 05
+[INFO ] 2023-09-11 17:03:19.452 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.458 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.458 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_57] : Verify Delete attendance alert 06
+[INFO ] 2023-09-11 17:03:19.458 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.467 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.467 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_58] : Verify  accept enabled in alert 06
+[INFO ] 2023-09-11 17:03:19.467 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.470 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.471 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_59] : Verify reject enabled in alert 06
+[INFO ] 2023-09-11 17:03:19.471 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.475 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.475 [main] LoggerLoad - [@Delete_Attendance_Validation2, @TC_Attendance_57] : Validate accept in alert for Attendance Module 07
+[INFO ] 2023-09-11 17:03:19.475 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.481 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.481 [main] LoggerLoad - [@Delete_Attendance_Validation2, @TC_Attendance_58] : Validate reject in alert for Attendance Module 07
+[INFO ] 2023-09-11 17:03:19.481 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.486 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.486 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_59] : Verify delete multiple class  button is enabled for attendance module 08
+[INFO ] 2023-09-11 17:03:19.486 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.490 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.490 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_60] : Verify tick mark is visible after clicking on check box for single data for attendance module 08
+[INFO ] 2023-09-11 17:03:19.490 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.494 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.494 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_61] : verify admin able to click multiple check box for attendance module 08
+[INFO ] 2023-09-11 17:03:19.494 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.499 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.499 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation2, @TC_Attendance_62] : Verify delete multiple class button is enabled for attendance module 09
+[INFO ] 2023-09-11 17:03:19.499 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.506 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.506 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation2, @TC_Attendance_63] : Verify tick mark is visible after clicking on check box for single data for attendance module 09
+[INFO ] 2023-09-11 17:03:19.507 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.511 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.512 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_64] : Verify accept alert in delete multiple attendance by selecting multiple checkbox for attendance module 10
+[INFO ] 2023-09-11 17:03:19.512 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.529 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.531 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_65] : Verify reject alert in delete multiple attendance by selecting multiple checkbox for attendance module 10
+[INFO ] 2023-09-11 17:03:19.531 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.568 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.568 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_66] : Verify sheet one is displayed on default in data table for attendance module 11
+[INFO ] 2023-09-11 17:03:19.568 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.578 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.578 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_67] : Verify  right arrow is enable when sheet one is displayed in data table for attendance module 11
+[INFO ] 2023-09-11 17:03:19.578 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.583 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.583 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_68] : Verify  left arrow is disable when sheet one is displayed in data table for attendance module 11
+[INFO ] 2023-09-11 17:03:19.583 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.587 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.587 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_69] : Verify  right arrow is enable when sheet two is displayed in data table when entries are more than 10 for attendance module 11
+[INFO ] 2023-09-11 17:03:19.587 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.590 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.590 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_70] : Verify  left arrow is enable when sheet two is displayed in data table for attendance module 11
+[INFO ] 2023-09-11 17:03:19.590 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.594 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.594 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_71] : Verify  right arrow is disable when sheet two is displayed in data table when entries are less than 10 for attendance module 11
+[INFO ] 2023-09-11 17:03:19.594 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.607 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.608 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_73] : Verify pagination controls enabled for attendance module 11
+[INFO ] 2023-09-11 17:03:19.608 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.661 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.662 [main] LoggerLoad - [@Pagination_in_manage_attendance2, @TC_Attendance_75] : Verify next page is enabled for attendance module 12
+[INFO ] 2023-09-11 17:03:19.662 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.677 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.677 [main] LoggerLoad - [@Pagination_in_manage_attendance2, @TC_Attendance_76] : Verify next page is disabled for attendance module 12
+[INFO ] 2023-09-11 17:03:19.677 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.701 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.702 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_77] : Verify admin is able to navigate from manage attendance to student page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.702 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.711 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.712 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_78] : Verify admin is able to navigate from manage attendance to program page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.712 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.721 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.721 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_79] : Verify admin is able to navigate from manage attendance to batch page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.721 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.739 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.740 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_80] : Verify admin is able to navigate from manage attendance to user page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.740 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.763 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.764 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_81] : Verify admin is able to navigate from manage attendance to assignment page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.764 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.785 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.787 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_82] : Verify admin is able to navigate from manage attendance to attendance page for attendance module 13
+[INFO ] 2023-09-11 17:03:19.787 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.797 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:03:19.798 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_83] : Verify admin should able to do logout function from manage attendance for attendance module 13
+[INFO ] 2023-09-11 17:03:19.798 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:03:19.841 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:05:42.886 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:05:42.888 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:05:50.480 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:05:50.641 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.641 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_20] : Verify all label text for Attendance module
+[INFO ] 2023-09-11 17:05:50.642 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.689 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.690 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_21] : Verify dropdown box is present for Attendance module
+[INFO ] 2023-09-11 17:05:50.690 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.705 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.705 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_22] : Verify close button in attendance details popup window for Attendance module
+[INFO ] 2023-09-11 17:05:50.705 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.722 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.722 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_23] : Verify the alignment of the close button for Attendance module
+[INFO ] 2023-09-11 17:05:50.722 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.735 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.736 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_24] : Verify the text on first dropdown select a program name for Attendance module
+[INFO ] 2023-09-11 17:05:50.737 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.749 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.749 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_25] : Verify the text on second dropdown select class name for Attendance module
+[INFO ] 2023-09-11 17:05:50.749 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.756 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.756 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_26] : Verify the text on third dropdown select students for Attendance module
+[INFO ] 2023-09-11 17:05:50.756 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.768 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.768 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_27] : Verify the text on fourth dropdown select attendance for Attendance module
+[INFO ] 2023-09-11 17:05:50.768 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.773 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.773 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_28] : Verify all the text inside the dropdown box is gray color for Attendance module
+[INFO ] 2023-09-11 17:05:50.773 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.794 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.795 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_29] : Verify save button is present for Attendance module
+[INFO ] 2023-09-11 17:05:50.795 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.800 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.801 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_30] : Verify cancel button is present for Attendance module
+[INFO ] 2023-09-11 17:05:50.801 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.814 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:05:50.814 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_31] : Verify order of the label in attendance details page for Attendance module
+[INFO ] 2023-09-11 17:05:50.814 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:05:50.817 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:07:57.386 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:07:57.388 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:08:05.114 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:08:05.331 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.332 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_32] : Validate all program name is reflecting in the dropdown for Attendance module
+[INFO ] 2023-09-11 17:08:05.332 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.368 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.369 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_33] : Validate all class name  is reflecting in the dropdown for Attendance module
+[INFO ] 2023-09-11 17:08:05.369 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.402 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.402 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_34] : Validate attendance field dropdown all mandatory keywords for Attendance module
+[INFO ] 2023-09-11 17:08:05.402 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.418 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.419 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_35] : Verify spellings in the attendance field drop down for Attendance module
+[INFO ] 2023-09-11 17:08:05.419 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.436 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.436 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_36] : Validate date picker for Attendance module
+[INFO ] 2023-09-11 17:08:05.436 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.452 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.453 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_37] : validate date picker should be correct format for Attendance module
+[INFO ] 2023-09-11 17:08:05.453 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.462 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.462 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_38] : Validate right arrow in data picker to navigate to next month for Attendance module
+[INFO ] 2023-09-11 17:08:05.463 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.473 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.473 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_39] : Validate left arrow in data picker to navigate to previous month for Attendance module
+[INFO ] 2023-09-11 17:08:05.474 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.486 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.487 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_40] : Validate current date is highlighted in the date picker for Attendance module
+[INFO ] 2023-09-11 17:08:05.487 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.503 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:08:05.503 [main] LoggerLoad - [@Attendance_popup_window_verification2, @TC_Attendance_41] : Validate selected date is highlighted in the date pickerfor Attendance module
+[INFO ] 2023-09-11 17:08:05.503 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:08:05.512 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:43:51.009 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:43:51.011 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:43:58.345 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:43:58.584 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.585 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_43] : Validate admin able to create new attendance data
+[INFO ] 2023-09-11 17:43:58.585 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.636 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.636 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_44] : Validate admin able to create new attendance data without program name
+[INFO ] 2023-09-11 17:43:58.636 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.665 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.665 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_45] : Validate admin able to create new attendance data without class name
+[INFO ] 2023-09-11 17:43:58.665 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.686 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.687 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_46] : Validate admin able to create new attendance data without student name
+[INFO ] 2023-09-11 17:43:58.687 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.701 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.701 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_47] : Validate admin able to create new attendance data without attendances
+[INFO ] 2023-09-11 17:43:58.701 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.714 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.715 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_48] : Validate admin able to create new attendance data without attendance date
+[INFO ] 2023-09-11 17:43:58.715 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.729 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:43:58.729 [main] LoggerLoad - [@Add_New_Attendance, @TC_Attendance_49] : Validate admin able to create new attendance by selecting future date
+[INFO ] 2023-09-11 17:43:58.730 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:43:58.738 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:47:32.624 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:47:32.627 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:48:03.491 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:48:03.740 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.740 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_50] : Validate admin able to update  attendance data
+[INFO ] 2023-09-11 17:48:03.740 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.798 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.799 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_51] : Validate admin able to update attendance data without program name 05
+[INFO ] 2023-09-11 17:48:03.799 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.832 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.832 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_52] : Validate admin able to update attendance data without class name 05
+[INFO ] 2023-09-11 17:48:03.832 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.857 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.859 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_53] : Validate admin able to create new attendance data without student name 05
+[INFO ] 2023-09-11 17:48:03.859 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.887 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.887 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_54] : Validate admin able to create new attendance data without attendances 05
+[INFO ] 2023-09-11 17:48:03.887 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.935 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.936 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_55] : Validate admin able to create new attendance data without attendance date 05
+[INFO ] 2023-09-11 17:48:03.936 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.949 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:48:03.949 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_56] : Validate admin able to create new attendance by selecting future date 05
+[INFO ] 2023-09-11 17:48:03.949 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 17:48:03.960 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 17:56:03.804 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 17:56:03.807 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 17:56:11.240 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 17:56:11.473 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:11.474 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_50] : Validate admin able to update  attendance data
+[INFO ] 2023-09-11 17:56:11.474 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:11.490 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:12.600 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:12.602 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_51] : Validate admin able to update attendance data without program name05
+[INFO ] 2023-09-11 17:56:12.619 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:12.622 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:13.134 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:13.144 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_52] : Validate admin able to update attendance data without class name05
+[INFO ] 2023-09-11 17:56:13.144 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:13.147 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:13.631 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:13.631 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_53] : Validate admin able to create new attendance data without student name05
+[INFO ] 2023-09-11 17:56:13.631 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:13.637 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:14.116 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:14.117 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_54] : Validate admin able to create new attendance data without attendances05
+[INFO ] 2023-09-11 17:56:14.117 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:14.125 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:14.579 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:14.580 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_55] : Validate admin able to create new attendance data without attendance date05
+[INFO ] 2023-09-11 17:56:14.580 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:14.582 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:15.032 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 17:56:15.032 [main] LoggerLoad - [@Edit_Attendance, @TC_Attendance_56] : Validate admin able to create new attendance by selecting future date05
+[INFO ] 2023-09-11 17:56:15.032 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 17:56:15.033 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 17:56:15.502 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 21:46:45.274 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 21:46:45.277 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 21:46:56.124 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 21:46:56.306 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.307 [main] LoggerLoad - [@Attendance, @TC_Attendance_01] : Validate the header of the page for Attendance module
+[INFO ] 2023-09-11 21:46:56.308 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.372 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.373 [main] LoggerLoad - [@Attendance, @TC_Attendance_02] : Validate response time from dashboard page to attendance page
+[INFO ] 2023-09-11 21:46:56.373 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.400 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.400 [main] LoggerLoad - [@Attendance, @TC_Attendance_03] : Validate the broken link on Attendance module
+[INFO ] 2023-09-11 21:46:56.400 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.409 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.409 [main] LoggerLoad - [@Attendance, @TC_Attendance_04] : Verify LMS title or Attendance module
+[INFO ] 2023-09-11 21:46:56.409 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.428 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.428 [main] LoggerLoad - [@Attendance, @TC_Attendance_05] : Verify the alignment of the Manage Attendance header
+[INFO ] 2023-09-11 21:46:56.428 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.457 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.458 [main] LoggerLoad - [@Attendance, @TC_Attendance_06] : Validate text in manage attendance page
+[INFO ] 2023-09-11 21:46:56.458 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.490 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.491 [main] LoggerLoad - [@Attendance, @TC_Attendance_07] : Verify delete icon below the header on manage attendance page
+[INFO ] 2023-09-11 21:46:56.491 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.506 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.506 [main] LoggerLoad - [@Attendance, @TC_Attendance_08] : Verify search bar on the Attendance page
+[INFO ] 2023-09-11 21:46:56.506 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.512 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.512 [main] LoggerLoad - [@Attendance, @TC_Attendance_09] : Verify add new Attendance button on Attendance page
+[INFO ] 2023-09-11 21:46:56.512 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.602 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.603 [main] LoggerLoad - [@Attendance, @TC_Attendance_10] : Verify data table on the attendance page
+[INFO ] 2023-09-11 21:46:56.603 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.618 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.619 [main] LoggerLoad - [@Attendance, @TC_Attendance_11] : Verify Edit icon in the data table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.619 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.629 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.629 [main] LoggerLoad - [@Attendance, @TC_Attendance_12] : Verify Edit icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.630 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.639 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.639 [main] LoggerLoad - [@Attendance, @TC_Attendance_13] : Verify delete icon in the data table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.639 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.646 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.646 [main] LoggerLoad - [@Attendance, @TC_Attendance_14] : Verify delete icon when no data in the table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.646 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.655 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.655 [main] LoggerLoad - [@Attendance, @TC_Attendance_15] : Verify sort icon in the data table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.656 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.671 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.671 [main] LoggerLoad - [@Attendance, @TC_Attendance_16] : Verify check box in the data table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.671 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.679 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.679 [main] LoggerLoad - [@Attendance, @TC_Attendance_17] : Validate the number entries displaying for Attendance Module
+[INFO ] 2023-09-11 21:46:56.679 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.684 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.685 [main] LoggerLoad - [@Attendance, @TC_Attendance_18] : Verify Pagination control below the data table for Attendance Module
+[INFO ] 2023-09-11 21:46:56.685 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.692 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:46:56.693 [main] LoggerLoad - [@Attendance, @TC_Attendance_19] : Validate footer text for Attendance Module
+[INFO ] 2023-09-11 21:46:56.693 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:46:56.702 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 21:54:36.394 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 21:54:36.397 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 21:54:45.698 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 21:54:45.936 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:54:45.937 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_57] : Verify Delete attendance alert06
+[INFO ] 2023-09-11 21:54:45.938 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:54:45.997 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:54:45.997 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_58] : Verify  accept enabled in alert06
+[INFO ] 2023-09-11 21:54:45.997 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:54:46.033 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:54:46.034 [main] LoggerLoad - [@Delete_Attendance_Validation, @TC_Attendance_59] : Verify reject enabled in alert06
+[INFO ] 2023-09-11 21:54:46.034 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:54:46.040 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 21:57:22.039 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 21:57:22.042 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 21:57:29.889 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 21:57:30.123 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:57:30.124 [main] LoggerLoad - [@Delete_Attendance_Validation2, @TC_Attendance_57] : Validate accept in alert for Attendance Module07
+[INFO ] 2023-09-11 21:57:30.124 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:57:30.183 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 21:57:30.183 [main] LoggerLoad - [@Delete_Attendance_Validation2, @TC_Attendance_58] : Validate reject in alert for Attendance Module07
+[INFO ] 2023-09-11 21:57:30.183 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 21:57:30.191 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:00:13.712 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:00:13.717 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:00:21.621 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:00:21.866 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:00:21.866 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_59] : Verify delete multiple class  button is enabled for attendance module 08
+[INFO ] 2023-09-11 22:00:21.867 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 22:00:21.887 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 22:00:22.547 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:00:22.547 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_60] : Verify tick mark is visible after clicking on check box for single data for attendance module 08
+[INFO ] 2023-09-11 22:00:22.547 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 22:00:22.549 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 22:00:23.036 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:00:23.052 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_61] : verify admin able to click multiple check box for attendance module 08
+[INFO ] 2023-09-11 22:00:23.052 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-11 22:00:23.055 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-11 22:00:23.551 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:01:11.935 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:01:11.937 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:01:18.671 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:01:18.926 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:01:18.927 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_59] : Verify delete multiple class  button is enabled for attendance module08
+[INFO ] 2023-09-11 22:01:18.927 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:01:18.977 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:01:18.978 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_60] : Verify tick mark is visible after clicking on check box for single data for attendance module08
+[INFO ] 2023-09-11 22:01:18.978 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:01:19.014 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:01:19.014 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation1, @TC_Attendance_61] : verify admin able to click multiple check box for attendance module08
+[INFO ] 2023-09-11 22:01:19.014 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:01:19.023 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:05:40.362 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:05:40.365 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:05:47.810 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:05:48.059 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:05:48.059 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation2, @TC_Attendance_62] : Verify delete multiple class button is enabled for attendance module09
+[INFO ] 2023-09-11 22:05:48.060 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:05:48.118 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:05:48.118 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation2, @TC_Attendance_63] : Verify tick mark is visible after clicking on check box for single data for attendance module09
+[INFO ] 2023-09-11 22:05:48.118 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:05:48.121 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:07:56.041 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:07:56.044 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:08:03.456 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:08:03.725 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:08:03.726 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_64] : Verify accept alert in delete multiple attendance by selecting multiple checkbox for attendance module10
+[INFO ] 2023-09-11 22:08:03.726 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:08:03.795 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:08:03.795 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_65] : Verify reject alert in delete multiple attendance by selecting multiple checkbox for attendance module10
+[INFO ] 2023-09-11 22:08:03.796 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:08:03.801 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:08:43.076 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:08:43.079 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:08:49.788 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:08:50.037 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:08:50.039 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_64] : Verify accept alert in delete multiple attendance by selecting multiple checkbox for attendance module10
+[INFO ] 2023-09-11 22:08:50.040 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:08:50.105 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:08:50.105 [main] LoggerLoad - [@Delete_Multiple_Attendance_Validation3, @TC_Attendance_65] : Verify reject alert in delete multiple attendance by selecting multiple checkbox for attendance module10
+[INFO ] 2023-09-11 22:08:50.105 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:08:50.108 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:11:47.999 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:11:48.002 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:11:55.472 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:11:55.727 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.728 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_66] : Verify sheet one is displayed on default in data table for attendance module11
+[INFO ] 2023-09-11 22:11:55.728 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.799 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.800 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_67] : Verify  right arrow is enable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:11:55.800 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.828 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.828 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_68] : Verify  left arrow is disable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:11:55.828 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.863 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.864 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_69] : Verify  right arrow is enable when sheet two is displayed in data table when entries are more than 10 for attendance module11
+[INFO ] 2023-09-11 22:11:55.864 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.906 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.907 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_70] : Verify  left arrow is enable when sheet two is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:11:55.907 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.927 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.928 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_71] : Verify  right arrow is disable when sheet two is displayed in data table when entries are less than 10 for attendance module11
+[INFO ] 2023-09-11 22:11:55.928 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.946 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.946 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_72] : 
+[INFO ] 2023-09-11 22:11:55.946 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.959 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.960 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_73] : Verify pagination controls enabled for attendance module11
+[INFO ] 2023-09-11 22:11:55.960 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.973 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:11:55.974 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_74] : 
+[INFO ] 2023-09-11 22:11:55.974 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:11:55.984 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:17:24.001 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:17:24.004 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:17:31.136 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:17:31.403 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.404 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_66] : Verify sheet one is displayed on default in data table for attendance module11
+[INFO ] 2023-09-11 22:17:31.404 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.467 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.468 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_67] : Verify  right arrow is enable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:17:31.468 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.493 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.493 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_68] : Verify  left arrow is disable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:17:31.494 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.532 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.533 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_69] : Verify  right arrow is enable when sheet two is displayed in data table when entries are more than 10 for attendance module11
+[INFO ] 2023-09-11 22:17:31.533 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.547 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.548 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_70] : Verify  left arrow is enable when sheet two is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:17:31.548 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.562 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.562 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_71] : Verify  right arrow is disable when sheet two is displayed in data table when entries are less than 10 for attendance module11
+[INFO ] 2023-09-11 22:17:31.562 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.576 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.576 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_72] : 
+[INFO ] 2023-09-11 22:17:31.576 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.584 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.585 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_73] : Verify pagination controls enabled for attendance module11
+[INFO ] 2023-09-11 22:17:31.585 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.606 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:17:31.607 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_74] : 
+[INFO ] 2023-09-11 22:17:31.607 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:17:31.614 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:19:19.928 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:19:19.930 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:19:27.387 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:19:27.654 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.656 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_66] : Verify sheet one is displayed on default in data table for attendance module11
+[INFO ] 2023-09-11 22:19:27.656 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.721 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.721 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_67] : Verify  right arrow is enable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:19:27.721 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.747 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.747 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_68] : Verify  left arrow is disable when sheet one is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:19:27.747 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.786 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.787 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_69] : Verify  right arrow is enable when sheet two is displayed in data table when entries are more than 10 for attendance module11
+[INFO ] 2023-09-11 22:19:27.787 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.802 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.803 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_70] : Verify  left arrow is enable when sheet two is displayed in data table for attendance module11
+[INFO ] 2023-09-11 22:19:27.804 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.817 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.818 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_71] : Verify  right arrow is disable when sheet two is displayed in data table when entries are less than 10 for attendance module11
+[INFO ] 2023-09-11 22:19:27.818 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.832 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.833 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_72] : 
+[INFO ] 2023-09-11 22:19:27.833 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.845 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.845 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_73] : Verify pagination controls enabled for attendance module11
+[INFO ] 2023-09-11 22:19:27.845 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.872 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:19:27.873 [main] LoggerLoad - [@Pagination_in_manage_attendance1, @TC_Attendance_74] : 
+[INFO ] 2023-09-11 22:19:27.873 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:19:27.881 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:22:48.304 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:22:48.310 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:22:55.886 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:22:56.157 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:22:56.158 [main] LoggerLoad - [@Pagination_in_manage_attendance2, @TC_Attendance_75] : Verify next page is enabled for attendance module12
+[INFO ] 2023-09-11 22:22:56.158 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:22:56.224 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:22:56.224 [main] LoggerLoad - [@Pagination_in_manage_attendance2, @TC_Attendance_76] : Verify next page is disabled for attendance module12
+[INFO ] 2023-09-11 22:22:56.224 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:22:56.227 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-11 22:25:57.356 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-11 22:25:57.359 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-11 22:26:05.317 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-11 22:26:05.587 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.588 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_77] : Verify admin is able to navigate from manage attendance to student page for attendance module13
+[INFO ] 2023-09-11 22:26:05.588 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.661 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.661 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_78] : Verify admin is able to navigate from manage attendance to program page for attendance module13
+[INFO ] 2023-09-11 22:26:05.661 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.690 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.690 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_79] : Verify admin is able to navigate from manage attendance to batch page for attendance module13
+[INFO ] 2023-09-11 22:26:05.690 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.714 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.715 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_80] : Verify admin is able to navigate from manage attendance to user page for attendance module13
+[INFO ] 2023-09-11 22:26:05.715 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.730 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.731 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_81] : Verify admin is able to navigate from manage attendance to assignment page for attendance module13
+[INFO ] 2023-09-11 22:26:05.731 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.746 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.747 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_82] : Verify admin is able to navigate from manage attendance to attendance page for attendance module13
+[INFO ] 2023-09-11 22:26:05.747 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.759 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-11 22:26:05.760 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_83] : Verify admin should able to do logout function from manage attendance for attendance module13
+[INFO ] 2023-09-11 22:26:05.760 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-11 22:26:05.765 [main] LoggerLoad - Closing Driver
