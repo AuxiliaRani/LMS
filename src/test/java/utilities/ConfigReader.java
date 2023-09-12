@@ -41,11 +41,11 @@ public class ConfigReader {
 		}
 	}
 
-	// method to get the application url
-	public static String getApplicationUrl() {
-		String url = prop.getProperty("url");
-		if (url != null)
-			return url;
+	// method to get the invalid url
+	public static String getInvalidUrl() {
+		String invalidurl = prop.getProperty("invalidUrl");
+		if (invalidurl != null)
+			return invalidurl;
 		else
 			throw new RuntimeException("url not specified in the config.properties file.");
 	}

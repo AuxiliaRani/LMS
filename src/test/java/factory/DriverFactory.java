@@ -9,9 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
-public class DriverFactory {
+public class DriverFactory{
 	
 	public static WebDriver driver;
 

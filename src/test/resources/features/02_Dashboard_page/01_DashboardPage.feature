@@ -1,42 +1,45 @@
 @Dashboard
 Feature: Dashboard Page
 
-	Background: Admin clicks Login butter after giving correct URL
-		Given Admin is on "Login" page
-		When Admin enter valid credentials and clicks "Login" button 
+	Background: Admin clicks Login button after giving correct URL
+		Given Admin is on "Login" page for Dashboard Validation
+		When Admin enter valid <username> and <password>
+		 	 | 	 username    | password    |
+			 | Team9testuser | BddCoders@9 |
+		And  Admin clicks "Login" button from Login page
 		
 	@TC_Dashboard_01
 	Scenario: Verify Admin lands on Manage Program as Dashboard page after login
-    Then Admin should see "Manage program" as header 
+    Then Admin should see "Manage program" as header for Dashboard page
    
   @TC_Dashboard_02
-	Scenario: Verify the response time
-    Then  Admin see Maximum navigation time in milliseconds, defaults to 30 seconds
+	Scenario: Verify the response time for Dashboard page
+    Then  Admin see Maximum navigation time in milliseconds, defaults to 30 seconds for Dashboard page
     
   @TC_Dashboard_03
-	Scenario: Verify broken link
-    Then Admin should receive "Https response code greater than or equal to 400" error for the link
-    And The link is broken     
+	Scenario: Verify broken link on the Dashboard page
+    Then Admin should receive "Https response code greater than or equal to 400" error for the Dashboard page link
+    And The link is broken for Dashboard page
     
   @TC_Dashboard_04
-	Scenario: Verify LMS title 
-    Then Admin should see "LMS - Learning Management System" as title 
+	Scenario: Verify LMS title on Dashboard page
+    Then Admin should see "LMS - Learning Management System" as title on Dashboard page
     
   @TC_Dashboard_05
-	Scenario: Verify LMS title alignment
-    Then Admin should see LMS title on the top left corner of the Manage Program page
+	Scenario: Verify LMS title alignment on Dashboard page
+    Then Admin should see LMS title on the top left corner of the Manage Program page for Dashboard page
       
   @TC_Dashboard_06
-	Scenario: Validate navigation bar text
-    Then Admin should see correct spelling on navigation bar text
+	Scenario: Validate navigation bar text on Dashboard page
+    Then Admin should see correct spelling on navigation bar text for Dashboard page
    
   @TC_Dashboard_07
 	Scenario: Validate LMS title has correct spelling and space
     Then Admin should see correct spelling and space in LMS title  
     
   @TC_Dashboard_08
-	Scenario: Validate alignment for navigation bar
-    Then Admin should see the navigation bar text on the top right side   
+	Scenario: Validate alignment for navigation bar on Dashboard page
+    Then Admin should see the navigation bar text on the top right side on Dashboard page
     
   @TC_Dashboard_09
 	Scenario: Validate navigation bar order 1st Student

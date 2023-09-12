@@ -2,16 +2,16 @@
 Feature: Login Page Verification
 
 	Background: Admin gives the correct LMS portal URL
-		Given Admin is on the "Home" page
-    When Admin clicks the "Login" button
+		Given Admin is on the "Home" page of LMS portal
+    When Admin clicks the "Login" button on LMS portal
 	
 	@TC_LoginPage_01
-	Scenario: Verify Admin is able to land on the login page
-    Then Admin should land on the "Login" page 
+	Scenario: Verify Admin is able to land on the Login page
+    Then Admin should land on the "Login" page from LMS Portal
     
   @TC_LoginPage_02
 	Scenario: Admin verifies for broken link on the login page
- 		Then Admin should receive "Https response code greater than or equal to 400" error for the link
+ 		Then Admin should receive "Https response >= 400" error for the link
     And The link is broken 
     
   @TC_LoginPage_03
@@ -24,23 +24,23 @@ Feature: Login Page Verification
     
   @TC_LoginPage_05
 	Scenario: Admin Verify the text fields are present on the login page
-    Then Admin should see two text fields
+    Then Admin should see two text fields on the login page
     
   @TC_LoginPage_06
 	Scenario: Admin Verify the text on the first text field on the login page
-    Then Admin should see "User" in the first text field
+    Then Admin should see "User" in the first text field on the login page
     
   @TC_LoginPage_07
-	Scenario: Admin Verify asterik next to the user text
-    Then Admin should see "*" symbol next to User text in the first text field
+	Scenario: Admin Verify asterik next to the user text on the login page
+    Then Admin should see "*" symbol next to User text in the first text field on the login page
     
   @TC_LoginPage_08
 	Scenario: Admin Verify the text on the second text field in the login page
-    Then Admin should see "Password" in the first text field
+    Then Admin should see "Password" in the second text field on the login page
     
   @TC_LoginPage_09
-	Scenario: Admin Verify asterik next to the password text
-    Then Admin should see "*" symbol next to Password text in the second text field
+	Scenario: Admin Verify asterik next to the password text on the login page
+    Then Admin should see "*" symbol next to Password text in the second text field on the login page
     
   @TC_LoginPage_10
 	Scenario: Admin Verify the alignment of the input fields on the login page
@@ -48,27 +48,27 @@ Feature: Login Page Verification
         
   @TC_LoginPage_11
   Scenario: Admin verifies the presence of the Login button on the login page
-    Then Admin should see "Login" button on the login page
+    Then Admin should see Login button on the login page
     
   @TC_LoginPage_12
   Scenario: Admin Verify the alignment of the Login button on the login page
-    Then Admin should see "Login" button on the centre of the login page
+    Then Admin should see Login button on the centre of the login page
 
 	@TC_LoginPage_13
   Scenario: Admin verifies the presence of the Forgot Username or Password on the login page
-    Then Admin should see "Forgot Username or Password" link
+    Then Admin should see Forgot Username or Password link
     
   @TC_LoginPage_14
 	Scenario: Admin verifies the presence of the Reset Password on the login page
-    Then Admin should see "Reset Password" link  
+    Then Admin should see Reset Password link  
     
    @TC_LoginPage_15
 	Scenario: Admin Verify the input text color in User field
-    Then Admin should see text "User" displayed in gray color
+    Then Admin should see User text displayed in gray color
     
     @TC_LoginPage_16
 	Scenario: Admin Verify the input text color in Password field
-    Then Admin should see text "Password" displayed in gray color
+    Then Admin should see Password text displayed in gray color
     
     
     

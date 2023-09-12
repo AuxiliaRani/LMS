@@ -1,5 +1,5 @@
 @SendLink
-Feature: Forgot Username and Password Validations
+Feature: Send Link Validations in Forgot Username and Password Page
 
 	Background: Admin Clicks on Forgot Username and Password after reaching Login page
 		Given Admin is in "Forgot Username and Password" page
@@ -14,6 +14,6 @@ Feature: Forgot Username and Password Validations
   @TC_SendLink_02
 	Scenario: Validate Email sent for Forgot Username or Password with invalid email id
     When Admin enters invalid "<emailid>" and clicks "Send Link" button
-	   	 |   emailid        |
+	   	 |   emailid           |
 	     |bddcoders@gggmail.com|
     Then Admin should not receive link in mail to Reset Username/Password

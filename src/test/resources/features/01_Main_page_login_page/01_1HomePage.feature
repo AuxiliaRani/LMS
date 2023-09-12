@@ -4,24 +4,21 @@ Feature: Home Page Verification
 	Background:
 		Given Admin launch the browser
     
-	
+
 	@TC_HomePage_01
   Scenario: Verify admin is able to land on home page
     When Admin gives the correct LMS portal URL
-    Then Admin should land on the "Home" page
+    Then Admin should land on the Home page
     
   @TC_HomePage_02
-  Scenario Outline: Verify admin is able to land on home page with invalid URL
-    When Admin gives the invalid LMS portal URL "<invalid_url>"
-    Then Admin should receive "404 page not found" error    
-    Examples:
-    |invalid_url           |
-    |https://invalidurl.com|
-
+  Scenario: Verify admin is able to land on home page with invalid URL
+    When Admin gives the invalid LMS portal URL
+    Then Admin should receive "404 page not found" error for the invalid URL
+    
   @TC_HomePage_03
   Scenario: Admin verifies for broken link on the LMS portal
     When  Admin gives the correct LMS portal URL
-    Then Admin should receive "Https response code greater than or equal to 400" error for the link
+    Then Admin should receive "Https response >= 400" error for the LMS link
     And The link is broken
     
   
@@ -42,13 +39,13 @@ Feature: Home Page Verification
     Then Admin should see that the Logo is properly aligned
     
     @TC_HomePage_07
-  Scenario: Admin verifies the presence of the login button
+  Scenario: Admin verifies the presence of the Login button
     When Admin gives the correct LMS portal URL 
-    Then Admin should see the "Login" button 
+    Then Admin should see the "Login" button in LMS Portal
     
-    @TC_Register_08
-  Scenario:  Admin verifies that the Login button is clickable
+    @TC_HomePage_08
+  Scenario:  Admin verifies that the Login button is clickable on LMS Portal
     When Admin gives the correct LMS portal URL 
-    Then Admin should be able to click the "Login" button
+    Then Admin should be able to click the "Login" button on LMS Portal
     
    

@@ -2,24 +2,24 @@
 Feature: Forgot Username and Password Validations
 
 	Background: Admin is on the login page after clicking Login button from the home page
-		Given Admin is on the "Login" page
+		Given Admin is on the "Login" page for Forgot Username and Password
 		When Admin clicks on "Forgot Username or Password" link
 		
 	@TC_ForgotUsernamePassword_01
 	Scenario: Admin Verify Forgot Username or Password link		
-    Then Admin should land on "Forgot Username or Password" page
+    Then Admin should land on "Forgot Username or Password" page from Login page
     
   @TC_ForgotUsernamePassword_02
 	Scenario: Admin verify broken link for Forgot Username or Password link		
-    Then Admin should receive "Https response code greater than or equal to 400" error for the link
-    And The link is broken     
+    Then Admin should receive "Https response >= 400" error for the Forgot Username/Password link
+    And The link is broken for  Forgot Username/Password
     
   @TC_ForgotUsernamePassword_03
 	Scenario: Admin Verify the Email text color
     Then Admin should see "Email" text in gray color
     
   @TC_ForgotUsernamePassword_04
-	Scenario: Admin Verify send link button is present
+	Scenario: Admin Verify Email text in text field
     Then Admin should see "Email" in text field
     
   @TC_ForgotUsernamePassword_05

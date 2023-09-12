@@ -1,5 +1,5 @@
 @ResetPasswordDetails
-Feature: Reset Password Validations
+Feature: Reset Password Details Validations
 
 	Background: Admin clicks Reset Password link on login page
 		Given Admin is on "Reset Password" page
@@ -17,7 +17,7 @@ Feature: Reset Password Validations
     
   @TC_ResetPasswordDetails_03
 	Scenario: Validate Reset Password with valid details
-    When Admin enters same valid password on "<newpassword>" and "<retypepassword>"
+    When Admin enters same valid password on <newpassword> and <retypepassword>
 		    | newpassword  |  retypepassword  |
 		    | Validpwd@9   |  Validpwd@9		  |
     And  Admin clicks "Submit" button
@@ -25,8 +25,8 @@ Feature: Reset Password Validations
     
   @TC_ResetPasswordDetails_04
 	Scenario: Validate Reset Password with invalid details
-    When Admin enters invalid same password on "<newpassword>" and "<retypepassword>"
-    	  | newpassword |  <retypepassword  |
+    When Admin enters invalid same password on <newpassword> and <retypepassword>
+    	  | newpassword | retypepassword  |
 		    |  invalid%&  |  	invalid%&   |
     And  Admin clicks "Submit" button
     Then Admin should see error message "Please try again"
@@ -38,7 +38,7 @@ Feature: Reset Password Validations
     
   @TC_ResetPasswordDetails_06
 	Scenario: Validate Reset Password with mismatch values
-    When Admin enters mismatch values on "<newpassword>" and "<retypepassword>"
+    When Admin enters mismatch values on <newpassword> and <retypepassword>
     	  | newpassword |  retypepassword  |
 		    |  Validpwd@9 |  	Validpwd       |
     And  Admin clicks "Submit" button
