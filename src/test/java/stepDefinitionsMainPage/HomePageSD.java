@@ -1,3 +1,9 @@
+/**
+ * Author:    Auxilia
+ * Created:   09.10.2023
+ * 
+ * Numpy Ninja
+ **/
 package stepDefinitionsMainPage;
 
 import static org.junit.Assert.assertNotNull;

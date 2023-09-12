@@ -12,8 +12,8 @@ public class DashboardPageSD {
 	    
 	    
 	}
-	@When("Admin enter valid <username> and <password>")
-	public void admin_enter_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+	@When("Admin enter valid {string} and {string}")
+	public void admin_enter_valid_and(String string,String string1,io.cucumber.datatable.DataTable dataTable) {
 	    
 	   
 	}

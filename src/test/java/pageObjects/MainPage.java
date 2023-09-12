@@ -1,7 +1,15 @@
+/**
+ * Author:    Auxilia
+ * Created:   09.10.2023
+ * 
+ * Numpy Ninja
+ **/
+
 package pageObjects;
 
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -56,6 +64,14 @@ public class MainPage extends DriverFactory {
 	WebElement sdLinkButton;
 	@FindBy(xpath = "//input[@id='id_email']/following-sibling::span[contains(text(), '*')]")
 	WebElement locateEmailAsterisk;
+	@FindBy(xpath = "//input[@id='id_typenewPwd']")
+	WebElement typeNewPwd;
+	@FindBy(xpath = "//input[@id='id_retypePwd']")
+	WebElement retypePwd;
+	@FindBy(xpath = "//input[@value='Submit']")
+	WebElement submitButton;
+	@FindBy(xpath = "//*[@class='alert alert-primary']")
+	WebElement alertMsg;
 
 	// Initializing Page Factory
 	public MainPage() {
@@ -63,6 +79,8 @@ public class MainPage extends DriverFactory {
 		PageFactory.initElements(driver, this);
 
 	}
+
+	// ==****===========****==Navigate to Home page==****=============****==
 
 	// Get the lms portal url
 	public void getLMSPortal() {
@@ -118,6 +136,7 @@ public class MainPage extends DriverFactory {
 		loginButton.click();
 	}
 
+	// ==****===========****==Navigate to Login page=****=========****=====
 	// Verify login button in login page
 	public void clickLoginButton() {
 		loginButton.click();
@@ -218,9 +237,9 @@ public class MainPage extends DriverFactory {
 	public void enterValidPassword(DataTable datatable) {
 		List<Map<String, String>> pwdDetail = datatable.asMaps(String.class, String.class);
 		for (Map<String, String> form : pwdDetail) {
-			String pwd = form.get("password");
-			LoggerLoad.info("The Admin enters the password as : " + pwd);
-			password.sendKeys(pwd);
+			String pwdData = form.get("password");
+			LoggerLoad.info("The Admin enters the password as : " + pwdData);
+			password.sendKeys(pwdData);
 		}
 	}
 
@@ -262,6 +281,8 @@ public class MainPage extends DriverFactory {
 		forgotUserPwd.click();
 	}
 
+	// =****=====Navigate to Forgot Username or Password page=====****======
+
 	// Verify the input text color in Email field
 	public boolean isEmailTxtGray() {
 		String textColor = user.getCssValue("color");
@@ -299,4 +320,139 @@ public class MainPage extends DriverFactory {
 		}
 		return true;
 	}
+
+	// method to enter email id
+	public void enterEmail(DataTable dataTable) {
+		List<Map<String, String>> emailDetail = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> form : emailDetail) {
+			String emailData = form.get("emailid");
+			LoggerLoad.info("The Admin enters the email id as : " + emailData);
+			email.sendKeys(emailData);
+		}
+	}
+
+	// click Send Link mehtod
+	public void clickSendLinkButton() {
+		sdLinkButton.click();
+	}
+
+	// Receive Email Link
+	public String getEmailLink() {
+		return "Email Sent with Reset your Username/Password link";
+	}
+
+	public boolean isEmailReceived() {
+		// Return true if the email is received; otherwise, return false.
+		return false;
+	}
+
+	// ===****========****Navigate to Reset Password page=======****========****==
+
+	// method to click Reset Password
+	public void clickResetPwd() {
+		resetPwd.click();
+
+	}
+
+	// Verify the spelling for the Type in new Password field
+	public String getNewPwdTxt() {
+		String newPwdTxt = typeNewPwd.getText();
+		return newPwdTxt;
+	}
+
+	// Verify the spelling for the Management field
+	public String getRetypePwdTxt() {
+		String retypePwdTxt = retypePwd.getText();
+		return retypePwdTxt;
+	}
+
+	// Presence of submit button
+	public WebElement verifySubmitButton() {
+		return submitButton;
+	}
+
+	// Method to verify the submit button is in the center of the page
+	public boolean isSubmitButtonCentered() {
+		String submitAlignment = submitButton.getCssValue("text-align");
+		String margin = loginButton.getCssValue("margin");
+		if (!submitAlignment.equals("center") || !margin.equals("auto")) {
+			return false;
+		}
+		return true;
+	}
+
+	// Presence of Type in new Password field
+	public WebElement verifyTypeNewPwd() {
+		return typeNewPwd;
+	}
+
+	// Presence of Type in Retype Password field
+	public WebElement verifyRetypePwd() {
+		return retypePwd;
+	}
+
+	// Check the Text boxes are disabled
+	public boolean areBothTextBoxesDisabled() {
+		boolean isTypeNewPwdDisabled = !typeNewPwd.isEnabled();
+		boolean isRetypePwdDisabled = !retypePwd.isEnabled();
+
+		return isTypeNewPwdDisabled && isRetypePwdDisabled;
+	}
+
+	// method to click type in new passowrd textbox
+	public void clickTypeNewPwd() {
+		typeNewPwd.click();
+	}
+
+	// Check the Type in New Password is Enabled
+	public boolean isTypeNewPwd() {
+		boolean isTypeNewPwdEnabled = typeNewPwd.isEnabled();
+		return isTypeNewPwdEnabled;
+	}
+
+	// Check the Retype Password is Enabled
+	public boolean isRetypePwd() {
+		boolean isRetypePwdEnabled = retypePwd.isEnabled();
+		return isRetypePwdEnabled;
+	}
+
+	// Method to enter the new password value
+	public void enterNewPassword(DataTable dataTable) {
+		List<Map<String, String>> newPwdDetail = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> form : newPwdDetail) {
+			String newPwdData = form.get("newpassword");
+			LoggerLoad.info("The Admin enters the username as : " + newPwdData);
+			typeNewPwd.sendKeys(newPwdData);
+		}
+	}
+
+	// Method to enter the retype password value
+	public void enterRetypePassword(DataTable datatable) {
+		List<Map<String, String>> retypePwdDetail = datatable.asMaps(String.class, String.class);
+		for (Map<String, String> form : retypePwdDetail) {
+			String retypePwdData = form.get("retypepassword");
+			LoggerLoad.info("The Admin enters the password as : " + retypePwdData);
+			retypePwd.sendKeys(retypePwdData);
+		}
+	}
+
+	// method to click submit button
+	public void clickSubmitButton() {
+		submitButton.click();
+	}
+
+	// method to get the alert message
+	public String getMsg() {
+		String msg = null;
+		try {
+			msg = alertMsg.getText();
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+			LoggerLoad.info("No Such Element Found");
+
+		}
+		return msg;
+
+	}
+
 }

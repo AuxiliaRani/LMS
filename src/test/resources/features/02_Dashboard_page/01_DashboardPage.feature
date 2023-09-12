@@ -3,7 +3,7 @@ Feature: Dashboard Page
 
 	Background: Admin clicks Login button after giving correct URL
 		Given Admin is on "Login" page for Dashboard Validation
-		When Admin enter valid <username> and <password>
+		When Admin enter valid "username" and "password"
 		 	 | 	 username    | password    |
 			 | Team9testuser | BddCoders@9 |
 		And  Admin clicks "Login" button from Login page

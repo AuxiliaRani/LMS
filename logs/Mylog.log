@@ -263,3 +263,27 @@
 [INFO ] 2023-09-11 23:45:16.950 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
 [INFO ] 2023-09-11 23:45:16.950 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
 [INFO ] 2023-09-11 23:45:16.975 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-12 10:07:31.916 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-12 10:07:31.919 [main] LoggerLoad - Testing on firefox
+[INFO ] 2023-09-12 10:07:39.498 [main] LoggerLoad - Initializing driver for : firefox
+[INFO ] 2023-09-12 10:07:39.816 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-12 10:07:39.817 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
+[INFO ] 2023-09-12 10:07:39.817 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-12 10:07:40.204 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-12 10:07:40.755 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-12 10:07:40.755 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
+[INFO ] 2023-09-12 10:07:40.755 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-12 10:07:40.857 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-12 10:07:41.105 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-12 10:12:16.639 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-12 10:12:16.641 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-12 10:12:26.893 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-12 10:12:27.130 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-12 10:12:27.130 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
+[INFO ] 2023-09-12 10:12:27.130 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-12 10:12:28.193 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-12 10:12:28.913 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-12 10:12:28.915 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
+[INFO ] 2023-09-12 10:12:28.915 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-12 10:12:29.055 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-12 10:12:31.810 [main] LoggerLoad - Closing Driver

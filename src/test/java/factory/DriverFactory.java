@@ -1,20 +1,29 @@
 package factory;
 
 import java.time.Duration;
+import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.FindBy;
 
+import io.cucumber.datatable.DataTable;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
-public class DriverFactory{
-	
+public class DriverFactory {
+
 	public static WebDriver driver;
+	@FindBy(xpath = "//input[@id='id_user']")
+	WebElement user;
+	@FindBy(xpath = "//input[@id='id_password']")
+	WebElement password;
 
 	public WebDriver initializeDrivers(String browser) {
 
@@ -56,9 +65,24 @@ public class DriverFactory{
 		driver.close();
 	}
 
-	
-	
-		
-	
+	// Get Username value from the excel sheet
+	public void enterValidUsername(DataTable dataTable) {
+		List<Map<String, String>> userDetail = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> form : userDetail) {
+			String userData = form.get("username");
+			LoggerLoad.info("The Admin enters the username as : " + userData);
+			user.sendKeys(userData);
+		}
+	}
+
+	// Get Password value from the excel sheet
+	public void enterValidPassword(DataTable datatable) {
+		List<Map<String, String>> pwdDetail = datatable.asMaps(String.class, String.class);
+		for (Map<String, String> form : pwdDetail) {
+			String pwdData = form.get("password");
+			LoggerLoad.info("The Admin enters the password as : " + pwdData);
+			password.sendKeys(pwdData);
+		}
+	}
 
 }

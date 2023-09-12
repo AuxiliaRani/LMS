@@ -1,3 +1,9 @@
+/**
+ * Author:    Auxilia
+ * Created:   09.10.2023
+ * 
+ * Numpy Ninja
+ **/
 package stepDefinitionsMainPage;
 
 import static org.testng.Assert.assertEquals;
@@ -18,7 +24,7 @@ import utilities.LoggerLoad;
 
 public class LoginValidationsSD extends ConfigReader {
 
-	MainPage homePage = new MainPage();
+	MainPage loginPage = new MainPage();
 	String excelfilepath = ConfigReader.getExcelFilePath();
 	static String username;
 	static String password;
@@ -29,9 +35,9 @@ public class LoginValidationsSD extends ConfigReader {
 	// home page
 	@Given("Admin is on the {string} page")
 	public void admin_is_on_the_page(String login) {
-		homePage.getLMSPortal();
-		homePage.clickHomeLoginButton();
-		String title = homePage.verifyPageTitle();
+		loginPage.getLMSPortal();
+		loginPage.clickHomeLoginButton();
+		String title = loginPage.verifyPageTitle();
 		LoggerLoad.info("Title of the current page: " + title);
 		try {
 			assertEquals(title, login, "Page Title do not match");
@@ -45,8 +51,8 @@ public class LoginValidationsSD extends ConfigReader {
 	public void admin_enters_valid_username_and_password(String string, String string1,
 			io.cucumber.datatable.DataTable dataTable) {
 		try {
-			homePage.enterValidUsername(dataTable);
-			homePage.enterValidPassword(dataTable);
+			loginPage.enterValidUsername(dataTable);
+			loginPage.enterValidPassword(dataTable);
 		} catch (Error e) {
 			LoggerLoad.error("Login Failed: " + e.getMessage());
 		}
@@ -55,12 +61,12 @@ public class LoginValidationsSD extends ConfigReader {
 	@When("Clicks on {string} button")
 	public void clicks_on_button(String string) {
 		LoggerLoad.info("Admin click login button");
-		homePage.clickLoginButton();
+		loginPage.clickLoginButton();
 	}
 
 	@Then("Admin should land on {string} page from login page")
 	public void admin_should_land_on_page_from_login_page(String dashboard) {
-		String title = homePage.verifyPageTitle();
+		String title = loginPage.verifyPageTitle();
 		LoggerLoad.info("Title of the current page: " + title);
 		try {
 			assertEquals(title, dashboard, "Page Title do not match");
@@ -83,7 +89,7 @@ public class LoginValidationsSD extends ConfigReader {
 
 			LoggerLoad.info("Admin Enter username as \" " + username + " \" Password as \" " + password + "\" ");
 			if (username != null || password != null) {
-				homePage.doLogin(username, password);
+				loginPage.doLogin(username, password);
 			}
 		} catch (Error e) {
 			LoggerLoad.error("Failed to get the excel data: " + e.getMessage());
@@ -96,7 +102,7 @@ public class LoginValidationsSD extends ConfigReader {
 	public void clicks_on_button_through_keyboard(String string) {
 		try {
 			LoggerLoad.info("Admin clicks login through keyboard");
-			homePage.pressEnterKeyonLogin();
+			loginPage.pressEnterKeyonLogin();
 		} catch (Error e) {
 			LoggerLoad.error("Failed to enter keys on login: " + e.getMessage());
 		}
@@ -107,7 +113,7 @@ public class LoginValidationsSD extends ConfigReader {
 	public void clicks_on_button_through_mouse_action(String string) {
 		try {
 			LoggerLoad.info("Admin clicks login by mouse actions");
-			homePage.clickLoginButtonWithMouse();
+			loginPage.clickLoginButtonWithMouse();
 		} catch (Error e) {
 			LoggerLoad.error("Failed to enter keys on login: " + e.getMessage());
 		}

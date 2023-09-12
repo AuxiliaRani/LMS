@@ -8,24 +8,24 @@ Feature: Reset Password Details Validations
 	@TC_ResetPasswordDetails_01
 	Scenario: Verify text box is enabled in Type in new Password field
 		When Admin clicks on "Type in new Password" field
-    Then Admin should see text box is in enabled state
+    Then Admin should see Type in new Password text box is in enabled state
    
   @TC_ResetPasswordDetails_02
 	Scenario: Verify text box is enabled in Retype Password field
-    When Admin clicks on "Retype Password" field
-   	Then Admin should see text box is in enabled state
+    When Admin clicks on "ReType Password" field
+   	Then Admin should see ReType Password text box is in enabled state
     
   @TC_ResetPasswordDetails_03
 	Scenario: Validate Reset Password with valid details
-    When Admin enters same valid password on <newpassword> and <retypepassword>
+    When Admin enters same valid password on "newpassword" and "retypepassword"
 		    | newpassword  |  retypepassword  |
 		    | Validpwd@9   |  Validpwd@9		  |
     And  Admin clicks "Submit" button
-    Then Admin should receive "Your password has been reset". Please click here to login
+    Then Admin should receive "Your password has been reset. Please click here to login"
     
   @TC_ResetPasswordDetails_04
 	Scenario: Validate Reset Password with invalid details
-    When Admin enters invalid same password on <newpassword> and <retypepassword>
+    When Admin enters invalid same password on "newpassword" and "retypepassword"
     	  | newpassword | retypepassword  |
 		    |  invalid%&  |  	invalid%&   |
     And  Admin clicks "Submit" button
@@ -38,7 +38,7 @@ Feature: Reset Password Details Validations
     
   @TC_ResetPasswordDetails_06
 	Scenario: Validate Reset Password with mismatch values
-    When Admin enters mismatch values on <newpassword> and <retypepassword>
+    When Admin enters mismatch values on "newpassword" and "retypepassword"
     	  | newpassword |  retypepassword  |
 		    |  Validpwd@9 |  	Validpwd       |
     And  Admin clicks "Submit" button
