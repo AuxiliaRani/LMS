@@ -240,6 +240,8 @@ public class BatchModule {
 				}
 				return headerText;
 			}
+			
+			
 			public List<WebElement> batchDataTableHeaderWithSortIcon() {
 				
 				List<WebElement> headerCells = batchDataTableHeader.findElements(By.tagName("td"));		
