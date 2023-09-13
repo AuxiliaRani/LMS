@@ -28,6 +28,7 @@ public class AttendanceModule {
 	public Properties prop;
 	WebElement pageNumbers;
 	JavascriptExecutor js;
+	String deleteValidationClassId1;
 	
 
 //------------------validation of Attendance page-------------------------------------
@@ -133,6 +134,8 @@ public class AttendanceModule {
 	@FindBy(xpath = "//tagname[@Attribute='delAttendance']")WebElement deleteAttendanceButton;
 	@FindBy(xpath = "//tagname[@Attribute='multidelAttendance']")WebElement multiDeleteAttendanceButton;
 	
+	@FindBy(xpath = "//tagname[@Attribute='RowDeleteAtd']")WebElement rowLevelDeleteAttendanceButton;
+	
 	@FindBy(xpath = "//tagname[text()='Delete header']") WebElement deleteHeader;
 
 	@FindBy(xpath = "//tagname[text()='No']")WebElement confirmNo;
@@ -146,6 +149,7 @@ public class AttendanceModule {
 	@FindBy(xpath = "//tagname[text()='Showing 0 to 0 of 0 entries']")WebElement zeroRecords;
 
 	@FindBy(xpath = "//tagname[@Attribute='chkbx']")List<WebElement> checkboxs;
+	@FindBy(xpath = "//tagname[@Attribute='singleCheckbox']")WebElement singleCheckbox;
 
 	// =================pagination===============
 	
@@ -440,7 +444,7 @@ public class AttendanceModule {
 	
 
 	
-	public void checkBoxBatchIsSelected() {
+	public void checkBoxAttendanceSelected() {
 		checkBoxAttendance.click();
 		
 	}
@@ -842,6 +846,55 @@ public class AttendanceModule {
 		
 		return false;
 	}
+	
+	public void rowLevelDeleteAttendance() {
+		try {
+			rowLevelDeleteAttendanceButton.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+
+		}
+		
+		//save class ID of row level record
+		
+			//	String deleteValidationClassId = deleteValidationClassId.getText();
+		
+		WebElement tableContents = driver.findElement(By.tagName("table"));
+
+		List<WebElement> rows=tableContents.findElements(By.tagName("tr"));
+		for(int rnum=0;rnum<rows.size();rnum++)
+		{
+		List<WebElement> columns=rows.get(rnum).findElements(By.tagName("td"));
+
+		
+		
+		deleteValidationClassId1=columns.get(0).getText();
+		
+
+		System.out.println(columns.get(0).getText());
+
+		}
+		
+	}
+		
+	
+	public void rowLevelDeleteAttendanceEnabled() {
+		try {
+			if (rowLevelDeleteAttendanceButton.isEnabled()) {
+				
+				System.out.println("Row level delete Button is enabled");
+			} else {
+				System.out.println("Row level delete Button is disabled");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		 
+		
+	}
 			
 	public void deleteAttendance() {
 		try {
@@ -917,28 +970,6 @@ public class AttendanceModule {
 	    Assert.assertEquals(exp, act);
 		}
 
-	public boolean searchDeletedName(String deletedBatchName) throws InterruptedException {
-		try {
-			searchButton.sendKeys(deletedBatchName);
-
-			for (int j = 1; j < 20; j++) {
-				pageNumbers = driver.findElement(By.xpath("//button[text()=" + j + "]"));
-				Thread.sleep(2000);
-				pageNumbers.click();
-
-				for (WebElement batchMatch : actualAttendance) {
-					String actualName = batchMatch.getText();
-					System.out.println(actualName);
-					if (actualName.equals(deletedBatchName)) ;
-						return true;
-				
-			}
-		} 
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
-		return false;
-	}
 
 	public void verifyDeletedRecords() {
 		try {
@@ -950,6 +981,7 @@ public class AttendanceModule {
 		}
 	}
 
+	//Select multiple checkbox
 	public void selectMutipleCheckboxes() {
 		try {
 			for (WebElement checkbox : checkboxs) {
@@ -959,7 +991,20 @@ public class AttendanceModule {
 			e.printStackTrace();
 		}
 	}
+	// Verify is single check box is selected
+	
+	public void singleCheckboxisSelected() {
+		try {
+			if (singleCheckbox.isSelected()) {
+				System.out.println("Single checkbox is selected");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 
+	//Verify Multiple check boxes are selected
+	
 	public boolean checkboxesIsSelected() {
 		try {
 			for (WebElement checkbox : checkboxs) {
@@ -980,14 +1025,33 @@ public class AttendanceModule {
 		return false;
 	}
 	
-	public void deleteMutipleBatches() {
-		try {
-			deleteMultipleButton.click();
+	//Verify delete oparation -searching by class ID
 
-		} catch (Exception e) {
+	public void searchDeletedAttendance(String deleteValidationClassId1) throws InterruptedException {
+		try {
+			
+			searchButton.sendKeys(deleteValidationClassId1);
+
+			for (int j = 1; j < 20; j++) {
+				pageNumbers = driver.findElement(By.xpath("//button[text()=" + j + "]"));
+				Thread.sleep(2000);
+				pageNumbers.click();
+
+				for (WebElement attendanceMatch : actualAttendance) {
+					String actualName = attendanceMatch.getText();
+					System.out.println(actualName);
+					if (actualName.equals(deleteValidationClassId1)) 
+						System.out.println("Selected record is deleted");
+					else	
+						System.out.println("Selected record is not deleted");
+			}
+		} 
+		}catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 	}
+	
 
 	//=================Pagination links methods================
 	
