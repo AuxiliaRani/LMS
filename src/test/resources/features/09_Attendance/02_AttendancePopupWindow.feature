@@ -2,9 +2,9 @@
 @Attendance_popup_window_verification1
 Feature: Attendance details popup window verification1
 
-  Background: Admin is on Manage attendance page after login 02
-    Given Admin is in manage attendance page 02
-    When Admin clicks plus a new attendance button 02
+  Background: Admin is on Manage attendance page after login02
+    Given Admin is in manage attendance page02
+    When Admin clicks plus a new attendance button02
 
   @TC_Attendance_20
   Scenario: Verify all label text for Attendance module

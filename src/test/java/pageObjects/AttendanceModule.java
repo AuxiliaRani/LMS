@@ -17,6 +17,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import utilities.LoggerLoad;
+
 import org.openqa.selenium.Point;
 //import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
@@ -37,6 +40,7 @@ public class AttendanceModule {
 	@FindBy(xpath = "//tagname[text()='Attendance-header']") WebElement manageAttendanceTitle;
 	
 	@FindBy(xpath = "//tagname[text()='form-Attendance-header']") WebElement formAttendanceHeaderName;
+	@FindBy(xpath = "//tagname[text()='attendanceLable']") WebElement attendanceLable;
 	
 	@FindBy(xpath = "//tagname[text()='Attendance']") WebElement attendanceButton;
 	@FindBy(xpath = "//tagname[text()='Header']") WebElement headerName;
@@ -70,16 +74,25 @@ public class AttendanceModule {
 	// =====Add Attendance WebElements==============
 	
 	
-	
+
 	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement addNewAttendanceButton;
 	@FindBy(xpath = "//tagname[text()='attendance header']")WebElement addattendanceHeader;
 	
 	@FindBy(xpath = "//tagname[@Attribute='attendance Details']")WebElement attendanceDetails;
 	@FindBy(xpath = "//tagname[@Attribute='savform']")WebElement saveForm;
+	@FindBy(xpath = "//tagname[@Attribute='closebutton']")WebElement closeButton;
+	@FindBy(xpath = "//tagname[@Attribute='savebutton']")WebElement saveButton;
+	
+	@FindBy(xpath = "//tagname[text()='selectProgtxtLable']")WebElement selectProgtxtLable;
+	@FindBy(xpath = "//tagname[text()='selectClasstxtLable']")WebElement selectClasstxtLable;
+	@FindBy(xpath = "//tagname[text()='selectStudenttxtLable']")WebElement selectStudenttxtLable;
+	@FindBy(xpath = "//tagname[text()='selectAttendancetxtLable']")WebElement selectAttendancetxtLable;
+	
 	@FindBy(xpath = "//tagname[@Attribute='errmsg']")WebElement errorMessageNameRequired;
 	@FindBy(xpath = "//tagname[text()='Cancel']")WebElement cancelForm;
 	@FindBy(xpath = "//tagname[@id='attendanceName']")WebElement formattendanceName;
 	@FindBy(xpath = "//tagname[@id='attendanceDescription']")WebElement formDescription;
+	@FindBy(xpath = "//tagname[@id='admintxt']")WebElement admintxt;
 	
 	@FindBy(xpath = "//tagname[@Attribute='pdrpbtn']")WebElement pdropdownButton;
 	@FindBy(xpath = "//tagname[@Attribute='cdrpbtn']")WebElement cdropdownButton;
@@ -189,6 +202,7 @@ public class AttendanceModule {
 	
 	
 	// ============Attendance page validation=============
+	
 	
 	
 	public void navigateToAttendance() {
@@ -477,6 +491,113 @@ public class AttendanceModule {
 	
 	//==================Add Attendance methods start from here=====================
 	
+	//Web element presence  validations isDisplayed()
+	
+
+	
+	public boolean programDrpIsDisplayed()
+	{
+		pdropdownButton.isDisplayed();
+		return true;
+	}
+	
+	
+	public boolean classDrpIsDisplayed()
+	{
+		cdropdownButton.isDisplayed();
+		return true;
+	}
+	
+	public boolean studentDrpIsDisplayed()
+	{
+		sdropdownButton.isDisplayed();
+		return true;
+	}
+	
+	public boolean attendanceDrpIsDisplayed()
+	{
+		adropdownButton.isDisplayed();
+		return true;
+	}
+	
+	
+	
+	public boolean closeButtonDisplayed()
+	{
+		closeButton.isDisplayed();
+		return true;
+	}
+	
+	
+	
+	public boolean saveButtonDisplayed()
+	{
+		saveButton.isDisplayed();
+		return true;
+	}
+	
+	// get location
+	public boolean VerifylocationCloseButton() {
+		
+	
+	Point location = closeButton.getLocation();
+    System.out.println("X : " + location.getX());
+    System.out.println("Y : " + location.getY());
+    
+    //Top right is x=35 y=85
+    if (location.getX()>= 35 && location.getY() >= 85)
+    LoggerLoad.info("Web element is on Top right corner");
+    
+    return true;
+    
+	}
+	
+	
+ 
+	
+	// Verify the input text color in User field
+		public boolean isAdminTxtGray() {
+			String textColor = admintxt.getCssValue("color");
+			// Check if the text color is gray (hex code #808080 or RGB value 128,128,128).
+			return textColor.equals("rgb(128, 128, 128)") || textColor.equals("#808080");
+		}
+	
+	public boolean verifyTextselectProgtxtLable(){
+		
+		String txtLable = selectProgtxtLable.getText();
+		Assert.assertEquals("Select a Program Name", txtLable);
+		
+		return true;
+		
+	}
+	
+  public boolean verifyTextselectClasstxtLable(){
+		
+		String txtLable = selectClasstxtLable.getText();
+		Assert.assertEquals("Select Class Name",txtLable);
+		
+		return true;
+		
+	}
+  public boolean verifyTextselectStudenttxtLable(){
+		
+		String txtLable = selectStudenttxtLable.getText();
+		Assert.assertEquals("Select students",txtLable);
+		
+		return true;
+		
+	}
+  
+  public boolean verifyTextselectAttendancetxtLable(){
+		
+		String txtLable = selectAttendancetxtLable.getText();
+		Assert.assertEquals("Select Attendance",txtLable);
+		
+		return true;
+		
+	}
+	//Action validation
+	
 	
 	public void addNewAttendancebuttonClick() throws InterruptedException {
 		Thread.sleep(2000);
@@ -493,6 +614,14 @@ public class AttendanceModule {
 		String header= attendanceHeader.getText();
 		return header;
 	}
+	
+	public void checkSpellingAddAttendanceLable() {
+		String attendance_lable = attendanceLable.getText();
+		
+		Assert.assertEquals("Attendance Details", attendance_lable);;
+		
+	}
+	
 	
 	public Point attendanceHeaderLocation() {
 		

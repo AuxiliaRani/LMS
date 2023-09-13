@@ -4526,3 +4526,55 @@
 [INFO ] 2023-09-12 20:32:51.839 [main] LoggerLoad - [@Navigation_function_validation_from_manage_attendance_page_to_other_pages, @TC_Attendance_83] : Verify admin should able to do logout function from manage attendance for attendance module13
 [INFO ] 2023-09-12 20:32:51.839 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
 [INFO ] 2023-09-12 20:32:51.851 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-13 14:40:30.279 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-13 14:40:30.282 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-13 14:40:39.144 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-13 14:40:39.389 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:39.390 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_20] : Verify all label text for Attendance module
+[INFO ] 2023-09-13 14:40:39.390 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:39.408 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:40.531 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:40.531 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_21] : Verify dropdown box is present for Attendance module
+[INFO ] 2023-09-13 14:40:40.531 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:40.535 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:41.296 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:41.304 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_22] : Verify close button in attendance details popup window for Attendance module
+[INFO ] 2023-09-13 14:40:41.304 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:41.305 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:41.800 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:41.800 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_23] : Verify the alignment of the close button for Attendance module
+[INFO ] 2023-09-13 14:40:41.800 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:41.806 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:42.255 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:42.255 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_24] : Verify the text on first dropdown select a program name for Attendance module
+[INFO ] 2023-09-13 14:40:42.255 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:42.257 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:42.722 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:42.722 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_25] : Verify the text on second dropdown select class name for Attendance module
+[INFO ] 2023-09-13 14:40:42.723 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:42.724 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:43.169 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:43.169 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_26] : Verify the text on third dropdown select students for Attendance module
+[INFO ] 2023-09-13 14:40:43.169 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:43.172 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:43.617 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:43.617 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_27] : Verify the text on fourth dropdown select attendance for Attendance module
+[INFO ] 2023-09-13 14:40:43.617 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:43.620 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:44.069 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:44.070 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_28] : Verify all the text inside the dropdown box is gray color for Attendance module
+[INFO ] 2023-09-13 14:40:44.070 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:44.071 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:44.527 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:44.527 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_29] : Verify save button is present for Attendance module
+[INFO ] 2023-09-13 14:40:44.527 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:44.530 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:45.003 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:45.003 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_30] : Verify cancel button is present for Attendance module
+[INFO ] 2023-09-13 14:40:45.003 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:45.006 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:45.477 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:40:45.477 [main] LoggerLoad - [@Attendance_popup_window_verification1, @TC_Attendance_31] : Verify order of the label in attendance details page for Attendance module
+[INFO ] 2023-09-13 14:40:45.477 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:40:45.479 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:40:45.966 [main] LoggerLoad - Closing Driver

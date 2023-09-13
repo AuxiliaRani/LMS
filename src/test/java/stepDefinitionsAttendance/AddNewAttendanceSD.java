@@ -18,6 +18,7 @@ public class AddNewAttendanceSD {
 	{
 		this.hooks=hooks;
 		this.attendanceModule = hooks.getAttendanceModuleObject();
+		LoggerLoad.info("********** Attendance Details Page **********");
 	}
 	
 	}
@@ -27,7 +28,7 @@ public class AddNewAttendanceSD {
 	    
         attendanceModule.attendanceDetailForm();
 		
-	    LoggerLoad.info("********** Attendance Details Page **********");
+	    
 	}
 
 	@When("Admin fills all the values and click save for Attendance module")
