@@ -1,1030 +1,335 @@
-[INFO ] 2023-09-12 22:55:04.359 [main] LoggerLoad - Loading Config file
-[INFO ] 2023-09-12 22:55:04.366 [main] LoggerLoad - Testing on chrome
-[INFO ] 2023-09-12 22:55:15.346 [main] LoggerLoad - Initializing driver for : chrome
-[INFO ] 2023-09-12 22:55:16.522 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.523 [main] LoggerLoad - [@HomePage, @TC_HomePage_01] : Verify admin is able to land on home page
-[INFO ] 2023-09-12 22:55:16.523 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.708 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.711 [main] LoggerLoad - [@HomePage, @TC_HomePage_02] : Verify admin is able to land on home page with invalid URL
-[INFO ] 2023-09-12 22:55:16.711 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.750 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.750 [main] LoggerLoad - [@HomePage, @TC_HomePage_03] : Admin verifies for broken link on the LMS portal
-[INFO ] 2023-09-12 22:55:16.751 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.776 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.777 [main] LoggerLoad - [@HomePage, @TC_HomePage_04] : Admin verifies correct spellings in all fields on the LMS portal
-[INFO ] 2023-09-12 22:55:16.777 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.800 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.800 [main] LoggerLoad - [@HomePage, @TC_HomePage_05] : Admin verifies the presence of the LMS logo
-[INFO ] 2023-09-12 22:55:16.800 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.828 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.829 [main] LoggerLoad - [@HomePage, @TC_HomePage_06] : Admin verifies that the LMS logo is properly aligned
-[INFO ] 2023-09-12 22:55:16.829 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.851 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.851 [main] LoggerLoad - [@HomePage, @TC_HomePage_07] : Admin verifies the presence of the Login button
-[INFO ] 2023-09-12 22:55:16.851 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.871 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.872 [main] LoggerLoad - [@HomePage, @TC_HomePage_08] : Admin verifies that the Login button is clickable on LMS Portal
-[INFO ] 2023-09-12 22:55:16.872 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.902 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.903 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : Verify Admin is able to land on the Login page
-[INFO ] 2023-09-12 22:55:16.903 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.938 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.938 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Admin verifies for broken link on the login page
-[INFO ] 2023-09-12 22:55:16.939 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.967 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.967 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_03] : Admin Verify the header of the login page
-[INFO ] 2023-09-12 22:55:16.967 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:16.984 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:16.984 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_04] : Admin verifies correct spellings in all fields on the Login page
-[INFO ] 2023-09-12 22:55:16.984 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.004 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.004 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_05] : Admin Verify the text fields are present on the login page
-[INFO ] 2023-09-12 22:55:17.004 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.018 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.018 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_06] : Admin Verify the text on the first text field on the login page
-[INFO ] 2023-09-12 22:55:17.018 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.034 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.034 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_07] : Admin Verify asterik next to the user text on the login page
-[INFO ] 2023-09-12 22:55:17.034 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.050 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.050 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_08] : Admin Verify the text on the second text field in the login page
-[INFO ] 2023-09-12 22:55:17.050 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.073 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.073 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_09] : Admin Verify asterik next to the password text on the login page
-[INFO ] 2023-09-12 22:55:17.073 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.084 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.084 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_10] : Admin Verify the alignment of the input fields on the login page
-[INFO ] 2023-09-12 22:55:17.084 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.108 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.108 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_11] : Admin verifies the presence of the Login button on the login page
-[INFO ] 2023-09-12 22:55:17.109 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.127 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.127 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_12] : Admin Verify the alignment of the Login button on the login page
-[INFO ] 2023-09-12 22:55:17.127 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.140 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.140 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_13] : Admin verifies the presence of the Forgot Username or Password on the login page
-[INFO ] 2023-09-12 22:55:17.141 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.157 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.157 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_14] : Admin verifies the presence of the Reset Password on the login page
-[INFO ] 2023-09-12 22:55:17.157 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.197 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.197 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_15] : Admin Verify the input text color in User field
-[INFO ] 2023-09-12 22:55:17.197 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.248 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.248 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_16] : Admin Verify the input text color in Password field
-[INFO ] 2023-09-12 22:55:17.248 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.474 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.475 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_01] : Validate login with valid credentials
-[INFO ] 2023-09-12 22:55:17.475 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.522 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.522 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.522 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.534 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.535 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.535 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.544 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.545 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.545 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.549 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.549 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.549 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.552 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.552 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.552 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.556 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.557 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:55:17.557 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.563 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.563 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_03] : Verify login button action through keyboard
-[INFO ] 2023-09-12 22:55:17.563 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.577 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.577 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_04] : Verify login button action through mouse action
-[INFO ] 2023-09-12 22:55:17.577 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.601 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.602 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_01] : Admin Verify Forgot Username or Password link
-[INFO ] 2023-09-12 22:55:17.602 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.612 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.612 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_02] : Admin verify broken link for Forgot Username or Password link
-[INFO ] 2023-09-12 22:55:17.613 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.631 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.632 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_03] : Admin Verify the Email text color
-[INFO ] 2023-09-12 22:55:17.632 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.646 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.646 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_04] : Admin Verify Email text in text field
-[INFO ] 2023-09-12 22:55:17.646 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.661 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.661 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_05] : Admin Verify Send Link button is present
-[INFO ] 2023-09-12 22:55:17.661 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.677 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.677 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_06] : Admin Verify asterik near to the Email text
-[INFO ] 2023-09-12 22:55:17.677 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.691 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.691 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_07] : Admin Verify the text spelling
-[INFO ] 2023-09-12 22:55:17.691 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.699 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.700 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_08] : Admin Verify the alignment of the Send Link button
-[INFO ] 2023-09-12 22:55:17.700 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.731 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.731 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
-[INFO ] 2023-09-12 22:55:17.731 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.748 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.748 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
-[INFO ] 2023-09-12 22:55:17.748 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.762 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.763 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_01] : Verify Reset Password link
-[INFO ] 2023-09-12 22:55:17.763 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.780 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.780 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_02] : Verify text in the Reset Password page
-[INFO ] 2023-09-12 22:55:17.780 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.796 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.796 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_03] : Verify the presence of Submit button in Reset Password page
-[INFO ] 2023-09-12 22:55:17.796 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.809 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.809 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_04] : Verify the alignment of the Submit button in Reset Password page
-[INFO ] 2023-09-12 22:55:17.809 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.828 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.828 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_05] : Verify text box is present in the Reset Password page
-[INFO ] 2023-09-12 22:55:17.828 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.860 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.860 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_06] : Verify First label text on the Reset Password page
-[INFO ] 2023-09-12 22:55:17.860 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.879 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.879 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_07] : Verify Second label text on the Reset Password page
-[INFO ] 2023-09-12 22:55:17.879 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.893 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.894 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_08] : Verify both the text box is in disabled state on the Reset Password page
-[INFO ] 2023-09-12 22:55:17.894 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.909 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.909 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_01] : Verify text box is enabled in Type in new Password field
-[INFO ] 2023-09-12 22:55:17.909 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.925 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.925 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_02] : Verify text box is enabled in Retype Password field
-[INFO ] 2023-09-12 22:55:17.925 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.939 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.939 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_03] : Validate Reset Password with valid details
-[INFO ] 2023-09-12 22:55:17.939 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.954 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.954 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_04] : Validate Reset Password with invalid details
-[INFO ] 2023-09-12 22:55:17.954 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.962 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.962 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_05] : Validate Reset Password with empty fields
-[INFO ] 2023-09-12 22:55:17.963 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:17.985 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:17.986 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_06] : Validate Reset Password with mismatch values
-[INFO ] 2023-09-12 22:55:17.986 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.029 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.029 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_01] : Verify Admin lands on Manage Program as Dashboard page after login
-[INFO ] 2023-09-12 22:55:18.029 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.049 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.049 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_02] : Verify the response time for Dashboard page
-[INFO ] 2023-09-12 22:55:18.050 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.063 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.063 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_03] : Verify broken link on the Dashboard page
-[INFO ] 2023-09-12 22:55:18.063 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.079 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.079 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_04] : Verify LMS title on Dashboard page
-[INFO ] 2023-09-12 22:55:18.079 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.092 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.094 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_05] : Verify LMS title alignment on Dashboard page
-[INFO ] 2023-09-12 22:55:18.094 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.111 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.111 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_06] : Validate navigation bar text on Dashboard page
-[INFO ] 2023-09-12 22:55:18.112 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.130 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.134 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_07] : Validate LMS title has correct spelling and space
-[INFO ] 2023-09-12 22:55:18.138 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.178 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.178 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_08] : Validate alignment for navigation bar on Dashboard page
-[INFO ] 2023-09-12 22:55:18.179 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.202 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.202 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_09] : Validate navigation bar order 1st Student
-[INFO ] 2023-09-12 22:55:18.203 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.218 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.218 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_10] : Validate navigation bar order 2nd Program
-[INFO ] 2023-09-12 22:55:18.218 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.238 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.238 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_11] : Validate navigation bar order 3rd Batch
-[INFO ] 2023-09-12 22:55:18.238 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.264 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.264 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_12] : Validate navigation bar order 4th Class
-[INFO ] 2023-09-12 22:55:18.264 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.310 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.310 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_13] : Validate navigation bar order 5th User
-[INFO ] 2023-09-12 22:55:18.310 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.330 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.330 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_14] : Validate navigation bar order 6th Assignment
-[INFO ] 2023-09-12 22:55:18.330 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.344 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.344 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_15] : Validate navigation bar order 7th Attendance
-[INFO ] 2023-09-12 22:55:18.344 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.359 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.359 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_16] : Validate navigation bar order 8th Logout
-[INFO ] 2023-09-12 22:55:18.359 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.650 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.662 [main] LoggerLoad - [@Logout, @TC_Logout_01] : Verify Logout button function
-[INFO ] 2023-09-12 22:55:18.663 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:18.964 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:18.964 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
-[INFO ] 2023-09-12 22:55:18.964 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.114 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.115 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
-[INFO ] 2023-09-12 22:55:19.115 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.175 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.175 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
-[INFO ] 2023-09-12 22:55:19.175 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.489 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.492 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
-[INFO ] 2023-09-12 22:55:19.532 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.715 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.715 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
-[INFO ] 2023-09-12 22:55:19.715 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.734 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.734 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
-[INFO ] 2023-09-12 22:55:19.734 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.747 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.747 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
-[INFO ] 2023-09-12 22:55:19.747 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.772 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.773 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
-[INFO ] 2023-09-12 22:55:19.773 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.784 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.785 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
-[INFO ] 2023-09-12 22:55:19.785 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.806 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.807 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
-[INFO ] 2023-09-12 22:55:19.807 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.827 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.827 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
-[INFO ] 2023-09-12 22:55:19.827 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.864 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.865 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
-[INFO ] 2023-09-12 22:55:19.866 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.879 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:55:19.880 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
-[INFO ] 2023-09-12 22:55:19.880 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:55:19.942 [main] LoggerLoad - Closing Driver
-[INFO ] 2023-09-12 22:57:19.974 [main] LoggerLoad - Loading Config file
-[INFO ] 2023-09-12 22:57:19.979 [main] LoggerLoad - Testing on chrome
-[INFO ] 2023-09-12 22:57:30.163 [main] LoggerLoad - Initializing driver for : chrome
-[INFO ] 2023-09-12 22:57:31.085 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:31.085 [main] LoggerLoad - [@HomePage, @TC_HomePage_01] : Verify admin is able to land on home page
-[INFO ] 2023-09-12 22:57:31.085 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:31.133 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:31.137 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:32.202 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:33.142 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:33.142 [main] LoggerLoad - [@HomePage, @TC_HomePage_02] : Verify admin is able to land on home page with invalid URL
-[INFO ] 2023-09-12 22:57:33.142 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:33.145 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:33.149 [main] LoggerLoad - Admin gives invalid LMS portal url
-[ERROR] 2023-09-12 22:57:33.588 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:34.054 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:34.054 [main] LoggerLoad - [@HomePage, @TC_HomePage_03] : Admin verifies for broken link on the LMS portal
-[INFO ] 2023-09-12 22:57:34.055 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:34.057 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:34.059 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:34.210 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:34.706 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:34.706 [main] LoggerLoad - [@HomePage, @TC_HomePage_04] : Admin verifies correct spellings in all fields on the LMS portal
-[INFO ] 2023-09-12 22:57:34.706 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:34.709 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:34.710 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:34.838 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:35.305 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:35.305 [main] LoggerLoad - [@HomePage, @TC_HomePage_05] : Admin verifies the presence of the LMS logo
-[INFO ] 2023-09-12 22:57:35.305 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:35.307 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:35.309 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:35.434 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:36.007 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:36.008 [main] LoggerLoad - [@HomePage, @TC_HomePage_06] : Admin verifies that the LMS logo is properly aligned
-[INFO ] 2023-09-12 22:57:36.008 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:36.015 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:36.016 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:36.162 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:36.658 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:36.659 [main] LoggerLoad - [@HomePage, @TC_HomePage_07] : Admin verifies the presence of the Login button
-[INFO ] 2023-09-12 22:57:36.659 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:36.664 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:36.666 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:36.838 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:37.333 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:37.334 [main] LoggerLoad - [@HomePage, @TC_HomePage_08] : Admin verifies that the Login button is clickable on LMS Portal
-[INFO ] 2023-09-12 22:57:37.334 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:37.337 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 22:57:37.338 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 22:57:37.487 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:38.009 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:38.009 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : Verify Admin is able to land on the Login page
-[INFO ] 2023-09-12 22:57:38.009 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:38.025 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:38.195 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:38.701 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:38.701 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Admin verifies for broken link on the login page
-[INFO ] 2023-09-12 22:57:38.701 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:38.704 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:38.856 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:39.379 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:39.380 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_03] : Admin Verify the header of the login page
-[INFO ] 2023-09-12 22:57:39.381 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:39.384 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:39.510 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:39.961 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:39.961 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_04] : Admin verifies correct spellings in all fields on the Login page
-[INFO ] 2023-09-12 22:57:39.961 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:39.968 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:40.125 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:40.587 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:40.587 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_05] : Admin Verify the text fields are present on the login page
-[INFO ] 2023-09-12 22:57:40.587 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:40.589 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:40.714 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:41.199 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:41.199 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_06] : Admin Verify the text on the first text field on the login page
-[INFO ] 2023-09-12 22:57:41.199 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:41.205 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:41.519 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:41.990 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:41.991 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_07] : Admin Verify asterik next to the user text on the login page
-[INFO ] 2023-09-12 22:57:41.991 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:42.026 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:42.098 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:42.679 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:42.680 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_08] : Admin Verify the text on the second text field in the login page
-[INFO ] 2023-09-12 22:57:42.680 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:42.687 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:42.876 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:43.684 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:43.685 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_09] : Admin Verify asterik next to the password text on the login page
-[INFO ] 2023-09-12 22:57:43.685 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:43.687 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:43.893 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:44.561 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:44.578 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_10] : Admin Verify the alignment of the input fields on the login page
-[INFO ] 2023-09-12 22:57:44.579 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:44.605 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:44.776 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:45.298 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:45.298 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_11] : Admin verifies the presence of the Login button on the login page
-[INFO ] 2023-09-12 22:57:45.298 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:45.301 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:45.454 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:45.925 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:45.925 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_12] : Admin Verify the alignment of the Login button on the login page
-[INFO ] 2023-09-12 22:57:45.925 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:45.935 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:46.109 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:46.591 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:46.592 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_13] : Admin verifies the presence of the Forgot Username or Password on the login page
-[INFO ] 2023-09-12 22:57:46.592 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:46.596 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:46.716 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:47.211 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:47.211 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_14] : Admin verifies the presence of the Reset Password on the login page
-[INFO ] 2023-09-12 22:57:47.211 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:47.215 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:47.322 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:47.797 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:47.798 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_15] : Admin Verify the input text color in User field
-[INFO ] 2023-09-12 22:57:47.798 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:47.800 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:47.891 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:48.350 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:48.350 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_16] : Admin Verify the input text color in Password field
-[INFO ] 2023-09-12 22:57:48.350 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:57:48.361 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-12 22:57:48.487 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:49.026 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:49.027 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_01] : Validate login with valid credentials
-[INFO ] 2023-09-12 22:57:49.027 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:49.241 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:49.807 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:49.807 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:49.807 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:49.913 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:50.381 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:50.381 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:50.381 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:50.490 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:50.944 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:50.945 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:50.945 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:51.077 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:51.521 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:51.521 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:51.521 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:51.655 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:52.126 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:52.129 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:52.129 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:52.294 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:52.768 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:52.768 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-12 22:57:52.768 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:52.896 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:53.356 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:53.356 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_03] : Verify login button action through keyboard
-[INFO ] 2023-09-12 22:57:53.356 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:53.496 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:53.966 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:53.967 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_04] : Verify login button action through mouse action
-[INFO ] 2023-09-12 22:57:53.967 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:54.102 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:54.548 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:54.548 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_01] : Admin Verify Forgot Username or Password link
-[INFO ] 2023-09-12 22:57:54.548 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:54.663 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:55.173 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:55.175 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_02] : Admin verify broken link for Forgot Username or Password link
-[INFO ] 2023-09-12 22:57:55.175 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:55.395 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:55.874 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:55.874 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_03] : Admin Verify the Email text color
-[INFO ] 2023-09-12 22:57:55.874 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:56.111 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:56.560 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:56.560 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_04] : Admin Verify Email text in text field
-[INFO ] 2023-09-12 22:57:56.560 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:56.738 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:57.194 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:57.195 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_05] : Admin Verify Send Link button is present
-[INFO ] 2023-09-12 22:57:57.195 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:57.315 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:57.766 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:57.766 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_06] : Admin Verify asterik near to the Email text
-[INFO ] 2023-09-12 22:57:57.766 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:57.852 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:58.385 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:58.387 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_07] : Admin Verify the text spelling
-[INFO ] 2023-09-12 22:57:58.388 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:58.709 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:59.157 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:59.157 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_08] : Admin Verify the alignment of the Send Link button
-[INFO ] 2023-09-12 22:57:59.157 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:59.289 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:57:59.754 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:57:59.755 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
-[INFO ] 2023-09-12 22:57:59.755 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:57:59.932 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:00.448 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:00.448 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
-[INFO ] 2023-09-12 22:58:00.448 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:00.621 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:01.081 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:01.082 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_01] : Verify Reset Password link
-[INFO ] 2023-09-12 22:58:01.082 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:01.217 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:01.680 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:01.681 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_02] : Verify text in the Reset Password page
-[INFO ] 2023-09-12 22:58:01.681 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:01.796 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:02.244 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:02.244 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_03] : Verify the presence of Submit button in Reset Password page
-[INFO ] 2023-09-12 22:58:02.244 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:02.384 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:02.919 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:02.921 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_04] : Verify the alignment of the Submit button in Reset Password page
-[INFO ] 2023-09-12 22:58:02.921 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:03.109 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:03.565 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:03.565 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_05] : Verify text box is present in the Reset Password page
-[INFO ] 2023-09-12 22:58:03.565 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:03.690 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:04.150 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:04.150 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_06] : Verify First label text on the Reset Password page
-[INFO ] 2023-09-12 22:58:04.150 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:04.318 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:04.757 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:04.758 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_07] : Verify Second label text on the Reset Password page
-[INFO ] 2023-09-12 22:58:04.758 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:04.875 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:05.321 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:05.321 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_08] : Verify both the text box is in disabled state on the Reset Password page
-[INFO ] 2023-09-12 22:58:05.321 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:05.435 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:05.901 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:05.901 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_01] : Verify text box is enabled in Type in new Password field
-[INFO ] 2023-09-12 22:58:05.902 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:06.011 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:06.465 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:06.465 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_02] : Verify text box is enabled in Retype Password field
-[INFO ] 2023-09-12 22:58:06.465 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:06.576 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:07.046 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:07.047 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_03] : Validate Reset Password with valid details
-[INFO ] 2023-09-12 22:58:07.047 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:07.168 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:07.700 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:07.702 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_04] : Validate Reset Password with invalid details
-[INFO ] 2023-09-12 22:58:07.702 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:07.903 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:08.366 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:08.367 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_05] : Validate Reset Password with empty fields
-[INFO ] 2023-09-12 22:58:08.367 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:08.478 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:08.952 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:08.952 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_06] : Validate Reset Password with mismatch values
-[INFO ] 2023-09-12 22:58:08.952 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:09.062 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:09.532 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:09.532 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_01] : Verify Admin lands on Manage Program as Dashboard page after login
-[INFO ] 2023-09-12 22:58:09.532 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:09.692 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:10.138 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:10.138 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_02] : Verify the response time for Dashboard page
-[INFO ] 2023-09-12 22:58:10.138 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:10.241 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:10.681 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:10.681 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_03] : Verify broken link on the Dashboard page
-[INFO ] 2023-09-12 22:58:10.681 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:10.794 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:11.272 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:11.273 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_04] : Verify LMS title on Dashboard page
-[INFO ] 2023-09-12 22:58:11.273 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:11.390 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:11.865 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:11.865 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_05] : Verify LMS title alignment on Dashboard page
-[INFO ] 2023-09-12 22:58:11.865 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:11.975 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:12.529 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:12.530 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_06] : Validate navigation bar text on Dashboard page
-[INFO ] 2023-09-12 22:58:12.530 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:12.700 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:13.179 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:13.179 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_07] : Validate LMS title has correct spelling and space
-[INFO ] 2023-09-12 22:58:13.179 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:13.441 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:13.908 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:13.908 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_08] : Validate alignment for navigation bar on Dashboard page
-[INFO ] 2023-09-12 22:58:13.908 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:14.075 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:14.523 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:14.523 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_09] : Validate navigation bar order 1st Student
-[INFO ] 2023-09-12 22:58:14.523 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:14.635 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:15.092 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:15.092 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_10] : Validate navigation bar order 2nd Program
-[INFO ] 2023-09-12 22:58:15.092 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:15.209 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:15.659 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:15.660 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_11] : Validate navigation bar order 3rd Batch
-[INFO ] 2023-09-12 22:58:15.660 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:15.876 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:16.477 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:16.481 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_12] : Validate navigation bar order 4th Class
-[INFO ] 2023-09-12 22:58:16.481 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:16.692 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:17.260 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:17.265 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_13] : Validate navigation bar order 5th User
-[INFO ] 2023-09-12 22:58:17.265 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:17.443 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:17.927 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:17.927 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_14] : Validate navigation bar order 6th Assignment
-[INFO ] 2023-09-12 22:58:17.927 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:18.042 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:18.499 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:18.499 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_15] : Validate navigation bar order 7th Attendance
-[INFO ] 2023-09-12 22:58:18.499 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:18.625 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:19.096 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.096 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_16] : Validate navigation bar order 8th Logout
-[INFO ] 2023-09-12 22:58:19.096 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-12 22:58:19.232 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 22:58:19.720 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.721 [main] LoggerLoad - [@Logout, @TC_Logout_01] : Verify Logout button function
-[INFO ] 2023-09-12 22:58:19.721 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.873 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.873 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
-[INFO ] 2023-09-12 22:58:19.873 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.915 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.915 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
-[INFO ] 2023-09-12 22:58:19.915 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.930 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.930 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
-[INFO ] 2023-09-12 22:58:19.930 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.943 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.943 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
-[INFO ] 2023-09-12 22:58:19.944 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.955 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.955 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
-[INFO ] 2023-09-12 22:58:19.955 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:19.973 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:19.974 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
-[INFO ] 2023-09-12 22:58:19.974 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.058 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.060 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
-[INFO ] 2023-09-12 22:58:20.060 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.138 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.139 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
-[INFO ] 2023-09-12 22:58:20.139 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.154 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.154 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
-[INFO ] 2023-09-12 22:58:20.154 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.169 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.169 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
-[INFO ] 2023-09-12 22:58:20.169 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.183 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.183 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
-[INFO ] 2023-09-12 22:58:20.183 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.203 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.203 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
-[INFO ] 2023-09-12 22:58:20.203 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.211 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 22:58:20.211 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
-[INFO ] 2023-09-12 22:58:20.211 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 22:58:20.239 [main] LoggerLoad - Closing Driver
-[INFO ] 2023-09-12 23:27:14.412 [main] LoggerLoad - Loading Config file
-[INFO ] 2023-09-12 23:27:14.416 [main] LoggerLoad - Testing on chrome
-[INFO ] 2023-09-12 23:27:26.045 [main] LoggerLoad - Initializing driver for : chrome
-[INFO ] 2023-09-12 23:27:27.024 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 23:27:27.024 [main] LoggerLoad - [@HomePage, @TC_HomePage_01] : Verify admin is able to land on home page
-[INFO ] 2023-09-12 23:27:27.024 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 23:27:27.095 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 23:27:27.100 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 23:27:28.907 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 23:27:40.953 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 23:27:40.954 [main] LoggerLoad - [@HomePage, @TC_HomePage_02] : Verify admin is able to land on home page with invalid URL
-[INFO ] 2023-09-12 23:27:40.954 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 23:27:40.956 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 23:27:40.958 [main] LoggerLoad - Admin gives invalid LMS portal url
-[ERROR] 2023-09-12 23:27:43.134 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-12 23:27:51.741 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-12 23:27:51.743 [main] LoggerLoad - [@HomePage, @TC_HomePage_03] : Admin verifies for broken link on the LMS portal
-[INFO ] 2023-09-12 23:27:51.743 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-12 23:27:51.749 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-12 23:27:51.753 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-12 23:27:53.917 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:27:47.797 [main] LoggerLoad - Loading Config file
-[INFO ] 2023-09-13 10:27:47.839 [main] LoggerLoad - Testing on chrome
-[INFO ] 2023-09-13 10:28:04.992 [main] LoggerLoad - Initializing driver for : chrome
-[INFO ] 2023-09-13 10:28:05.785 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:05.786 [main] LoggerLoad - [@HomePage, @TC_HomePage_01] : Verify admin is able to land on home page
-[INFO ] 2023-09-13 10:28:05.786 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:05.816 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:05.848 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:06.927 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:12.272 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:12.273 [main] LoggerLoad - [@HomePage, @TC_HomePage_02] : Verify admin is able to land on home page with invalid URL
-[INFO ] 2023-09-13 10:28:12.273 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:12.278 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:12.280 [main] LoggerLoad - Admin gives invalid LMS portal url
-[ERROR] 2023-09-13 10:28:12.741 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:14.179 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:14.179 [main] LoggerLoad - [@HomePage, @TC_HomePage_03] : Admin verifies for broken link on the LMS portal
-[INFO ] 2023-09-13 10:28:14.179 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:14.184 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:14.186 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:14.330 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:15.605 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:15.605 [main] LoggerLoad - [@HomePage, @TC_HomePage_04] : Admin verifies correct spellings in all fields on the LMS portal
-[INFO ] 2023-09-13 10:28:15.605 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:15.609 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:15.611 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:15.791 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:16.400 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:16.400 [main] LoggerLoad - [@HomePage, @TC_HomePage_05] : Admin verifies the presence of the LMS logo
-[INFO ] 2023-09-13 10:28:16.400 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:16.405 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:16.405 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:16.572 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:17.062 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:17.067 [main] LoggerLoad - [@HomePage, @TC_HomePage_06] : Admin verifies that the LMS logo is properly aligned
-[INFO ] 2023-09-13 10:28:17.067 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:17.069 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:17.071 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:17.211 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:17.701 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:17.701 [main] LoggerLoad - [@HomePage, @TC_HomePage_07] : Admin verifies the presence of the Login button
-[INFO ] 2023-09-13 10:28:17.701 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:17.704 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:17.705 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:17.843 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:18.629 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:18.629 [main] LoggerLoad - [@HomePage, @TC_HomePage_08] : Admin verifies that the Login button is clickable on LMS Portal
-[INFO ] 2023-09-13 10:28:18.629 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:18.642 [main] LoggerLoad - Admin launch the browser
-[INFO ] 2023-09-13 10:28:18.644 [main] LoggerLoad - Admin launch the LMS Portal url 
-[ERROR] 2023-09-13 10:28:18.800 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:19.341 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:19.342 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : Verify Admin is able to land on the Login page
-[INFO ] 2023-09-13 10:28:19.342 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:19.360 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:19.496 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:19.944 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:19.944 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Admin verifies for broken link on the login page
-[INFO ] 2023-09-13 10:28:19.944 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:19.945 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:20.181 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:20.768 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:20.769 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_03] : Admin Verify the header of the login page
-[INFO ] 2023-09-13 10:28:20.769 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:20.790 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:20.936 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:21.478 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:21.478 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_04] : Admin verifies correct spellings in all fields on the Login page
-[INFO ] 2023-09-13 10:28:21.478 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:21.480 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:21.614 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:22.132 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:22.133 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_05] : Admin Verify the text fields are present on the login page
-[INFO ] 2023-09-13 10:28:22.133 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:22.146 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:22.945 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:23.454 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:23.455 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_06] : Admin Verify the text on the first text field on the login page
-[INFO ] 2023-09-13 10:28:23.455 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:23.465 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:23.629 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:24.103 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:24.103 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_07] : Admin Verify asterik next to the user text on the login page
-[INFO ] 2023-09-13 10:28:24.103 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:24.105 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:24.253 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:24.742 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:24.743 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_08] : Admin Verify the text on the second text field in the login page
-[INFO ] 2023-09-13 10:28:24.743 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:24.748 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:24.865 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:25.381 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:25.381 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_09] : Admin Verify asterik next to the password text on the login page
-[INFO ] 2023-09-13 10:28:25.381 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:25.386 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:25.517 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:26.063 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:26.063 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_10] : Admin Verify the alignment of the input fields on the login page
-[INFO ] 2023-09-13 10:28:26.063 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:26.096 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:26.282 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:26.763 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:26.763 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_11] : Admin verifies the presence of the Login button on the login page
-[INFO ] 2023-09-13 10:28:26.763 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:26.764 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:26.897 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:27.355 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:27.355 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_12] : Admin Verify the alignment of the Login button on the login page
-[INFO ] 2023-09-13 10:28:27.355 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:27.357 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:27.480 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:27.927 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:27.928 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_13] : Admin verifies the presence of the Forgot Username or Password on the login page
-[INFO ] 2023-09-13 10:28:27.928 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:27.929 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:28.066 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:28.518 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:28.518 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_14] : Admin verifies the presence of the Reset Password on the login page
-[INFO ] 2023-09-13 10:28:28.518 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:28.519 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:28.668 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:29.136 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:29.137 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_15] : Admin Verify the input text color in User field
-[INFO ] 2023-09-13 10:28:29.137 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:29.139 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:29.273 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:29.766 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:29.768 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_16] : Admin Verify the input text color in Password field
-[INFO ] 2023-09-13 10:28:29.768 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:28:29.785 [main] LoggerLoad - Admin launch the LMS portal
-[ERROR] 2023-09-13 10:28:29.961 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:30.469 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:30.469 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_01] : Validate login with valid credentials
-[INFO ] 2023-09-13 10:28:30.469 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:30.645 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:31.097 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:31.097 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:31.097 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:31.214 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:31.655 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:31.655 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:31.655 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:31.766 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:32.219 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:32.219 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:32.219 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:32.429 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:32.915 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:32.917 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:32.918 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:33.084 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:33.554 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:33.554 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:33.554 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:33.679 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:34.118 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:34.118 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
-[INFO ] 2023-09-13 10:28:34.118 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:34.235 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:34.715 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:34.715 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_03] : Verify login button action through keyboard
-[INFO ] 2023-09-13 10:28:34.715 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:34.863 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:35.726 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:35.728 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_04] : Verify login button action through mouse action
-[INFO ] 2023-09-13 10:28:35.829 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:36.019 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:36.530 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:36.530 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_01] : Admin Verify Forgot Username or Password link
-[INFO ] 2023-09-13 10:28:36.530 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:36.720 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:37.202 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:37.203 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_02] : Admin verify broken link for Forgot Username or Password link
-[INFO ] 2023-09-13 10:28:37.203 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:37.323 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:38.191 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:38.191 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_03] : Admin Verify the Email text color
-[INFO ] 2023-09-13 10:28:38.191 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:38.341 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:38.819 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:38.819 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_04] : Admin Verify Email text in text field
-[INFO ] 2023-09-13 10:28:38.819 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:38.932 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:39.398 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:39.398 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_05] : Admin Verify Send Link button is present
-[INFO ] 2023-09-13 10:28:39.398 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:39.512 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:39.949 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:39.949 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_06] : Admin Verify asterik near to the Email text
-[INFO ] 2023-09-13 10:28:39.949 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:40.083 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:40.528 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:40.529 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_07] : Admin Verify the text spelling
-[INFO ] 2023-09-13 10:28:40.529 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:40.677 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:41.136 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:41.138 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_08] : Admin Verify the alignment of the Send Link button
-[INFO ] 2023-09-13 10:28:41.138 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:41.322 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:41.928 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:41.934 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
-[INFO ] 2023-09-13 10:28:41.934 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:42.049 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:42.539 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:42.539 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
-[INFO ] 2023-09-13 10:28:42.539 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:42.886 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:43.409 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:43.409 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_01] : Verify Reset Password link
-[INFO ] 2023-09-13 10:28:43.409 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:43.710 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:44.160 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:44.161 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_02] : Verify text in the Reset Password page
-[INFO ] 2023-09-13 10:28:44.161 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:44.290 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:44.778 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:44.779 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_03] : Verify the presence of Submit button in Reset Password page
-[INFO ] 2023-09-13 10:28:44.779 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:44.912 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:45.386 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:45.386 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_04] : Verify the alignment of the Submit button in Reset Password page
-[INFO ] 2023-09-13 10:28:45.387 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:45.505 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:45.969 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:45.969 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_05] : Verify text box is present in the Reset Password page
-[INFO ] 2023-09-13 10:28:45.969 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:46.084 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:46.527 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:46.527 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_06] : Verify First label text on the Reset Password page
-[INFO ] 2023-09-13 10:28:46.527 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:46.636 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:47.180 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:47.183 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_07] : Verify Second label text on the Reset Password page
-[INFO ] 2023-09-13 10:28:47.183 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:47.306 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:47.749 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:47.749 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_08] : Verify both the text box is in disabled state on the Reset Password page
-[INFO ] 2023-09-13 10:28:47.749 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:47.871 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:48.368 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:48.368 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_01] : Verify text box is enabled in Type in new Password field
-[INFO ] 2023-09-13 10:28:48.368 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:48.511 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:48.975 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:48.975 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_02] : Verify text box is enabled in Retype Password field
-[INFO ] 2023-09-13 10:28:48.975 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:49.094 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:49.570 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:49.570 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_03] : Validate Reset Password with valid details
-[INFO ] 2023-09-13 10:28:49.570 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:49.704 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:50.156 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:50.156 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_04] : Validate Reset Password with invalid details
-[INFO ] 2023-09-13 10:28:50.156 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:50.273 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:50.755 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:50.756 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_05] : Validate Reset Password with empty fields
-[INFO ] 2023-09-13 10:28:50.756 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:50.877 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:51.330 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:51.330 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_06] : Validate Reset Password with mismatch values
-[INFO ] 2023-09-13 10:28:51.331 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:51.469 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:52.111 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:52.113 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_01] : Verify Admin lands on Manage Program as Dashboard page after login
-[INFO ] 2023-09-13 10:28:52.113 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:52.427 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:53.115 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:53.118 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_02] : Verify the response time for Dashboard page
-[INFO ] 2023-09-13 10:28:53.118 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:53.266 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:53.729 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:53.729 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_03] : Verify broken link on the Dashboard page
-[INFO ] 2023-09-13 10:28:53.729 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:53.852 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:54.289 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:54.289 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_04] : Verify LMS title on Dashboard page
-[INFO ] 2023-09-13 10:28:54.289 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:54.419 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:54.884 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:54.884 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_05] : Verify LMS title alignment on Dashboard page
-[INFO ] 2023-09-13 10:28:54.884 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:55.021 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:55.464 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:55.464 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_06] : Validate navigation bar text on Dashboard page
-[INFO ] 2023-09-13 10:28:55.464 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:55.622 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:56.100 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:56.101 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_07] : Validate LMS title has correct spelling and space
-[INFO ] 2023-09-13 10:28:56.101 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:56.220 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:56.675 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:56.675 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_08] : Validate alignment for navigation bar on Dashboard page
-[INFO ] 2023-09-13 10:28:56.675 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:56.820 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:57.426 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:57.429 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_09] : Validate navigation bar order 1st Student
-[INFO ] 2023-09-13 10:28:57.429 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:57.507 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:58.535 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:58.535 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_10] : Validate navigation bar order 2nd Program
-[INFO ] 2023-09-13 10:28:58.535 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:58.881 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:28:59.631 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:28:59.632 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_11] : Validate navigation bar order 3rd Batch
-[INFO ] 2023-09-13 10:28:59.633 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:28:59.880 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:00.336 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:00.336 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_12] : Validate navigation bar order 4th Class
-[INFO ] 2023-09-13 10:29:00.336 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:29:00.548 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:01.218 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:01.219 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_13] : Validate navigation bar order 5th User
-[INFO ] 2023-09-13 10:29:01.219 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:29:01.299 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:01.802 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:01.802 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_14] : Validate navigation bar order 6th Assignment
-[INFO ] 2023-09-13 10:29:01.802 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:29:02.051 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:03.503 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:03.505 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_15] : Validate navigation bar order 7th Attendance
-[INFO ] 2023-09-13 10:29:03.505 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:29:03.952 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:04.598 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:04.598 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_16] : Validate navigation bar order 8th Logout
-[INFO ] 2023-09-13 10:29:04.598 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[ERROR] 2023-09-13 10:29:04.823 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:05.717 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:05.723 [main] LoggerLoad - [@Logout, @TC_Logout_01] : Verify Logout button function
-[INFO ] 2023-09-13 10:29:05.723 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:06.056 [main] LoggerLoad - Title of the current page: lmsportal.com
-[ERROR] 2023-09-13 10:29:06.225 [main] LoggerLoad - Assertion failed: Title of the current page do not match expected [Dashboard] but found [lmsportal.com]
-[INFO ] 2023-09-13 10:29:06.227 [main] LoggerLoad - Admin clicks on Logout button from the navigation bar
-[ERROR] 2023-09-13 10:29:06.424 [main] LoggerLoad - Steps Failed , Taking Screenshot
-[INFO ] 2023-09-13 10:29:07.598 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.599 [main] LoggerLoad - [@Register, @TC_Register_01] : User launch home page of an dsalgo project
-[INFO ] 2023-09-13 10:29:07.599 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.655 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.655 [main] LoggerLoad - [@Register, @TC_Register_02] : The user is presented with error message for empty fields below Username textbox
-[INFO ] 2023-09-13 10:29:07.655 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.690 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.690 [main] LoggerLoad - [@Register, @TC_Register_03] : The user is presented with error message for empty fields below Password textbox
-[INFO ] 2023-09-13 10:29:07.690 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.739 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.739 [main] LoggerLoad - [@Register, @TC_Register_04] : The user is presented with error message for empty fields below Password Confirmation textbox
-[INFO ] 2023-09-13 10:29:07.739 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.773 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.773 [main] LoggerLoad - [@Register, @TC_Register_05] : The user is presented with error message for invalid username
-[INFO ] 2023-09-13 10:29:07.773 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.807 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.811 [main] LoggerLoad - [@Register, @TC_Register_06] : The user is presented with error message for username already exists
-[INFO ] 2023-09-13 10:29:07.811 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.834 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.834 [main] LoggerLoad - [@Register, @TC_Register_07] : The user is presented with error message for password mismatch
-[INFO ] 2023-09-13 10:29:07.834 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.857 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.857 [main] LoggerLoad - [@Register, @TC_Register_08] : The user is presented with error message for password with characters less than 8
-[INFO ] 2023-09-13 10:29:07.857 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.873 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.873 [main] LoggerLoad - [@Register, @TC_Register_09] : The user is presented with error message for password with only numbers
-[INFO ] 2023-09-13 10:29:07.873 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.899 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.899 [main] LoggerLoad - [@Register, @TC_Register_10] : The user is presented with error message for password too similar to your other personal information
-[INFO ] 2023-09-13 10:29:07.899 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.919 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.919 [main] LoggerLoad - [@Register, @TC_Register_11] : The user is presented with error message for commonly used password
-[INFO ] 2023-09-13 10:29:07.919 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:07.961 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:07.961 [main] LoggerLoad - [@Register, @TC_Register_12] : The user is succesfully able to register
-[INFO ] 2023-09-13 10:29:07.961 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:08.163 [main] LoggerLoad - ===============================================================================================
-[INFO ] 2023-09-13 10:29:08.166 [main] LoggerLoad - [@Register, @TC_Register_13] : The user is able to signout from the registered page
-[INFO ] 2023-09-13 10:29:08.166 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
-[INFO ] 2023-09-13 10:29:08.231 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-09-13 14:33:27.463 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-09-13 14:33:27.466 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-09-13 14:33:36.909 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-09-13 14:33:37.391 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:37.392 [main] LoggerLoad - [@HomePage, @TC_HomePage_01] : Verify admin is able to land on home page
+[INFO ] 2023-09-13 14:33:37.392 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:37.450 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:37.453 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:40.334 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:41.105 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:41.105 [main] LoggerLoad - [@HomePage, @TC_HomePage_02] : Verify admin is able to land on home page with invalid URL
+[INFO ] 2023-09-13 14:33:41.105 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:41.107 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:41.109 [main] LoggerLoad - Admin gives invalid LMS portal url
+[ERROR] 2023-09-13 14:33:41.445 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:43.712 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:43.713 [main] LoggerLoad - [@HomePage, @TC_HomePage_03] : Admin verifies for broken link on the LMS portal
+[INFO ] 2023-09-13 14:33:43.713 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:43.715 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:43.718 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:43.804 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:44.660 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:44.678 [main] LoggerLoad - [@HomePage, @TC_HomePage_04] : Admin verifies correct spellings in all fields on the LMS portal
+[INFO ] 2023-09-13 14:33:44.678 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:44.708 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:44.743 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:44.903 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:45.720 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:45.720 [main] LoggerLoad - [@HomePage, @TC_HomePage_05] : Admin verifies the presence of the LMS logo
+[INFO ] 2023-09-13 14:33:45.720 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:45.723 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:45.725 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:45.849 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:46.356 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:46.357 [main] LoggerLoad - [@HomePage, @TC_HomePage_06] : Admin verifies that the LMS logo is properly aligned
+[INFO ] 2023-09-13 14:33:46.357 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:46.360 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:46.361 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:46.475 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:46.951 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:46.952 [main] LoggerLoad - [@HomePage, @TC_HomePage_07] : Admin verifies the presence of the Login button
+[INFO ] 2023-09-13 14:33:46.952 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:46.954 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:46.956 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:47.073 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:47.541 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:47.541 [main] LoggerLoad - [@HomePage, @TC_HomePage_08] : Admin verifies that the Login button is clickable on LMS Portal
+[INFO ] 2023-09-13 14:33:47.541 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:47.544 [main] LoggerLoad - Admin launch the browser
+[INFO ] 2023-09-13 14:33:47.545 [main] LoggerLoad - Admin launch the LMS Portal url 
+[ERROR] 2023-09-13 14:33:47.671 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:48.128 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:48.128 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : Verify Admin is able to land on the Login page
+[INFO ] 2023-09-13 14:33:48.128 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:48.140 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:48.263 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:48.768 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:48.770 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Admin verifies for broken link on the login page
+[INFO ] 2023-09-13 14:33:48.770 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:48.778 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:48.920 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:49.384 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:49.385 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_03] : Admin Verify the header of the login page
+[INFO ] 2023-09-13 14:33:49.385 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:49.387 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:49.501 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:49.946 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:49.946 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_04] : Admin verifies correct spellings in all fields on the Login page
+[INFO ] 2023-09-13 14:33:49.946 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:49.951 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:50.083 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:50.530 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:50.530 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_05] : Admin Verify the text fields are present on the login page
+[INFO ] 2023-09-13 14:33:50.530 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:50.533 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:50.652 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:51.095 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:51.095 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_06] : Admin Verify the text on the first text field on the login page
+[INFO ] 2023-09-13 14:33:51.095 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:51.100 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:51.209 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:51.708 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:51.708 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_07] : Admin Verify asterik next to the user text on the login page
+[INFO ] 2023-09-13 14:33:51.708 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:51.747 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:52.003 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:52.471 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:52.472 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_08] : Admin Verify the text on the second text field in the login page
+[INFO ] 2023-09-13 14:33:52.472 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:52.475 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:52.528 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:53.017 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:53.018 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_09] : Admin Verify asterik next to the password text on the login page
+[INFO ] 2023-09-13 14:33:53.018 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:53.022 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:53.149 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:53.607 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:53.607 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_10] : Admin Verify the alignment of the input fields on the login page
+[INFO ] 2023-09-13 14:33:53.608 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:53.609 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:53.712 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:54.166 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:54.166 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_11] : Admin verifies the presence of the Login button on the login page
+[INFO ] 2023-09-13 14:33:54.166 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:54.166 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:54.280 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:54.755 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:54.755 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_12] : Admin Verify the alignment of the Login button on the login page
+[INFO ] 2023-09-13 14:33:54.755 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:54.802 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:55.074 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:55.650 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:55.651 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_13] : Admin verifies the presence of the Forgot Username or Password on the login page
+[INFO ] 2023-09-13 14:33:55.651 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:55.653 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:55.773 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:56.291 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:56.309 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_14] : Admin verifies the presence of the Reset Password on the login page
+[INFO ] 2023-09-13 14:33:56.309 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:56.328 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:56.376 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:57.025 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:57.042 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_15] : Admin Verify the input text color in User field
+[INFO ] 2023-09-13 14:33:57.042 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:57.079 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:57.217 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:57.684 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:57.685 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_16] : Admin Verify the input text color in Password field
+[INFO ] 2023-09-13 14:33:57.685 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:33:57.702 [main] LoggerLoad - Admin launch the LMS portal
+[ERROR] 2023-09-13 14:33:57.750 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:58.257 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:58.257 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_01] : Validate login with valid credentials
+[INFO ] 2023-09-13 14:33:58.257 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:33:58.383 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:58.922 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:58.924 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:33:58.924 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:33:59.071 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:33:59.537 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:33:59.537 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:33:59.537 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:33:59.644 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:00.125 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:00.125 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:34:00.125 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:00.257 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:00.713 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:00.714 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:34:00.714 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:00.829 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:01.275 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:01.275 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:34:01.275 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:01.392 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:01.857 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:01.858 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_02] : Validate login with invalid credentials from Excel "Sheetname" and "RowNumber"
+[INFO ] 2023-09-13 14:34:01.858 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:02.059 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:02.551 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:02.551 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_03] : Verify login button action through keyboard
+[INFO ] 2023-09-13 14:34:02.551 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:02.645 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:03.095 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:03.096 [main] LoggerLoad - [@LoginCredentials, @TC_LoginCredentials_04] : Verify login button action through mouse action
+[INFO ] 2023-09-13 14:34:03.096 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:03.202 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:03.677 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:03.677 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_01] : Admin Verify Forgot Username or Password link
+[INFO ] 2023-09-13 14:34:03.677 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:03.780 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:04.238 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:04.239 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_02] : Admin verify broken link for Forgot Username or Password link
+[INFO ] 2023-09-13 14:34:04.239 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:04.356 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:04.834 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:04.834 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_03] : Admin Verify the Email text color
+[INFO ] 2023-09-13 14:34:04.834 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:04.957 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:05.479 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:05.481 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_04] : Admin Verify Email text in text field
+[INFO ] 2023-09-13 14:34:05.481 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:05.621 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:06.177 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:06.178 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_05] : Admin Verify Send Link button is present
+[INFO ] 2023-09-13 14:34:06.178 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:06.283 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:06.731 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:06.731 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_06] : Admin Verify asterik near to the Email text
+[INFO ] 2023-09-13 14:34:06.731 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:06.805 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:07.268 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:07.268 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_07] : Admin Verify the text spelling
+[INFO ] 2023-09-13 14:34:07.268 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:07.387 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:07.853 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:07.853 [main] LoggerLoad - [@ForgotUsernamePassword, @TC_ForgotUsernamePassword_08] : Admin Verify the alignment of the Send Link button
+[INFO ] 2023-09-13 14:34:07.853 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:07.977 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:08.939 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:08.940 [main] LoggerLoad - [@SendLink, @TC_SendLink_01] : Validate Email sent for Forgot Username or Password with valid email id
+[INFO ] 2023-09-13 14:34:08.940 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:09.158 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:09.732 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:09.734 [main] LoggerLoad - [@SendLink, @TC_SendLink_02] : Validate Email sent for Forgot Username or Password with invalid email id
+[INFO ] 2023-09-13 14:34:09.734 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:09.864 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:10.334 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:10.334 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_01] : Verify Reset Password link
+[INFO ] 2023-09-13 14:34:10.334 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:10.450 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:10.904 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:10.904 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_02] : Verify text in the Reset Password page
+[INFO ] 2023-09-13 14:34:10.904 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:11.023 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:11.466 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:11.466 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_03] : Verify the presence of Submit button in Reset Password page
+[INFO ] 2023-09-13 14:34:11.466 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:11.589 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:12.024 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:12.024 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_04] : Verify the alignment of the Submit button in Reset Password page
+[INFO ] 2023-09-13 14:34:12.024 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:12.141 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:12.583 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:12.584 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_05] : Verify text box is present in the Reset Password page
+[INFO ] 2023-09-13 14:34:12.584 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:12.803 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:13.298 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:13.298 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_06] : Verify First label text on the Reset Password page
+[INFO ] 2023-09-13 14:34:13.298 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:13.410 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:13.849 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:13.850 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_07] : Verify Second label text on the Reset Password page
+[INFO ] 2023-09-13 14:34:13.850 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:13.957 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:14.415 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:14.415 [main] LoggerLoad - [@ResetPassword, @TC_ResetPassword_08] : Verify both the text box is in disabled state on the Reset Password page
+[INFO ] 2023-09-13 14:34:14.415 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:14.538 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:15.010 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:15.010 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_01] : Verify text box is enabled in Type in new Password field
+[INFO ] 2023-09-13 14:34:15.010 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:15.163 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:15.658 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:15.658 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_02] : Verify text box is enabled in Retype Password field
+[INFO ] 2023-09-13 14:34:15.658 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:15.782 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:16.320 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:16.322 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_03] : Validate Reset Password with valid details
+[INFO ] 2023-09-13 14:34:16.322 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:16.479 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:16.915 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:16.916 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_04] : Validate Reset Password with invalid details
+[INFO ] 2023-09-13 14:34:16.916 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:17.046 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:17.486 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:17.487 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_05] : Validate Reset Password with empty fields
+[INFO ] 2023-09-13 14:34:17.487 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:17.596 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:18.044 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:18.045 [main] LoggerLoad - [@ResetPasswordDetails, @TC_ResetPasswordDetails_06] : Validate Reset Password with mismatch values
+[INFO ] 2023-09-13 14:34:18.045 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:18.148 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:18.607 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:18.607 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_01] : Verify Admin lands on Manage Program as Dashboard page after login
+[INFO ] 2023-09-13 14:34:18.607 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:18.731 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:19.257 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:19.259 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_02] : Verify the response time for Dashboard page
+[INFO ] 2023-09-13 14:34:19.259 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:19.426 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:19.998 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:20.000 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_03] : Verify broken link on the Dashboard page
+[INFO ] 2023-09-13 14:34:20.000 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:20.167 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:20.620 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:20.620 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_04] : Verify LMS title on Dashboard page
+[INFO ] 2023-09-13 14:34:20.620 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:20.748 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:21.209 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:21.210 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_05] : Verify LMS title alignment on Dashboard page
+[INFO ] 2023-09-13 14:34:21.210 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:21.317 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:21.776 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:21.776 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_06] : Validate navigation bar text on Dashboard page
+[INFO ] 2023-09-13 14:34:21.776 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:21.893 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:22.350 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:22.350 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_07] : Validate LMS title has correct spelling and space
+[INFO ] 2023-09-13 14:34:22.350 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:22.452 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:22.920 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:22.920 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_08] : Validate alignment for navigation bar on Dashboard page
+[INFO ] 2023-09-13 14:34:22.920 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:23.037 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:23.562 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:23.564 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_09] : Validate navigation bar order 1st Student
+[INFO ] 2023-09-13 14:34:23.564 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:23.781 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:24.242 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:24.242 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_10] : Validate navigation bar order 2nd Program
+[INFO ] 2023-09-13 14:34:24.242 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:24.371 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:24.818 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:24.818 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_11] : Validate navigation bar order 3rd Batch
+[INFO ] 2023-09-13 14:34:24.818 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:24.929 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:25.371 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:25.371 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_12] : Validate navigation bar order 4th Class
+[INFO ] 2023-09-13 14:34:25.371 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:25.472 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:25.920 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:25.920 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_13] : Validate navigation bar order 5th User
+[INFO ] 2023-09-13 14:34:25.920 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:26.024 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:26.467 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:26.467 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_14] : Validate navigation bar order 6th Assignment
+[INFO ] 2023-09-13 14:34:26.467 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:26.577 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:27.130 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:27.133 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_15] : Validate navigation bar order 7th Attendance
+[INFO ] 2023-09-13 14:34:27.134 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:27.247 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:27.719 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:27.720 [main] LoggerLoad - [@Dashboard, @TC_Dashboard_16] : Validate navigation bar order 8th Logout
+[INFO ] 2023-09-13 14:34:27.720 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-09-13 14:34:27.824 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:28.293 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-09-13 14:34:28.293 [main] LoggerLoad - [@Logout, @TC_Logout_01] : Verify Logout button function
+[INFO ] 2023-09-13 14:34:28.293 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-09-13 14:34:28.337 [main] LoggerLoad - Title of the current page: lmsportal.com
+[ERROR] 2023-09-13 14:34:28.381 [main] LoggerLoad - Assertion failed: Title of the current page do not match expected [Dashboard] but found [lmsportal.com]
+[INFO ] 2023-09-13 14:34:28.383 [main] LoggerLoad - Admin clicks on Logout button from the navigation bar
+[ERROR] 2023-09-13 14:34:28.488 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-09-13 14:34:28.901 [main] LoggerLoad - Closing Driver

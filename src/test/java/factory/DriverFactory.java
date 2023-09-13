@@ -17,8 +17,6 @@ public class DriverFactory {
 
 	public static WebDriver driver;
 
-	MainPage loginPage;
-	DashboardPage dashboardPage;
 	
 	public WebDriver initializeDrivers(String browser) {
 
