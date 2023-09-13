@@ -29,7 +29,7 @@ public class DashboardPageSD extends DriverFactory {
 	public void admin_is_on_page_for_dashboard_validation(String login) {
 		dashboardPage.getLMSPortal();
 		dashboardPage.clickHomeLoginButton();
-		String title = verifyPageTitle();
+		String title = dashboardPage.verifyPageTitle();
 		LoggerLoad.info("Title of the current page: " + title);
 		try {
 			assertEquals(title, login, "Page Title do not match");
@@ -42,8 +42,8 @@ public class DashboardPageSD extends DriverFactory {
 	@When("Admin enter valid {string} and {string}")
 	public void admin_enter_valid_and(String string, String string1, io.cucumber.datatable.DataTable dataTable) {
 		try {
-			enterValidUsername(dataTable);
-			enterValidPassword(dataTable);
+			loginPage.enterValidUsername(dataTable);
+			loginPage.enterValidPassword(dataTable);
 		} catch (Error e) {
 			LoggerLoad.error("Login Failed: " + e.getMessage());
 		}
@@ -258,5 +258,23 @@ public class DashboardPageSD extends DriverFactory {
 			LoggerLoad.error("Assertion failed: " + e.getMessage());
 		}
 	}
+	
+//	@Given("Admin is on {string} page after login with valid {string} and {string}")
+//	public void admin_is_on_page_after_login_with_valid_and(String dashboard,String string1, String string2,io.cucumber.datatable.DataTable dataTable) {
+//		{
+//		dashboardPage.getLoginPage();
+//		loginPage.enterValidUsername(dataTable);
+//		loginPage.enterValidPassword(dataTable);
+//		dashboardPage.clickLoginButton();
+//		String title = dashboardPage.verifyPageTitle();
+//		LoggerLoad.info("Title of the current page: " + title);
+//		try {
+//			assertEquals(title, dashboard, "Page Title do not match");
+//		} catch (AssertionError e) {
+//			LoggerLoad.error("Assertion failed: " + e.getMessage());
+//		}
+//				}
+		
+	}
 
-}
+
