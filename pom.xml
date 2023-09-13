@@ -129,6 +129,15 @@
     <version>2.20.0</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>7.13.0</version>
+</dependency>
+
+
+
 	</dependencies>
   
 </project>

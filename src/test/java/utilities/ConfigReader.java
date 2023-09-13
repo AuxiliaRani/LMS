@@ -50,15 +50,15 @@ public class ConfigReader {
 			throw new RuntimeException("url not specified in the config.properties file.");
 	}
 
-	// method to get the home page url
-	public static String getHomePage() {
-		String homepage = prop.getProperty("homepage");
-		if (homepage != null) {
-			return homepage;
-		} else {
-			throw new RuntimeException("homepage not specified in the config.properties file.");
+	
+	// method to get the Dashboard url
+		public static String getDashboardURL() {
+			String url = prop.getProperty("dashboard_url");
+			if (url != null)
+				return url;
+			else
+				throw new RuntimeException("url not specified in the config.properties file.");
 		}
-	}
 	
 	// method to get the login page url
 		public static String getLoginPage() {

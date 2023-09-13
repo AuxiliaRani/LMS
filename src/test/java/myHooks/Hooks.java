@@ -1,3 +1,4 @@
+
 package myHooks;
 
 import java.io.ByteArrayInputStream;
@@ -13,7 +14,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
-
+import pageObjects.AttendanceModule;
 
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
@@ -22,6 +23,8 @@ public class Hooks {
 	
 	public static WebDriver driver;
 	public static DriverFactory driverfactory;
+	private AttendanceModule attendance;
+
 
 	@BeforeAll
 	public static void before() throws Throwable {
@@ -42,7 +45,6 @@ public class Hooks {
 		LoggerLoad.info("===============================================================================================");
 		LoggerLoad.info(scenario.getSourceTagNames() +" : "+scenario.getName());
 		LoggerLoad.info("-----------------------------------------------------------------------------------------------");
-		
 	}
 	
 	@AfterStep
@@ -57,10 +59,24 @@ public class Hooks {
 		}
 	}
 	
+	
+	
 	@AfterAll
 	public static void after() {
 		LoggerLoad.info("Closing Driver");
 		driverfactory.closeallDriver();
 	}
 	
+	public void setAttendanceModule() {
+		attendance = new AttendanceModule(driver);
+		
+	}
+	
+	public AttendanceModule getAttendanceModuleObject() {
+		return attendance;
+	}
+	
 }
+
+
+
