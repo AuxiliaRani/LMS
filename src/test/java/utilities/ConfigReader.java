@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
+
 
 public class ConfigReader {
 
@@ -76,10 +78,34 @@ public class ConfigReader {
 					if (excelfilepath != null) {
 						return excelfilepath;
 					} else {
-						throw new RuntimeException("excelfilepath not specified in the config.properties file.");
+						throw new RuntimeException("excelfilepath not specified in the config.properties file.");}
 					}
-				}
-	
-	
 
+				public static int getbatchid() {
+					// TODO Auto-generated method stub
+					return 0;
+				}
+
+				public static String getStudentname() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+
+				public static String getnewuser() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+
+				public static String getlocation() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+					
+					
+					
+				
+				
+				
+				
+					
 }
