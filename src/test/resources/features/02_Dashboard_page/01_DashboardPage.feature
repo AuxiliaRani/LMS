@@ -1,119 +1,84 @@
-@Register
-Feature: User Validates the register page in DS Algo
-@TC_Register_01
-  Scenario: User launch home page of an dsalgo project
-    Given The user opens DS Algo portal link
-    When The user clicks the "Get Started" button
-    Then The user should be redirected to the home page
-    
-  @TC_Register_02
-  Scenario: The user is presented with error message for empty fields below Username textbox
-    Given The user opens Register Page
-    When The user clicks "Register" button with all fields empty
-    Then It should display an error "Please fill out this field." below Username textbox
+@Dashboard
+Feature: Dashboard Page
 
-  @TC_Register_03
-  Scenario: The user is presented with error message for empty fields below Password textbox
-    Given The user opens Register Page
-    When  The user clicks "Register" button after entering username with other fields empty
-			 | username        |
-			 | Numpy@sdet117_1 |
-    Then It should display an error "Please fill out this field." below Password textbox
-    
-  
- 	@TC_Register_04
-  Scenario: The user is presented with error message for empty fields below Password Confirmation textbox
-   	Given The user opens Register Page
-    When The user clicks "Register" button after entering "username" and "password" with Password Confirmation field empty
-			 | 	 username      | password     |
-			 | Numpy@sdet117_1 | testpassword |
-    Then It should display an error "Please fill out this field." below Password Confirmation textbox
-        
-  
-  @TC_Register_05
-  Scenario: The user is presented with error message for invalid username
-    Given The user opens Register Page
-    When The user enters a "username" with characters other than Letters, digits and "@/./+/-/_"
-				| username | password     | password confirmation |
-				| &**&**&  | testpassword | testpassword          |
-    Then It should display an error message "Please enter a valid username"
-    
-  @TC_Register_06
-  Scenario:  The user is presented with error message for username already exists
-    Given The user opens Register Page
-    When The user enters a valid existing "username" with "password" and "password confirmation"
-	      | username     		| password  | password confirmation |
-	      | Numpy@sdet117_1 | RT56YUabc | RT56YUabc  							|
-    Then It should display an error message "Username already exists"
-    
-    @TC_Register_07
-  Scenario:  The user is presented with error message for password mismatch
-    Given The user opens Register Page
-    When The user clicks "Register" button after entering valid "username" and different passwords in "password" and "password confirmation" fields
-	      | username     		| password     | password confirmation |
-	      | Numpy@sdet117_1 | testpassword | testpassword1   | 
-    Then It should display an error message "password_mismatch:The two password fields didn’t match."
-    
-    @TC_Register_08
-  Scenario:  The user is presented with error message for password with characters less than 8
-    Given The user opens Register Page
-    When he user enters a valid "username" and "password" with characters less than 8
-	      | username     		| password | password confirmation |
-	      | Numpy@sdet117_1 | a1b2c3d  | a1b2c3d            |
-    Then It should display an error message "Password should contain at least 8 characters"
-    
-    @TC_Register_09
-  Scenario:  The user is presented with error message for password with only numbers
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" with only numbers
-      | username     	 	| password | password confirmation |
-      | Numpy@sdet117_1 | 12345678 |              12345678 |
-    Then It should display an error message "Password can’t be entirely numeric."
-    
-     @TC_Register_10
-  Scenario:  The user is presented with error message for password too similar to your other personal information
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" similar to username
-      | username     		| password   	| password confirmation |
-      | Numpy@sdet117_1 | testsdet117 | testsdet117         |
-    Then It should display an error message "password can’t be too similar to your other personal information."
-    
-    
-     @TC_Register_11
-  Scenario:  The user is presented with error message for commonly used password
-    Given The user opens Register Page
-    When The user enters a valid "username" and commonly used password "password"
-      | username     	| password 	 | password confirmation |
-      | Numpy@sdet117_1 | Welcome1 | Welcome1          |
-    Then It should display an error message "Password can’t be commonly used password"
-    
-    
-     @TC_Register_12
-  Scenario:  The user is succesfully able to register 
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" and "password confirmation"
-      | username     | password  | password confirmation |
-      | NumpyTesters_3 | RT56YU@78 | RT56YU@78       |
-    Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as NumpyTesters_3"
-   		
-    
-     @TC_Register_13
-  Scenario Outline:  The user is able to signout from the registered page
-    Given The user is in the Sign in page
-    When The user clicks the "Sign Out" link
-    Then The user should be redirected to the homepage with the message "Logged out successfully"
+	Background: Admin clicks Login button after giving correct URL
+		Given Admin is on "Login" page for Dashboard Validation
+		When Admin enter valid "username" and "password"
+		 	 | 	 username    | password    |
+			 | Team9testuser | BddCoders@9 |
+		And  Admin clicks "Login" button from Login page
+		
+	@TC_Dashboard_01
+	Scenario: Verify Admin lands on Manage Program as Dashboard page after login
+    Then Admin should see "Manage Program" as header for Dashboard page
    
-    #
-     #@TC_Register_14
-  #Scenario Outline:  The user is able to signin with registered credential
-    #Given The user is in the Sign in page
-    #When The user enters a valid "<username>" and "<password>"
-    #Then click login button to verify
-    #
-    #Examples: 
-      #| username   			| password  |
-      #| Numpy@sdet117_15 | RT56YU@78 |
+  @TC_Dashboard_02
+	Scenario: Verify the response time for Dashboard page
+    Then  Admin see Maximum navigation time in milliseconds, defaults to 30 seconds for Dashboard page
+    
+  @TC_Dashboard_03
+	Scenario: Verify broken link on the Dashboard page
+    Then Admin should receive "Https response code greater than or equal to 400" error for the Dashboard page link
+    And The link is broken for Dashboard page
+    
+  @TC_Dashboard_04
+	Scenario: Verify LMS title on Dashboard page
+    Then Admin should see "LMS - Learning Management System" as title on Dashboard page
+    
+  @TC_Dashboard_05
+	Scenario: Verify LMS title alignment on Dashboard page
+    Then Admin should see LMS title on the top left corner of the Manage Program page for Dashboard page
+      
+  @TC_Dashboard_06
+	Scenario: Validate navigation bar text on Dashboard page
+    Then Admin should see correct spelling on navigation bar text for Dashboard page
+   		| Student 	|
+	    | Program 	|
+	    | Batch 		|
+	    | Class 		|
+	    | User  		|
+	    | Attendance|
+	    | Assignment|
+	    | Logout 		|
+    
+  @TC_Dashboard_07
+	Scenario: Validate LMS title has correct spelling and space
+    Then Admin should see correct spelling and space in LMS title  
+	    
+  @TC_Dashboard_08
+	Scenario: Validate alignment for navigation bar on Dashboard page
+    Then Admin should see the navigation bar text on the top right side on Dashboard page
+    
+  @TC_Dashboard_09
+	Scenario: Validate navigation bar order 1st Student
+    Then Admin should see "Student" in the 1st place
  
-    
-    
-    
+  @TC_Dashboard_10
+	Scenario: Validate navigation bar order 2nd Program
+    Then Admin should see "Program" in the 2nd place
+     
+  @TC_Dashboard_11
+	Scenario: Validate navigation bar order 3rd Batch
+    Then Admin should see "Batch" in the 3rd place     
+     
+  @TC_Dashboard_12
+	Scenario: Validate navigation bar order 4th Class
+    Then Admin should see "Class" in the 4th place     
+     
+  @TC_Dashboard_13
+	Scenario: Validate navigation bar order 5th User
+    Then Admin should see "User" in the 5th place
+     
+  @TC_Dashboard_14
+	Scenario: Validate navigation bar order 6th Assignment
+    Then Admin should see "Assignment" in the 6th place    
+     
+  @TC_Dashboard_15
+	Scenario: Validate navigation bar order 7th Attendance
+    Then Admin should see "Attendance" in the 7th place
+     
+	@TC_Dashboard_16
+	Scenario: Validate navigation bar order 8th Logout
+    Then Admin should see "Logout" in the 8th place
+  
+     	
