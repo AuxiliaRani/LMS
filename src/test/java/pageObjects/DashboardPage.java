@@ -153,12 +153,12 @@ public class DashboardPage extends DriverFactory {
 		return navBar6th.getText();
 	}
 
-	// validate the assignemnt is in the 7th place
+	// validate the assignment is in the 7th place
 	public String getSeventhItemNavBar() {
 		return navBar7th.getText();
 	}
 
-	// validate the student is in the 8th place
+	// validate the logout is in the 8th place
 	public String getEigthItemNavBar() {
 		return navBar8th.getText();
 	}
