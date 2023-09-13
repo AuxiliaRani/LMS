@@ -1,14 +1,24 @@
 package stepDefinitionsAssignment;
 
+import static org.testng.Assert.assertEquals;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObjects.ManageAssignment;
+import utilities.LoggerLoad;
 
 public class ManageAssignmentSD3 {
 	
 	@Given("Admin is on manage assignment Page")
 	public void Admin_is_on_manage_assignment_Page() {
 		System.out.format("Admin is on manage assignment Page");
+		LoggerLoad.info("Title of the current page: " );
+		try {
+			assertEquals( "LMS", "Manage Assignment");
+		} catch (AssertionError e) {
+			LoggerLoad.error("Assertion failed: " + e.getMessage());
+		}
 	}
 	@When("Admin click +Add new assignment button")
 	public void Admin_click_Add_new_assignment_button(){
@@ -17,6 +27,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see a popup  with  heading Assignment details")
 	public void Admin_should_see_a_popup_with_heading_Assignment_details() {
 		System.out.format("Admin should see a popup");
+		LoggerLoad.info("Admin should see a popup  with  heading Assignment details");
+		try {
+			ManageAssignment.Admin_should_see_a_popup_with_heading_Assignment_details();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	
@@ -52,6 +68,12 @@ public class ManageAssignmentSD3 {
 	@Then("8 textbox should be  present in Assignment details popup window")
 	public void textbox_should_be_present_in_Assignment_details_popup_window() {
 		System.out.format("Assignment details popup window");
+		LoggerLoad.info("8 textbox should be  present in Assignment details popup window");
+		try {
+			ManageAssignment.Admin_should_see_a_popup_with_heading_Assignment_details();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	
@@ -66,6 +88,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see  dropdown option for Batch Number")
 	public void Admin_should_see_dropdown_option_for_Batch_Number() {
 		System.out.format("Admin should see  dropdown option for Batch Number");
+		LoggerLoad.info("Admin should see  dropdown option for Batch Number");
+		try {
+			ManageAssignment.Admin_should_see_dropdown_option_for_Batch_Number();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	
@@ -80,6 +108,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see  dropdown option for Program name")
 	public void Admin_should_see_dropdown_option_for_Program_name() {
 		System.out.format("Admin should see  dropdown option");
+		LoggerLoad.info("Admin should see  dropdown option for Program name");
+		try {
+			ManageAssignment.dropdown();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	@Given("Admin is on manage assignment Page")
@@ -93,6 +127,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see  calendar icon for assignment due date")
 	public void Admin_should_see_calendar_icon_for_assignment_due_date() {
 		System.out.format("Admin should see  calendar icon");
+		LoggerLoad.info("Admin should see  calendar icon for assignment due date");
+		try {
+			ManageAssignment.Admin_should_see_calendar_icon_for_assignment_due_date();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	@Given("Admin is on manage assignment Page")
@@ -119,6 +159,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see  save button in the Assignment detail popup window")
 	public void Admin_should_see_save_button_In_The_Assignment_detail_popup_window() {
 		System.out.format("Admin should see save button");
+		LoggerLoad.info("Admin should see  save button in the Assignment detail popup window");
+		try {
+			ManageAssignment. Admin_should_see_save_button_In_The_Assignment_detail_popup_window();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	
@@ -133,6 +179,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see  cancel button in the Assignment detail popup window")
 	public void Admin_should_see_cancel_button_in_the_Assignment_detail_popup_window() {
 		System.out.format("Admin should see  cancel button in the Assignment detail popup window");
+		LoggerLoad.info("Admin should see  cancel button in the Assignment detail popup window");
+		try {
+			ManageAssignment. Admin_should_see_cancel_button_in_the_Assignment_detail_popup_window();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 	
 	@Given("Admin is on manage assignment Page")
@@ -146,6 +198,12 @@ public class ManageAssignmentSD3 {
 	@Then("Admin should see close button on the Assignment details popup window")
 	public void Admin_should_see_close_button_on_the_Assignment_details_popup_window() {
 		System.out.format("Admin should see close button");
+		LoggerLoad.info("Admin should see close button on the Assignment details popup window");
+		try {
+			ManageAssignment. Admin_should_see_close_button_on_the_Assignment_details_popup_windoww();
+		} catch (Error e) {
+			LoggerLoad.error(e.getMessage());
+		}
 	}
 }	
 

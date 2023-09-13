@@ -27,6 +27,7 @@ public class ManageAssignment {
 
 	
 	@FindBy(xpath = "//a[@href='/assignment']")
+	static
 	WebElement assignmentButton;
 	@FindBy(xpath = "//*[@value='searchBox']")
 	WebElement searchBox;
@@ -56,7 +57,7 @@ public class ManageAssignment {
 	
 	
 	       // method to click assignment button
-			public void clickassignment() {
+			public static void clickassignment() {
 				assignmentButton.click();
 			}
 			//method to click serchBox Button
@@ -146,7 +147,7 @@ public class ManageAssignment {
 			}
 			
 			
-			public String footerText() {
+			public static String footerText() {
 				String footertext;
 				try {
 					footertext = footerText();
@@ -155,6 +156,228 @@ public class ManageAssignment {
 					e.printStackTrace();
 				}
 				return footerText();
+			}
+
+
+			public static void Admin_enters_assignment_name_into_search_box() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Displays_entries_with_that_assignment_name() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Displays_empty_details_in_the_data_table() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Displays_entries_with_that_assignment_due_date() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_a_popup_with_heading_Assignment_details() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_dropdown_option_for_Batch_Number() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void dropdown() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_calendar_icon_for_assignment_due_date() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_save_button_In_The_Assignment_detail_popup_window() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_cancel_button_in_the_Assignment_detail_popup_window() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_close_button_on_the_Assignment_details_popup_windoww() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_enters_all_mandatory_field_values_with_valid_data_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_Assignment_due_date() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_new_assignment_details_is_added_in_the_data_table() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Error_message_should_appear_in_alertAssignment_due_date() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Error_message_Should_appear_in_alert() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Program_Name_is_missing() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Assignment_due_date_is_missing() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_Is_in_Assignment_details_popup_window() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Grade_by_is_missing() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Assignment_cannot_be_created_for_the_passed_date() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static List<WebElement> updatedassignmentdetails() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+
+			public static void previous_month_calender_should_visible() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Batch_number_is_missing() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Assignment_name_is_missing() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_land_on_manage_assignment_page() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_land_on_manage_assignment_Page_and_validate_new_assignment_is_not_created_in_the_data_table() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_current_date_is_highled_in_the_date_picker() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Admin_should_see_dialog_box() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static void Alert_should_have_No_button_to_reject() {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static Object getValidClassTopic() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+
+			public static void checkbox(Object clickcheckbox) {
+				// TODO Auto-generated method stub
+				
+			}
+
+
+			public static boolean OnePagedisplaydataTable() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+
+
+			public static boolean RightArrowEnable() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+
+
+			public static boolean LeftArrowEnable() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+
+
+			public static boolean Entry5dataTable() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+
+
+			public static String getStudentPage() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+
+			public static void clickStudentbutton() {
+				// TODO Auto-generated method stub
+				
 			}
 }
 			
