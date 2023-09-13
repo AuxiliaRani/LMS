@@ -19,28 +19,23 @@ public class ManageClassSD extends DriverFactory{
 	
 	@Given("Admin is on dashboard page after Login")
 	public void admin_is_on_dashboard_page_after_login() {
-	
-		String dashBoardURL = config.getString("DashBoardPageUrl");
-		System.out.println("===****=====sudha=====*****=====" + dashBoardURL);
-		
-		String AddClassesPageUrl = config.getString("ManageClassesPageUrl");
-		System.out.println("===****=====sudha=====*****=====" + AddClassesPageUrl);
-		LoggerLoad.info("*****On Dashboard Page*******");
+	driver.get(config.getString("DashBoardPageUrl"));
+	LoggerLoad.info("Admin is On Dashboard Page after Login");
 	}
 
 	@When("Admin clicks {string} button on the navigation bar")
 	public void admin_clicks_button_on_the_navigation_bar(String string) {
 	    manageclass.clickClassButton();
-	    LoggerLoad.info("**********Class button clicked**********");
+	    LoggerLoad.info("Admin clicks Add class button on the navigation bar");
 	}
 
 	@Then("Admin should see URL with {string}")
 	public void admin_should_see_url_with(String string) {
 	  String validateClassUrl = driver.getCurrentUrl();
-	  //validateClassUrl.contains("Manage Class");
 	  try
 	  {
 	  Assert.assertTrue(validateClassUrl.contains("Manage Class"));
+	  LoggerLoad.info("Admin should see URL with Manage Class Text ");
 	  }
 	  catch (Exception e){
 		  LoggerLoad.info(e.getMessage());
@@ -61,7 +56,7 @@ public class ManageClassSD extends DriverFactory{
 		 long endTime = System.currentTimeMillis();
 		 long loadTime = endTime-startTime;	
 		  System.out.println("Page load time in milliseconds: " + loadTime);
-		LoggerLoad.info("Page load time is :"+ loadTime);
+		LoggerLoad.info("response time for navigation from dashboard page to manage class page :"+ loadTime);
 	}
 
 	@Then("Admin should see header with {string}")
@@ -75,7 +70,7 @@ public class ManageClassSD extends DriverFactory{
 			  LoggerLoad.info(e.getMessage());
 		  }
 		
-		LoggerLoad.info("Header is :"+ text);		
+		LoggerLoad.info("Admin see header with :"+ text);		
 	}
 
 	@Then("Admin should see disabled delete icon below the {string}")
@@ -223,7 +218,7 @@ public class ManageClassSD extends DriverFactory{
 		}
 	}
 
-	//Assuming all sorticon tags have class containing text "icon"
+	//Assuming all sorticon tags have class atttibute containing text "icon"
 	//eg. <i class="editdelete-icons">home</i>
 	@Then("Admin should see sort icon near the column headers except for Edit and Delete in manage class page")
 	public void admin_should_see_sort_icon_near_the_column_headers_except_for_edit_and_delete_in_manage_class_page() {

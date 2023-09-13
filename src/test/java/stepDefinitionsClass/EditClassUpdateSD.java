@@ -8,8 +8,6 @@ import io.cucumber.java.en.When;
 public class EditClassUpdateSD {
 
 	
-	
-	
 	@Given("Admin is in  Edit class detail popup window")
 	public void admin_is_in_edit_class_detail_popup_window() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -93,6 +91,8 @@ public class EditClassUpdateSD {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
+	
+	
 
 	
 	

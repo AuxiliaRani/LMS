@@ -100,10 +100,8 @@ public class ManageClass {
 		
 		//method to getText for each tableHeader (WebElement )
 		public List<String> classDataTableHeader() {
-			//classDataTableHeader.click();
 			List<WebElement> headerCells = classDataTableHeader.findElements(By.tagName("th"));
-			List<String> headerText = null;
-			
+			List<String> headerText = null;			
 			for (WebElement hc :headerCells)
 			{
 				headerText.add(hc.getText());
@@ -113,11 +111,10 @@ public class ManageClass {
 		
 		
 		public List<WebElement> classDataTableHeaderWithSortIcon() {
-			//classDataTableHeader.click();
 			List<WebElement> headerCells = classDataTableHeader.findElements(By.tagName("th"));		
 			return headerCells;
 		}
-		//url
+		
 		public List<WebElement> rowIsPresent() {			
 			List<WebElement> dataTableRows = classDataTable.findElements(By.tagName("tr"));
 			return dataTableRows;
@@ -153,7 +150,7 @@ public class ManageClass {
 			List<WebElement> noOfClasses = classlist.findElements(By.id("classlist"));
 			return noOfClasses;
 			}
-		//pagination method
+	
 		public boolean paginationIsDisplayed() {
 			return Pagination.isDisplayed();
 		}

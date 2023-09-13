@@ -1,11 +1,11 @@
 package myHooks;
 
 import java.io.ByteArrayInputStream;
+import java.util.ResourceBundle;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import factory.DriverFactory;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
@@ -13,36 +13,41 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
-
-
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
 public class Hooks {
 	
 	public static WebDriver driver;
-	public static DriverFactory driverfactory;
+	public static DriverFactory driverfactory; 
+	public static ResourceBundle config = ResourceBundle.getBundle("config");//sudha
 
 	@BeforeAll
 	public static void before() throws Throwable {
+		
+		/*auxi-commenting configreader
 		//Get browser Type from config file
 		LoggerLoad.info("Loading Config file");
 		ConfigReader.loadConfig();
 		String browser = ConfigReader.getBrowserType();
-		
+        */
 		//Initialize driver from driver factory
 		driverfactory = new DriverFactory();
-		driver = driverfactory.initializeDrivers(browser);
-		LoggerLoad.info("Initializing driver for : "+browser);
-	
+		String browser = config.getString("browser");//coming from resourcebundle
+		if (browser != null) {
+			LoggerLoad.error( "browser is null ");
+		} else {
+			throw new RuntimeException("homepage not specified in the config.properties file.");
+		}
+		driver = driverfactory.initializeDrivers(browser);		
+		LoggerLoad.info("Initializing driver for : "+browser);	
 	}
 	
 	@Before
 	public void scenario(Scenario scenario) {
 		LoggerLoad.info("===============================================================================================");
 		LoggerLoad.info(scenario.getSourceTagNames() +" : "+scenario.getName());
-		LoggerLoad.info("-----------------------------------------------------------------------------------------------");
-		
+		LoggerLoad.info("-----------------------------------------------------------------------------------------------");		
 	}
 	
 	@AfterStep
@@ -52,8 +57,6 @@ public class Hooks {
 			final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(screenshot, "image/png", "My screenshot");
 			Allure.addAttachment("MyScreenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-		
-			
 		}
 	}
 	
@@ -62,5 +65,8 @@ public class Hooks {
 		LoggerLoad.info("Closing Driver");
 		driverfactory.closeallDriver();
 	}
+	
+	
+	
 	
 }
