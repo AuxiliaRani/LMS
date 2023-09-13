@@ -2,6 +2,7 @@ package pageObjects;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import factory.DriverFactory;
 import utilities.ConfigReader;
+import utilities.LoggerLoad;
 
 public class DashboardPage extends DriverFactory {
 
@@ -41,6 +43,10 @@ public class DashboardPage extends DriverFactory {
 	WebElement navBar7th;
 	@FindBy(xpath = "//ul[@id='navbar']//li)[8]")
 	WebElement navBar8th;
+	@FindBy(xpath = "//button[text()='Logout']")
+	WebElement logout;
+	@FindBy(xpath = "//*[@class='alert alert-primary']")
+	WebElement alertMsg;
 
 	// Initializing Page Factory
 	public DashboardPage() {
@@ -161,6 +167,27 @@ public class DashboardPage extends DriverFactory {
 	// validate the logout is in the 8th place
 	public String getEigthItemNavBar() {
 		return navBar8th.getText();
+	}
+
+	// ==****===========****==Logout==****=============****==
+
+	// Validate Logout button in Dashboard page
+	public void clickLogoutButton() {
+		logout.click();
+	}
+
+	// method to get the alert message
+	public String getMsg() {
+		String msg = null;
+		try {
+			msg = alertMsg.getText();
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+			LoggerLoad.info("No Such Element Found");
+
+		}
+		return msg;
+
 	}
 
 }

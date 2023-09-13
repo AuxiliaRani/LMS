@@ -42,8 +42,8 @@ public class DashboardPageSD extends DriverFactory {
 	@When("Admin enter valid {string} and {string}")
 	public void admin_enter_valid_and(String string, String string1, io.cucumber.datatable.DataTable dataTable) {
 		try {
-			loginPage.enterValidUsername(dataTable);
-			loginPage.enterValidPassword(dataTable);
+			enterValidUsername(dataTable);
+			enterValidPassword(dataTable);
 		} catch (Error e) {
 			LoggerLoad.error("Login Failed: " + e.getMessage());
 		}
