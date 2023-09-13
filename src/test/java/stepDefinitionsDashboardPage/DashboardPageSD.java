@@ -29,7 +29,7 @@ public class DashboardPageSD extends DriverFactory {
 	public void admin_is_on_page_for_dashboard_validation(String login) {
 		dashboardPage.getLMSPortal();
 		dashboardPage.clickHomeLoginButton();
-		String title = dashboardPage.verifyPageTitle();
+		String title = verifyPageTitle();
 		LoggerLoad.info("Title of the current page: " + title);
 		try {
 			assertEquals(title, login, "Page Title do not match");

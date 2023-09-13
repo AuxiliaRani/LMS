@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import io.cucumber.datatable.DataTable;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,10 +22,16 @@ import utilities.LoggerLoad;
 public class DriverFactory {
 
 	public static WebDriver driver;
+
+	String lmsPortal = ConfigReader.getHomePage();
+	String loginPage = ConfigReader.getLoginPage();
+
 	@FindBy(xpath = "//input[@id='id_user']")
 	WebElement user;
 	@FindBy(xpath = "//input[@id='id_password']")
 	WebElement password;
+	@FindBy(xpath = "//button[text()='Login']")
+	WebElement loginButton;
 
 	public WebDriver initializeDrivers(String browser) {
 
@@ -66,6 +73,28 @@ public class DriverFactory {
 		driver.close();
 	}
 
+	public DriverFactory() {
+
+		PageFactory.initElements(driver, this);
+
+	}
+
+	// Get the lms loginpage url
+	public void getLoginPage() {
+		driver.get(loginPage);
+	}
+
+	// Verify login button in login page
+	public void clickLoginButton() {
+		loginButton.click();
+	}
+
+	// Verify page title
+	public String verifyPageTitle() {
+		String pageTitle = driver.getTitle();
+		return pageTitle;
+	}
+
 	// Get Username value from the excel sheet
 	public void enterValidUsername(DataTable dataTable) {
 		List<Map<String, String>> userDetail = dataTable.asMaps(String.class, String.class);
@@ -85,7 +114,5 @@ public class DriverFactory {
 			password.sendKeys(pwdData);
 		}
 	}
-	
-	
 
 }

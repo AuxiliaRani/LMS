@@ -55,8 +55,7 @@ public class DashboardPage extends DriverFactory {
 
 	}
 
-	// ==****===========****==Navigate to Home and Login
-	// Page==****=============****==
+	// ==****========****==Navigate to Home and Login Page==****=============****==
 
 	// Get the lms portal url
 	public void getLMSPortal() {

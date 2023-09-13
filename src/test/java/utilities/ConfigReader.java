@@ -9,7 +9,9 @@ import java.util.Properties;
 public class ConfigReader {
 
 	public static Properties prop;
-	public final static String propertyFilePath = "./src/test/resources/config/config.properties";
+//	public final static String propertyFilePath = "./src/test/resources/config/config.properties";
+	public final static String propertyFilePath = "./src/test/resources/config.properties";
+
 
 
 	// method to find and load the config.properties file
