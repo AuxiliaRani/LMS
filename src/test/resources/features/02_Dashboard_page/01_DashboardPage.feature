@@ -10,7 +10,7 @@ Feature: Dashboard Page
 		
 	@TC_Dashboard_01
 	Scenario: Verify Admin lands on Manage Program as Dashboard page after login
-    Then Admin should see "Manage program" as header for Dashboard page
+    Then Admin should see "Manage Program" as header for Dashboard page
    
   @TC_Dashboard_02
 	Scenario: Verify the response time for Dashboard page
@@ -32,11 +32,19 @@ Feature: Dashboard Page
   @TC_Dashboard_06
 	Scenario: Validate navigation bar text on Dashboard page
     Then Admin should see correct spelling on navigation bar text for Dashboard page
-   
+   		| Student 	|
+	    | Program 	|
+	    | Batch 		|
+	    | Class 		|
+	    | User  		|
+	    | Attendance|
+	    | Assignment|
+	    | Logout 		|
+    
   @TC_Dashboard_07
 	Scenario: Validate LMS title has correct spelling and space
     Then Admin should see correct spelling and space in LMS title  
-    
+	    
   @TC_Dashboard_08
 	Scenario: Validate alignment for navigation bar on Dashboard page
     Then Admin should see the navigation bar text on the top right side on Dashboard page
