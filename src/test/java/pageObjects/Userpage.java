@@ -241,14 +241,18 @@ public class Userpage {
 		    
 		    
 		    public static void UserRoleselect() {
+		    userRoledropdown.click();
             adminuser.click();}
 		    
 		    public static void UserRoleselectstudent() {
+		    	userRoledropdown.click();
 	            studentuser.click();}
 		    
 		    public static void UserStatusselect() {
+		    	roleStatusdropdown.click();
 	            adroleStatus.click();}
 		    public static void VisaStatusselect() {
+		    	VisaStatudropdown.click();
 	            VisaStatus.click();}
 		    public static void clickuserSubmit() {
 		        usersubmitButton.click();
