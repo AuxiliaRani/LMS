@@ -47,7 +47,6 @@ public class AttendanceModule {
 	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editButton;
 	@FindBy(xpath = "//tagname[@Attribute='SText']")WebElement searchtext;
 	
-	@FindBy(xpath="//tagname[@Attribute='stsColumn']")List<WebElement> statusColoumn;
 	
 	@FindBy(xpath="//tagname[@Attribute='Classcolmn']")List<WebElement> classesColoumn;
 	
@@ -69,10 +68,7 @@ public class AttendanceModule {
 
 	// =====Add Attendance WebElements==============
 	
-	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editProgramName;
-	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editclassName;
-	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editStudentName;
-	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editAttendanceName;
+	
 	
 	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement addNewAttendanceButton;
 	@FindBy(xpath = "//tagname[text()='attendance header']")WebElement addattendanceHeader;
@@ -119,19 +115,33 @@ public class AttendanceModule {
 	
 
 
-	// ========= Edit/delete Attendance WebElements ===========
+	// ========= Edit Attendance WebElements ===========
 	
-	@FindBy(xpath = "//tagname[@Attribute='editAttendance']")WebElement editAttendance;
-	@FindBy(xpath = "//tagname[@Attribute='delAttendance']")WebElement deleteAttendance;
+	@FindBy(xpath = "//tagname[@Attribute='editAttendance-form']")WebElement editAttendanceForm;
 	
-	@FindBy(xpath = "//tagname[text()='Delete header']")	WebElement deleteHeader;
+	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editProgramName;
+	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editclassName;
+	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editStudentName;
+	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editAttendanceName;
 	
-	//@FindBy(xpath = "//tagname[@Attribute='updateAttendanceName']")WebElement editAttendanceName;
+	@FindBy(xpath = "//tagname[@Attribute='1stselec']")WebElement secondOptionSelection;
+	
+	@FindBy(xpath = "//tagname[@Attribute='editAttendance']")WebElement editAttendanceButton;
+	
+	// =========Delete Attendance WebElements ===========
+	
+	@FindBy(xpath = "//tagname[@Attribute='delAttendance']")WebElement deleteAttendanceButton;
+	@FindBy(xpath = "//tagname[@Attribute='multidelAttendance']")WebElement multiDeleteAttendanceButton;
+	
+	@FindBy(xpath = "//tagname[text()='Delete header']") WebElement deleteHeader;
 
 	@FindBy(xpath = "//tagname[text()='No']")WebElement confirmNo;
 	@FindBy(xpath = "//tagname[text()='Yes']")WebElement confirmYes;
 
 	@FindBy(xpath = "//tagname[@Attribute='confmsg']")WebElement confirmMessage;
+	
+	@FindBy(xpath = "//tagname[@Attribute='confmsg-yes']")WebElement VerifyMesgYesOnConfirm;
+	@FindBy(xpath = "//tagname[@Attribute='confmsg-no']")WebElement VerifyMesgNoOnConfirm;
 
 	@FindBy(xpath = "//tagname[text()='Showing 0 to 0 of 0 entries']")WebElement zeroRecords;
 
@@ -407,14 +417,7 @@ public class AttendanceModule {
 		return status;
 	}
 	
-	public String getSearchedStatus(String status) {
-		String stasText = "";
-		for(WebElement Stas : statusColoumn) {
-			stasText=Stas.getText();
-			if(stasText.equalsIgnoreCase(status));	
-		}
-		return stasText;
-	}
+
 	
 	public String enterClasseIDInSearch(String classId) {
 		searchButton.sendKeys(classId);
@@ -451,18 +454,8 @@ public class AttendanceModule {
 			}	
 		return false;
 	}
-	public boolean attendanceEditIconEnabled()
-	{
-	try {
-		if (editAttendance.isDisplayed() && editAttendance.isEnabled()) {
-			return true;
-		} else {
-			return false;
-		}
-	} catch (NoSuchElementException e) {
-		return false;
-	}
-	}
+	
+	
 	public boolean NewAttendanceBtnEnabled()
 	{
 	try {
@@ -479,6 +472,7 @@ public class AttendanceModule {
 	
 	
 	//==================Add Attendance methods start from here=====================
+	
 	
 	public void addNewAttendancebuttonClick() throws InterruptedException {
 		Thread.sleep(2000);
@@ -577,7 +571,7 @@ public class AttendanceModule {
 
 
 
-//Dropdown lists
+//Add attendance Dropdown lists
 	
 //1. Select Program
 	public String selectProgramName() {
@@ -782,6 +776,8 @@ public class AttendanceModule {
 
 		     }
 	     
+	     //User selects next year to set future date
+	     
 	     public void futureDateError() {
 	    	//expected error text
 		      String exp = "Future date not allowed";
@@ -794,118 +790,46 @@ public class AttendanceModule {
 		      Assert.assertEquals(exp, act);
 	    	 
 	     }
+	     
+	     
+//=================== Methods for Edit Attendance ===================
+	     
+	     
 		
-/*	
+
 	public void clickOnEdit() {
 		try {
-			editBatch.click();
+			editAttendanceButton.click();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	public String editName(String editName) {
-		try {
-			Thread.sleep(1000);
-			editBatch.click();
-			formBatchName.clear();
-			formBatchName.sendKeys(editName);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return editName;
-	}
-
-	public String getEditedText() {
-		String getText = formAttendanceName.getAttribute("ng-reflect-model");
-		return getText;
-	}
-
-	public String editDescription(String editedDescription) {
-		try {
-			editAttendance.click();
-			formDescription.clear();
-			formDescription.sendKeys(editedDescription);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return editedDescription;
-	}
-
-	public String getEditedDesc() {
-		String editedDescSeen = null;
-		try {
-			editedDescSeen = formDescription.getAttribute("ng-reflect-model");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return editedDescSeen;
-	}
-
-	public String editProgramName() {
-		try {
-			Thread.sleep(1000);
-			dropdownButton.click();
-			editProgramName.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	public String getEditedProgramName() {
-		String enteredEditedName = "";
-		try {
-			dropdownButton.click();
-			enteredEditedName = editProgramName.getAttribute("ng-reflect-model");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return enteredEditedName;
-	}
-
-	public void selectInactive() {
-		try {
-			inactiveStatus.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 	
-	public String getStatusText() {
-		String staText=inactiveStatus.getText();
-		return staText;
-	}
+		public String editAttendance() {
+			String edited_atd = null;
+			try {
+				sdropdownButton.click();
+				String secondValue = secondOptionSelection.getText();
 
-	public void selectActive() {
-		try {
-			activeStatus.click();
-		} catch (Exception e) {
-			e.printStackTrace();
+				for (WebElement aName : dropdownValues) {
+					edited_atd = aName.getText();
+
+					if (secondValue.equalsIgnoreCase(edited_atd)) {
+						secondOptionSelection.click();
+					} else {
+						System.out.println("Edit not allowed");
+					}
+					System.out.println(edited_atd);
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return edited_atd;
 		}
-	}
 
-	public int editedNoClasses(String editedNoOfClasses) {
-		try {
-			Thread.sleep(1000);
-			noOfClasses.clear();
-			noOfClasses.sendKeys(editedNoOfClasses);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return 0;
-	}
 
-	public int getNumbersOfClasses() {
-		int getNumber = 0;
-		try {
-			getNumber = Integer.valueOf(noOfClasses.getAttribute("ng-reflect-model"));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return getNumber;
-	} */
-
+	     
 //	===================  methods for Delete operations ==============
 	
 	
@@ -921,7 +845,17 @@ public class AttendanceModule {
 			
 	public void deleteAttendance() {
 		try {
-			deleteAttendance.click();
+			deleteAttendanceButton.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void multiDeleteAttendance() {
+		try {
+			multiDeleteAttendanceButton.click();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -956,6 +890,32 @@ public class AttendanceModule {
 			e.printStackTrace();
 		}
 	}
+	
+	public void VerifyYesOnConfirm() {
+	
+	//expected error text
+    String exp = "Record deleted successfully";
+    //identify actual error message
+  
+    String act = VerifyMesgYesOnConfirm.getText();
+    
+    System.out.println("Confirmation Message is: "+ act);
+    //verify error message with Assertion
+    Assert.assertEquals(exp, act);
+	}
+	
+	public void VerifyNoOnConfirm() {
+		
+		//expected error text
+	    String exp = "Record is not deleted";
+	    //identify actual error message
+	  
+	    String act = VerifyMesgNoOnConfirm.getText();
+	    
+	    System.out.println("Confrimation Message is: "+ act);
+	    //verify error message with Assertion
+	    Assert.assertEquals(exp, act);
+		}
 
 	public boolean searchDeletedName(String deletedBatchName) throws InterruptedException {
 		try {
