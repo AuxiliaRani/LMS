@@ -12,7 +12,7 @@ Background:  Logged on the LMS portal
     
   @Uspg20
   Scenario: Check for single row delete 
-    Given One of the checkbox/ row is selected
+    Given One of the checkbox row is selected
      When Click delete icon below "Manage User" header
     Then  The respective row in the data table is deleted for multiple user
     

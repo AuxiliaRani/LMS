@@ -44,9 +44,9 @@ public class DeleteMultipleUserSD extends DriverFactory{
 
 	}
 
-	@Given("One of the checkbox\\/ row is selected")
+	@Given("One of the checkbox row is selected")
 	public void one_of_the_checkbox_row_is_selected() {
-		boolean isAtLeastOneCheckboxSelected = Userpage.isAtLeastOneCheckboxSelected();
+	    boolean isAtLeastOneCheckboxSelected = Userpage.isAtLeastOneCheckboxSelected();
 
         
         if (isAtLeastOneCheckboxSelected) {
@@ -54,7 +54,7 @@ public class DeleteMultipleUserSD extends DriverFactory{
         	LoggerLoad.info("At least one checkbox/row is selected.");
         } else {
             
-        	LoggerLoad.info("No checkboxes/rows are selected.");
+       	LoggerLoad.info("No checkboxes/rows are selected.");
         }
 
 	}
