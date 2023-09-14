@@ -17,8 +17,8 @@ Background: Logged on the LMS portal as Admin
    
   @ST3
   Scenario: Validate the broken link
-  Then Admin should receive "HTTP response code greater than or equal to 400" error for the link
-  And The link is broken
+  Then Admin should receive "HTTP response code greater than or equal to 400" error for the link on Student Page
+  And The link is broken  on Student Page
     
    @ST4
   Scenario: Verify LMS title 
