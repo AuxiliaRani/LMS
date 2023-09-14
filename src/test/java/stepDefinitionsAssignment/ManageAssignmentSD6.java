@@ -95,8 +95,8 @@ public class ManageAssignmentSD6 {
 	
 	
 	
-	@When("Admin enters  data missing value in program name and clicks save button batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
-	public void Admin_enters_data_missing_value_in_program_name_and_clicks_save_button_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
+	@When("Admin enters  data missing value in program name and clicks save button batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5 on assignment")
+	public void Admin_enters_data_missing_value_in_program_name_and_clicks_save_button_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5_on_assignment() {
 		System.out.format("Admin enters  data missing value in program name and clicks save button");
 	}
 	@Then("Program Name is missing")
