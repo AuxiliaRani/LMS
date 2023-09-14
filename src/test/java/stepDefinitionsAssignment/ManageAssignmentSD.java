@@ -66,16 +66,6 @@ import utilities.LoggerLoad;
 		}	
 		
 		
-		@Given("Admin is on dashboard page after Login")
-		public void Admin_is_on_dashboard_page_after_Login() {
-			//System.out.format("After Login");
-			try {
-				boolean dashboardpageafterLogin = AssignmentPage.afterlogin();
-				assertTrue("Login button is not Centered", dashboardpageafterLogin);
-			} catch (AssertionError e) {
-				LoggerLoad.error("Assertion failed: " + e.getMessage());
-			}
-		}
 		private boolean afterlogin() {
 			// TODO Auto-generated method stub
 			return false;
@@ -97,11 +87,7 @@ import utilities.LoggerLoad;
 		}
 		
 		
-		@Given("Admin is on dashboard page after Login")
-		public void admin_is_on_dashboard_page_after_Login() {
-			System.out.format("dashboard page after login");
-			
-		}
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_clicks_assignment_button_on_the_navigation_bar(){
 			 System.out.format("assignment button");
@@ -120,16 +106,6 @@ import utilities.LoggerLoad;
 		 
 		
 		
-		 @Given("Admin is on dashboard page after Login")
-		 public void Admin_is_on_Dashboard_page_after_Login() {
-			 System.out.format("dashboard page after login");
-			 try {
-					boolean dashboardpageafterLogin = AssignmentPage.afterlogin();
-					assertTrue("Login button is not Centered", dashboardpageafterLogin);
-				} catch (AssertionError e) {
-					LoggerLoad.error("Assertion failed: " + e.getMessage());
-				}
-		 }
 		 @When("Admin clicks assignment button on the navigation bar and get all text from the portal page")
 		 public void Admin_clicks_assignment_button_on_the_navigation_bar_and_get_all_text_from_the_portal_page() {
 			 System.out.format("portal page");
@@ -163,21 +139,8 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			return null;
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_is_on_dashboard_page_After_Login() {
-			 System.out.format("dashboard page login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
-		 @When("Admin is on dashboard page after Login")
-		 public void Admin_is_on_dashboard_Page_after_Login() {
-			 System.out.format("dashboard page after login");
-			
-		 }
+		
+		
 		 @Then("Admin should see disabled delete icon below the Manage assignment")
 		 public void Admin_should_see_disabled_delete_icon_below_the_Manage_assignmen() {
 			 System.out.format("disable delete");
@@ -194,16 +157,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_is_on_Dashboard_Page_after_Login() {
-			 System.out.format("dashboard page after login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_clicks_Assignment_button_on_the_navigation_bar() {
 			 System.out.format("assignment button");
@@ -225,16 +179,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_is_on_Dashboard_page_After_Login() {
-			 System.out.format("Dashboard page aftre login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_assignment_button_on_the_navigation_bar() {
 			 System.out.format("Click assignmet");
@@ -256,16 +201,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void admin_is_on_Dashboard_page_after_Login() {
-			 System.out.format("after login dashboard");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
+		
 		 @When("Admin clicks assignment button on he navigation bar")
 		 public void Admin_clicks_assignment_button_on_he_navigation_bar() {
 			 System.out.format("click assignment");
@@ -287,16 +223,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void admin_is_on_dashboard_page_After_Login() {
-			 System.out.format("After login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_clicks_Assignment_Button_on_the_navigation_bar() {
 			 System.out.format("click assignment");
@@ -318,16 +245,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		public void Admin_is_on_Dashboard_Page_After_Login() {
-			System.out.format("Admin on dashboard");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		}
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_Assignment_button_on_the_navigation_bar() {
 			 System.out.format("assignment button on navigation bar");
@@ -345,16 +263,7 @@ import utilities.LoggerLoad;
 		 }
 		
 		
-		@Given("Admin is on dashboard page after Login")
-		public void Admin_is_On_Dashboard_Page_After_Login() {
-			System.out.format("after login");
-			LoggerLoad.info("Admin is on dashboard page after Login");
-			try {
-				AssignmentPage.clickaddassignmentbutton();
-			} catch (Error e) {
-				LoggerLoad.error(e.getMessage());
-			}
-		}
+		
 		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_clicks_Assignment_button_On_the_navigation_bar() {
@@ -373,16 +282,6 @@ import utilities.LoggerLoad;
 		 }
 		
 		
-		 @Given("Admin is on dashboard page after Login")
-		 public void Admin_Is_on_dashboard_page_after_Login() {
-			 System.out.format("admin is on dashboard after login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_Assignment_Button_on_the_navigation_bar() {
 			 System.out.format("assignment button on the navigation bar");
@@ -403,16 +302,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_is_on_dashboard_Page_After_Login() {
-			 System.out.format("Dashboard page after login");
-			 LoggerLoad.info("Admin is on dashboard page after Login");
-				try {
-					AssignmentPage.clickaddassignmentbutton();
-				} catch (Error e) {
-					LoggerLoad.error(e.getMessage());
-				}
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_Assignment_button_on_the_Navigation_bar() {
 			 System.out.format("admin clicks assignment");
@@ -433,10 +323,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_Is_On_Dashboard_Page_After_login() {
-			 System.out.format("dashboard page after login");
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_Assignment_Button_On_the_navigation_bar() {
 			 System.out.format("click assignment button on the navigation bar");
@@ -448,10 +335,7 @@ import utilities.LoggerLoad;
 		 }
 		
 		
-		 @Given("Admin is on dashboard page after Login")
-		 public void Admin_Is_On_dashboard_page_after_Login() {
-			 System.out.format("dashboard page aftr login");
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_assignment_button_on_the_navigation_Bar() {
 			 System.out.format("click assignment on navigation bar");
@@ -472,10 +356,7 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			
 		}
-		@Given("Admin is on dashboard page after Login")
-		 public void Admin_Is_on_Dashboard_page_After_Login() {
-			 System.out.format("dashboard page after login");
-		 }
+		
 		 @When("Admin clicks assignment button on the navigation bar")
 		 public void Admin_Clicks_Assignment_Button_On_The_navigation_bar() {
 			 System.out.format("assignment button");
