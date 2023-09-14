@@ -5,13 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-
 public class ConfigReader {
 
 	public static Properties prop;
 //	public final static String propertyFilePath = "./src/test/resources/config/config.properties";
 	public final static String propertyFilePath = "./src/test/resources/config.properties";
-
 
 
 	// method to find and load the config.properties file
@@ -61,6 +59,7 @@ public class ConfigReader {
 			throw new RuntimeException("homepage not specified in the config.properties file.");
 		}
 	}
+
 	
 	// method to get the login page url
 		public static String getLoginPage() {
@@ -104,4 +103,62 @@ public class ConfigReader {
 					return null;
 				}
 
+
+	// method to get the login page url
+	public static String getLoginPage() {
+		String loginpage = prop.getProperty("loginpage");
+		if (loginpage != null) {
+			return loginpage;
+		} else {
+			throw new RuntimeException("loginpage not specified in the config.properties file.");
+		}
+	}
+
+	// method to get the excel file path
+	public static String getExcelFilePath() {
+		String excelfilepath = prop.getProperty("excelfilepath");
+		if (excelfilepath != null) {
+			return excelfilepath;
+		} else {
+			throw new RuntimeException("excelfilepath not specified in the config.properties file.");
+		}
+	}
+	
+	public static String getJsonFilePath() {
+		String excelfilepath = prop.getProperty("jsonfilepath");
+		if (excelfilepath != null) {
+			return excelfilepath;
+		} else {
+			throw new RuntimeException("excelfilepath not specified in the config.properties file.");
+		}
+	}
+	
+	public static String getDashboardURL() {
+		String urlPath = prop.getProperty("dashboardurl");
+		if (urlPath != null) {
+			return urlPath;
+		} else {
+			throw new RuntimeException("dashboardurl not specified in the config.properties file.");
+		}
+	}
+	/*
+	 * Create Batch Inputs from config */
+	
+	public static String getBatchName() {
+		return prop.getProperty("batchName");
+	}
+	
+	public static String getNoOfClasses() {
+		return prop.getProperty("noOfClasses");
+	}
+	public static String getProgramName() {
+		return prop.getProperty("SDETPro");
+	}
+	public static String getInvalidBatchName() {
+		return prop.getProperty("invalidBatchName");
+	}
+	public static String getblankBatchName() {
+		return prop.getProperty("blankBatchName");
+	}
+	
 }

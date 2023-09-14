@@ -10,6 +10,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import utilities.LoggerLoad;
 
+
 public class DriverFactory {
 
 	public static WebDriver driver;
@@ -54,6 +55,5 @@ public class DriverFactory {
 	public void closeallDriver() {
 		driver.close();
 	}
-
 
 }
