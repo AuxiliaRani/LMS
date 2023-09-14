@@ -47,10 +47,7 @@ public class ManageAssignmentSD5 extends DriverFactory {
 		// TODO Auto-generated method stub
 		
 	}
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_Manage_assignment_page(){
-		System.out.format("Admin is in manage assignment page");
-	}	
+	
 	@When("Admin clicks Edit button from one of the row in data table")
 	public void Admin_clicks_Edit_button_from_one_of_the_row_in_data_table() {
 		System.out.format("Admin clicks Edit button ");
