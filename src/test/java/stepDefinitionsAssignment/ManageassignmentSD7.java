@@ -33,10 +33,7 @@ public class ManageassignmentSD7 {
 		}
 	}
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_assignment_Page() {
-		System.out.format("Admin is in manage assignment page");
-	}
+	
 	@When("Admin clicks delete button in data table row level")
 	public void Admin_Clicks_delete_button_in_data_table_row_level() {
 		System.out.format("Admin clicks delete button in data table row level");
@@ -51,10 +48,7 @@ public class ManageassignmentSD7 {
 			LoggerLoad.error(e.getMessage());
 		}
 	}
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_Assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
+	
 	@When("Admin clicks delete button in data table row level")
 	public void Admin_Clicks_Delete_button_in_data_table_row_level() {
 		System.out.format("Admin clicks delete button in data table row level");
