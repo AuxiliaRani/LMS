@@ -207,8 +207,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_clicks_Cancel_button_entering_values_in_the_fields() {
 		System.out.format("Admin clicks Cancel button entering values in the fields");
 	}
-	@Then("Admin should land on manage assignment Page and validate new assignment is not created in the data table")
-	public void Admin_should_land_on_manage_assignment_Page_and_validate_new_assignment_is_not_created_in_the_data_table() {
+	@Then("Admin should land on manage assignment Page and validate new assignment is not created in the data table for assignment page")
+	public void Admin_should_land_on_manage_assignment_Page_and_validate_new_assignment_is_not_created_in_the_data_table_for_assignment_page() {
 		System.out.format("Admin should land on manage assignment Page and validate new assignment is not created in the data table");
 		LoggerLoad.info("Admin should land on manage assignment Page and validate new assignment is not created in the data table");
 		try {
