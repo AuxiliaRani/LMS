@@ -52,7 +52,7 @@ public class ManageProgramValidation_1_SD {
 	@Then("Admin should see header text as {string} on Program Page")
 	public void admin_should_see_header_text_as_on_program_page(String string) {
 	    
-		programModule.verifyPageTitle();
+		Assert.assertEquals(programModule.verifyPageTitle(),null);
 	}
 
 }

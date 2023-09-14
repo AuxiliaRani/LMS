@@ -47,7 +47,7 @@ public class DeleteProgram2BackgroungManageProgramPage_SD {
 	@Then("Admin can see the deletion alert disappears without deleting in Program Page")
 	public void admin_can_see_the_deletion_alert_disappears_without_deleting_in_program_page() {
 	    
-		programModule.recordsAvailable1();
+		Assert.assertEquals(programModule.recordsAvailable1(),null);
 	}
 
 	@When("Admin clicks Cancel\\/Close Icon on Deletion alert in Program Pages")
@@ -58,7 +58,7 @@ public class DeleteProgram2BackgroungManageProgramPage_SD {
 
 	@Then("Admin can see the deletion alert disappears without any changes in Program Page")
 	public void admin_can_see_the_deletion_alert_disappears_without_any_changes_in_program_page() {
-		programModule.recordsAvailable1();
+		Assert.assertEquals(programModule.recordsAvailable1(),null);
 	    
 	}
 

@@ -121,6 +121,6 @@ public class EditBatchSD {
 	@Then("The updated batch details should appear on the data table in batch page")
 	public void the_updated_batch_details_should_appear_on_the_data_table_in_batch_page() {
 	    
-		assertTrue(true, "batch updated");
+		assertTrue(false, "batch updated");
 	}
 }

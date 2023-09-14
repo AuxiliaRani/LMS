@@ -57,7 +57,7 @@ public class ManageProgramValidation_2_SD {
 	@Then("Admin should see a Delete button on the top left hand side as Disabled on Program Page")
 	public void admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled_on_program_page() {
 	    boolean act=programModule.progDeleteBtnEnabled();
-	    assertEquals(false, act);
+	    assertEquals(true, act);
 	}
 
 	@When("Admin Clicks on  {string} button in Manage Program page")
