@@ -42,9 +42,9 @@ public class Hooks {
        
 		//Initialize driver from driver factory
 		driverfactory = new DriverFactory();
-		String browser = config.getString("browser");//coming from resourcebundle
-		if (browser != null) {
-			LoggerLoad.error( "browser is null ");
+		String browser1 = config.getString("browser");//coming from resourcebundle
+		if (browser1 != null) {
+			LoggerLoad.error( "browser1 is null ");
 		} else {
 			//throw new RuntimeException("homepage not specified in the config.properties file.");
 		}
