@@ -41,6 +41,17 @@ public class ConfigReader {
 		}
 	}
 
+	// method to get the home page url
+	public static String getHomePage() {
+		String homepage = prop.getProperty("homepage");
+		if (homepage != null) {
+			return homepage;
+		} else {
+			throw new RuntimeException("homepage not specified in the config.properties file.");
+		}
+	}
+
+	
 	// method to get the invalid url
 	public static String getInvalidUrl() {
 		String invalidurl = prop.getProperty("invalidUrl");
@@ -53,7 +64,7 @@ public class ConfigReader {
 	
 	// method to get the Dashboard url
 		public static String getDashboardURL() {
-			String url = prop.getProperty("dashboard_url");
+			String url = prop.getProperty("dashboardpage");
 			if (url != null)
 				return url;
 			else
@@ -93,7 +104,27 @@ public class ConfigReader {
 		}
 	}
 	
-	
+	public static int getbatchid() {
+	// TODO Auto-generated method stub
+		return 0;
+	}
+	public static String getStudentname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String getnewuser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String getlocation() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
+	public static String getdeleteduser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	/*
 	 * Create Batch Inputs from config */
 	
