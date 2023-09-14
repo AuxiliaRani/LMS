@@ -12,12 +12,6 @@ import utilities.LoggerLoad;
 public class ManageassignmentSD7 {
 
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-		ChromeDriver chromeDriver = new ChromeDriver();
-		chromeDriver.get("ManageClassesPageUrl");
-	}
 	@When("Admin clicks delete button in data table row level")
 	public void Admin_clicks_delete_button_in_data_table_row_level() {
 		System.out.format("Admin clicks delete button in data table row level");
