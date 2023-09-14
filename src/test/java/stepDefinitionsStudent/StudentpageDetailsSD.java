@@ -1,4 +1,4 @@
-package stepDefintionsStudent;
+package stepDefinitionsStudent;
 
 import static org.junit.Assert.assertFalse;
 import static org.testng.Assert.assertEquals;
