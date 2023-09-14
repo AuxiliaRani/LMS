@@ -20,7 +20,7 @@ Feature: Reset Password Details Validations
     When Admin enters same valid password on "newpassword" and "retypepassword"
 		    | newpassword  |  retypepassword  |
 		    | Validpwd@9   |  Validpwd@9		  |
-    And  Admin clicks "Submit" button
+    And  Admin clicks "Submit" button on Reset Password Page
     Then Admin should receive "Your password has been reset. Please click here to login"
     
   @TC_ResetPasswordDetails_04
@@ -28,7 +28,7 @@ Feature: Reset Password Details Validations
     When Admin enters invalid same password on "newpassword" and "retypepassword"
     	  | newpassword | retypepassword  |
 		    |  invalid%&  |  	invalid%&   |
-    And  Admin clicks "Submit" button
+    And  Admin clicks "Submit" button on Reset Password Page
     Then Admin should see error message "Please try again"
     
   @TC_ResetPasswordDetails_05
@@ -41,5 +41,5 @@ Feature: Reset Password Details Validations
     When Admin enters mismatch values on "newpassword" and "retypepassword"
     	  | newpassword |  retypepassword  |
 		    |  Validpwd@9 |  	Validpwd       |
-    And  Admin clicks "Submit" button
+    And  Admin clicks "Submit" button on Reset Password Page
     Then Admin should see error message "Please try again"
