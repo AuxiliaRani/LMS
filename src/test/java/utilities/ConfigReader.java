@@ -82,6 +82,26 @@ public class ConfigReader {
 					}
 				}
 	
-	
+				public static int getbatchid() {
+					// TODO Auto-generated method stub
+					return 0;
+				}
+				public static String getStudentname() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+				public static String getnewuser() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+				public static String getlocation() {
+					// TODO Auto-generated method stub
+					return null;
+				}
+					
+				public static String getdeleteduser() {
+					// TODO Auto-generated method stub
+					return null;
+				}
 
 }
