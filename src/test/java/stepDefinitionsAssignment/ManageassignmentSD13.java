@@ -30,10 +30,7 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" DisplayedData ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_button_on_the_navigation_Bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
+	
 	@Then("Right arrow should be enabled in page one when entries are more than 5 available")
 	public void Right_arrow_should_be_enabled_in_page_one_when_entries_are_more_than_5_available() {
 		System.out.format("Right arrow should be enabled in page");
