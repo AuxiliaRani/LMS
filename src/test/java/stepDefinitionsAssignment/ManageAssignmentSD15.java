@@ -12,17 +12,7 @@ import utilities.LoggerLoad;
 
 public class ManageAssignmentSD15 {
 
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-		String getStudentPage =  ManageAssignment.getStudentPage();
-		LoggerLoad.info("Title of the current page: " + getStudentPage);
-		try {
-		assertEquals(getStudentPage,"Manage Program", "Title do not match");
-		} catch (AssertionError e) {
-			LoggerLoad.error("Assertion failed: " + e.getMessage());
-		}
-	}
+
 	@When("Admin clicks Student button in the navigation bar from assignment page")
 	public void Admin_clicks_Student_button_in_the_navigation_bar_from_assignment_page() {
 		System.out.format("Admin clicks Student button in the navigation bar");
