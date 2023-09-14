@@ -55,10 +55,6 @@ public class ManageAssignmentSD6 {
 	   }   
 	}
 
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_is_In_Edit_assignment_detail_popup_window() {
-		System.out.format("Admin is in  Edit assignment");
-	}
 	@When("Admin enters all mandatory field values with invalid data and clicks save button Program name, batch number,Assignment Name, grade by, Assignment due date")
 	public void Admin_enters_all_mandatory_field_values_with_invalid_data_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_Assignment_due_date() {
 		System.out.format("Admin enters all mandatory field values");
@@ -76,10 +72,6 @@ public class ManageAssignmentSD6 {
 	}
 	
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_Is_in_Edit_assignment_detail_popup_window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-	}
 	@When("Admin enters values in all fields with valid data and clicks save button (Program name, batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5)")
 	public void Admin_enters_values_in_all_fields_with_valid_data_and_clicks_save_button_Program_name_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
 		System.out.format("Admin enters values in all fields with valid data and clicks save button");
@@ -96,10 +88,6 @@ public class ManageAssignmentSD6 {
 	}	
 	
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_Is_In_Edit_assignment_detail_popup_window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-	}
 	@When("Admin enters with invalid data in optional fields and clicks save button Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
 	public void Admin_enters_with_invalid_data_in_optional_fields_and_clicks_save_button_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
 		System.out.format("Admin enters with invalid data in optional fields and clicks save button");
@@ -116,10 +104,6 @@ public class ManageAssignmentSD6 {
 	}
 	
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_Is_In_Edit_assignment_Detail_popup_window() {
-	   System.out.format("Admin is in  Edit assignment detail popup window");
-	}
 	@When("Admin enters  data missing value in program name and clicks save button batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
 	public void Admin_enters_data_missing_value_in_program_name_and_clicks_save_button_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
 		System.out.format("Admin enters  data missing value in program name and clicks save button");
@@ -135,10 +119,7 @@ public class ManageAssignmentSD6 {
 		}
 	}
 
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_is_in_Edit_assignment_Detail_popup_window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-	}
+	
 	@When("Admin enters data missing value in Batch number and clicks save button Program name,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
 	public void Admin_enters_data_missing_value_in_Batch_number_and_clicks_save_button_Program_name_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file3_Assignment_file4_Assignment_file5() {
 		System.out.format("Admin enters data missing value");
@@ -155,10 +136,6 @@ public class ManageAssignmentSD6 {
 	}
 	
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_Is_In_Edit_assignment_detail_Popup_window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-	}
 	@When("Admin enters data missing value in Assignment name and clicks save button Program name, batch number,Assignment Name,grade by,Assignment Due date")
 	public void Admin_enters_data_missing_value_in_Assignment_name_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_Assignment_Due_date() {
 		System.out.format("Admin enters data missing value in Assignment name and clicks save button");
@@ -174,10 +151,7 @@ public class ManageAssignmentSD6 {
 		}
 	}
 	
-	@Given ("Admin is in Edit assignment detail popup window")
-	public void Admin_is_in_Edit_assignment_detail_popup_Window() {
-		System.out.format("Admin is in Edit assignment detail popup window");
-	}
+	
 	@When("Admin enters data missing value in Assignment due date and clicks save button Program name, batch number,Assignment Name, grade by")
 	public void Admin_enters_data_missing_value_in_Assignment_due_date_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by() {
 		System.out.format("Admin enters data missing value in Assignment due date and clicks save button");
@@ -188,10 +162,7 @@ public class ManageAssignmentSD6 {
 
 	}
 	
-	@Given("Admin is in Edit assignment detail popup window")
-	public void Admin_Is_In_Edit_Assignment_detail_popup_window() {
-		System.out.format("Admin is in Edit assignment detail popup window");
-	}
+	
 	@When("Admin enters data missing value in grade by  and clicks save button Program name, batch number,Assignment Name, Assignment due date")
 	public void Admin_enters_data_missing_value_in_grade_by_and_clicks_save_button_Program_name_batch_number_Assignment_Name_Assignment_due_date() {
 		System.out.format("Admin enters data missing value in grade by  and clicks save button");
@@ -207,10 +178,7 @@ public class ManageAssignmentSD6 {
 		}
 	}
 	
-	@Given("Admin is in Edit assignment detail popup window")
-	public void Admin_Is_In_Edit_Assignment_Detail_popup_window() {
-		System.out.format("Admin is in Edit assignment detail popup window");
-	}
+	
 	@When("Admin enters passed date in the due date field and clicks save button Program name, batch number,Assignment Name, grade by, Assignment Due date ")
 	public void Admin_enters_passed_date_in_the_due_date_field_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_Assignment_Due_date() {
 		System.out.format("Admin enters passed date in the due date field and clicks save button Program name, batch number,Assignment Name, grade by, Assignment Due date");
@@ -226,10 +194,7 @@ public class ManageAssignmentSD6 {
 		}
 	}
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_is_in_Edit_assignment_detail_Popup_Window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-	}
+	
 	
 	@When("Admin clicks Cancel button without entering values in the fields")
 	public void Admin_clicks_Cancel_button_without_entering_values_in_the_fields() {
@@ -247,11 +212,6 @@ public class ManageAssignmentSD6 {
 	}
 	
 	
-	@Given("Admin is in  Edit assignment detail popup window")
-	public void Admin_is_in_Edit_assignment_Detail_Popup_Window() {
-		System.out.format("Admin is in  Edit assignment detail popup window");
-		throw new io.cucumber.java.PendingException();
-	}
 	@When("Admin clicks Cancel button entering values in the fields")
 	public void Admin_clicks_Cancel_button_entering_values_in_the_fields() {
 		System.out.format("Admin clicks Cancel button entering values in the fields");
