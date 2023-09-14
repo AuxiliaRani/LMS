@@ -167,9 +167,9 @@ public class ManageClassSD extends DriverFactory{
 		}			
 	}
 
-	@Then("Edit Icon will not be present in data table")
-	public void edit_icon_will_not_be_present_in_data_table() {
-		List<WebElement> rows=  manageclass.rowIsPresent();
+	@Then("Edit Icon will not be present in data table for Manage Class")
+	public void edit_icon_will_not_be_present_in_data_table_for_manage_class() {
+		List<WebElement> rows= manageclass.rowIsPresent();
 		try {
 		if (rows.size()==0){
 			   Assert.assertTrue(manageclass.editIconIsPresent());		   
@@ -203,8 +203,8 @@ public class ManageClassSD extends DriverFactory{
 		}
 	}
 
-	@Then("Admin cant see delete  Icon in data table")
-	public void admin_cant_see_delete_icon_in_data_table() {
+	@Then("Admin cant see delete  Icon in data table for Manage Class")
+	public void admin_cant_see_delete_icon_in_data_table_for_manage_class() {
 		
 		List<WebElement> rows = manageclass.rowIsPresent();
 		try {
