@@ -32,10 +32,7 @@ public class ManageAssignmentSD10 {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	@Given("Admin is in delete alert")
-	public void Admin_is_in_delete_Alert() {
-		System.out.format("Admin is in delete alert");
-	}
+	
 	@When("Admin clicks no button")
 	public void Admin_clicks_no_button() {
 		System.out.format("Admin clicks no button");
