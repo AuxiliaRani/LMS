@@ -38,16 +38,16 @@ Feature: Manage Class Page Verification
     Then Edit Icon in each row of data table only  when entries are available
 
 @TC_ManageClass_09
-  Scenario: Verify Edit icon when no data in the table
-    Then Edit Icon will not be present in data table
+  Scenario: Verify Edit icon when no data in the table for Manage Class
+    Then Edit Icon will not be present in data table for Manage Class
 
 @TC_ManageClass_10
   Scenario: Verify delete icon in the data table
     Then Delete Icon in each row of data table only  when entries are available
 
 @TC_ManageClass_11
-  Scenario: Verify delete icon when no data in the table
-    Then Admin cant see delete  Icon in data table
+  Scenario: Verify delete icon when no data in the table for Manage Class
+    Then Admin cant see delete  Icon in data table for Manage Class
 
 @TC_ManageClass_12
   Scenario: Verify sort icon in the data table in manage class page
