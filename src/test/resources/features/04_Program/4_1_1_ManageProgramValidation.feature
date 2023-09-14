@@ -4,7 +4,7 @@ Feature: Manage Program Validation
 Scenario: Validate landing in Program page
     Given  Admin is on dashboard page after Login to validate  Program Page
     When   Admin clicks Program on the navigation bar on Program Page
-    Then   Admin should see URL with "Manage Program"
+    Then   Admin should see URL with "Manage Program" on Program Page
 
 @TC_Program_Page_Validation_02
 Scenario: Validating the Manage Program Header on Program Page
