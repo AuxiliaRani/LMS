@@ -41,8 +41,8 @@ try {
 		LoggerLoad.error("Assertion failed: " + e.getMessage());
 	}}
 
-	@Then("Admin should be able to see the search text box")
-	public void admin_should_be_able_to_see_the_search_text_box() {
+	@Then("Admin should be able to see the search text box on user page")
+	public void admin_should_be_able_to_see_the_search_text_box_on_user_page() {
 	    boolean isSearchboxvisible=Userpage.isSearchboxVisible();
 	    try {
 	    Assert.assertTrue("Searchbox is not visible", isSearchboxvisible);
@@ -50,8 +50,8 @@ try {
 		LoggerLoad.error("Assertion failed: " + e.getMessage());
 	}}
 
-	@Then("Each row in the data table should have a checkbox")
-	public void each_row_in_the_data_table_should_have_a_checkbox() {
+	@Then("Each row in the data table should have a checkbox on user page")
+	public void each_row_in_the_data_table_should_have_a_checkbox_on_user_page() {
 		boolean checkboxesPresentInAllRows = Userpage.areCheckboxesPresentInAllRows();
    try {
         Assert.assertTrue("Not all rows have checkboxes", checkboxesPresentInAllRows);
@@ -59,8 +59,8 @@ try {
 		LoggerLoad.error("Assertion failed: " + e.getMessage());
 	}}
 
-	@Then("Each row in the data table should have a edit icon that is enabled")
-	public void each_row_in_the_data_table_should_have_a_edit_icon_that_is_enabled() {
+	@Then("Each row in the data table should have a edit icon that is enabled on user page")
+	public void each_row_in_the_data_table_should_have_a_edit_icon_that_is_enabled_on_user_page() {
 		
 		boolean editIconsEnabledInAllRows = Userpage.areEditIconsEnabledInAllRows();
 try {
@@ -71,8 +71,8 @@ try {
 	}}
 	
 
-	@Then("Each row in the data table should have a delete icon that is enabled")
-	public void each_row_in_the_data_table_should_have_a_delete_icon_that_is_enabled() {
+	@Then("Each row in the data table should have a delete icon that is enabled on user page")
+	public void each_row_in_the_data_table_should_have_a_delete_icon_that_is_enabled_on_user_page() {
 		 
 		boolean deleteIconsEnabledInAllRows = Userpage.areDeleteIconsEnabledInAllRows();
 
