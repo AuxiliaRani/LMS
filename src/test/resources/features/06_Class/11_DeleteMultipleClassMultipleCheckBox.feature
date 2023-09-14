@@ -1,7 +1,7 @@
 Feature: Delete Multiple Classes By Selecting Multiple Checkbox Validation.
 
 Background: Admin clicks delete button under header after selecting the multiple check box in the data table in manage class page
-Given Admin is in delete alert for multiple checkbox
+Given Admin is in delete alert on class page
 
 Scenario: Verify accept alert in delete multiple class function by selecting multiple checkbox in manage class page
 When Admin clicks yes button in manage class alert
