@@ -193,6 +193,3 @@ public class DashboardPage extends DriverFactory {
 
 }
 
-
-}
-
