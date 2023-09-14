@@ -9,12 +9,6 @@ import pageObjects.ManageAssignment;
 
 public class ManageAssignmentSD9 {
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-		ChromeDriver chromeDriver = new ChromeDriver();
-		chromeDriver.get(" ManageAssignmentPageUrl");
-	}
 	@When("Admin clicks single  row level check box in the data table")
 	public void Admin_clicks_single_row_level_check_box_in_the_data_table() {
 		System.out.format("Admin clicks single  row level check box in the data table");
