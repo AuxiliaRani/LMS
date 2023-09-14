@@ -58,8 +58,8 @@ public class ResetPasswordDetailsSD {
 
 	}
 
-	@When("Admin clicks {string} button")
-	public void admin_clicks_button(String string) {
+	@When("Admin clicks {string} button on Reset Password Page")
+	public void admin_clicks_button_on_reset_password_page(String string) {
 		LoggerLoad.info("Admin clicks the submit button");
 		resetPwdPage.clickSubmitButton();
 
