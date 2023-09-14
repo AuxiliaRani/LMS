@@ -9,10 +9,7 @@ import utilities.LoggerLoad;
 
 public class ManageAssignmentSD10 {
 	
-	@Given("Admin is in delete alert")
-	public void Admin_is_in_delete_alert() {
-		System.out.format("Admin is in delete alert");
-	}
+
 	
 	@Then("Redirected to assignment page and selected assignment details10 are deleted from the data table")
 	public void Redirected_to_assignment_page_and_selected_assignment_details10_are_deleted_from_the_data_table() {
