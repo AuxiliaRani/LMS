@@ -35,8 +35,8 @@ public class ManageProgramValidation_1_SD {
 	    
 	}
 
-	@Then("Admin should see URL with {string}")
-	public void admin_should_see_url_with(String string) {
+	@Then("Admin should see URL with {string} on Program Page")
+	public void admin_should_see_url_with_on_program_page(String string) {
 	    
 		
 		String batchUrl = programModule.getCurrentUrl();
