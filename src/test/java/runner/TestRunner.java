@@ -11,10 +11,12 @@ import io.cucumber.testng.CucumberOptions;
 		features = { "src/test/resources/features" }, // location of feature files
 
 
+
 		glue = { "stepDefinitionsMainLoginPage", "stepDefinitionsDashboardPage", "stepDefinitionsStudent",
 				"stepDefinitionsProgram", "stepDefinitionsBatch", "stepDefinitionsClass", "stepDefinitionsUser",
 				"stepDefinitionsAssignment", "stepDefinitionsAttendance", "myHooks" }) // location of step definition
 																						// files
+
 
 
 
