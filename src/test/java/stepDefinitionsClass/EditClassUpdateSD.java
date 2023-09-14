@@ -132,7 +132,7 @@ public class EditClassUpdateSD extends DriverFactory{
 	public void admin_clicks_cancel_button_without_entering_values_in_the_fields_for_class_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
-
+	}
 	@When("Admin clicks Cancel button without entering values in the fields")
 	public void admin_clicks_cancel_button_without_entering_values_in_the_fields() {
 		editclassupdate.clickCancelButton();
@@ -174,7 +174,7 @@ public class EditClassUpdateSD extends DriverFactory{
 	@Then("Admin should land on Manage Class Page and validate particular class details are not changed  in the data table")
 	public void admin_should_land_on_manage_class_page_and_validate_particular_class_details_are_not_changed_in_the_data_table() {
 		List<WebElement>  wb = manageclass.rowIsPresent();
-		List<String> courseTopic = new ArrayList<String>();;
+		List<String> courseTopic = new ArrayList<String>();
 		
 		for ( WebElement w: wb)
 		{
