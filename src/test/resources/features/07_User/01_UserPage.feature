@@ -16,13 +16,13 @@ Background: Logged on the LMS portal
   @Uspg3
   Scenario: Validate search box in User page
     
-    Then Admin should be able to see the search text box
+    Then Admin should be able to see the search text box on user page
     
   @Uspg4
   Scenario: Validate data rows
-  Then Each row in the data table should have a checkbox
-   And Each row in the data table should have a edit icon that is enabled
-   And Each row in the data table should have a delete icon that is enabled
+  Then Each row in the data table should have a checkbox on user page
+   And Each row in the data table should have a edit icon that is enabled on user page
+   And Each row in the data table should have a delete icon that is enabled on user page
    
     @Uspg5
   Scenario: Validate pop up for adding user
