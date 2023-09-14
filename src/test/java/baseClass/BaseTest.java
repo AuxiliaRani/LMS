@@ -22,7 +22,7 @@ public class BaseTest {
 	public WebDriver driverlaunchApp() throws InterruptedException, IOException {
 	
 			prop = new Properties();
-			String conPath = System.getProperty("user.dir")+"/src/test/resources/configuration/Config.properties";
+			String conPath = System.getProperty("user.dir")+"/src/test/resources/config/Config.properties";
 			FileInputStream input = new FileInputStream(conPath);
 			prop.load(input);
 		

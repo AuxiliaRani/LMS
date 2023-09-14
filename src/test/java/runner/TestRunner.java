@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		monochrome = false, // console output
 		tags = "", // tags from feature file
 		features = { "src/test/resources/features" }, // location of feature files
-		glue = { "stepDefinitions", "myHooks" }) // location of step definition files
+		glue = { "stepDefinitionsBatch","stepDefinitionsProgram", "myHooks" }) // location of step definition files
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	@DataProvider(parallel = false)
@@ -20,3 +20,4 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	}
 
 }
+

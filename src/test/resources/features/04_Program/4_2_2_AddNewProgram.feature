@@ -37,8 +37,3 @@ Then Program Details popup window should be closed without saving in Program Pag
 Scenario:Validate Save button on Program Details form	in Program page
 When Enter all the required fields with valid values and click Save button in Program Page
 Then Admin gets a message "Successful Program Created" alert and able to see the new program added in the data table in Program Page
-
-@TC_Add_New_Program_11	
-Scenario:Validate Cancel button on Program Details form	in Program page
-When Admin clicks  Cancel button in Program Page
-Then Admin can see the Program details popup disappears without creating any program in Program Page

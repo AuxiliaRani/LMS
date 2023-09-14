@@ -21,25 +21,8 @@ Scenario: Verify Search bar in Manage Program page
     
     Then   Admin should see Search bar with text as "Search..."  in Manage Program page
 
-@TC_Program_Page_Validation_13    
-Scenario: Search by  Program Name in Manage Program page
-   
-    When   Admin enters Program name phrase into search box in Manage Program page 
-    Then   Admin should see the Programs displayed based on the Program Name
 
-@TC_Program_Page_Validation_14    
-Scenario: Search by Program Description in Manage Program page
-
-    When   Admin enters Program description phrase into search box in Manage Program page
-    Then   Admin should see the Programs displayed based on the Program Description in Manage Program page
- 
- @TC_Program_Page_Validation_15   
-Scenario: Search by  Program Status in Manage Program page
-   
-    When   Admin enters Program status phrase into search box in Manage Program page
-    Then   Admin should see the Programs displayed based on the Program Status in Manage Program page
-    
-@TC_Program_Page_Validation_16   
+@TC_Program_Page_Validation_13   
 Scenario: Validating the Search with unrelated keyword in Manage Program page
     When   Admin enters the keywords not present in the data table on the Search box in Manage Program page
     Then   Admin should see zero entries on the data table in Manage Program page

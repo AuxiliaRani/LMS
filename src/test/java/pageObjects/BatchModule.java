@@ -20,24 +20,9 @@ public class BatchModule {
 	public WebDriver driver;
 	public Properties prop;
 	WebElement pageNumbers;
-	JavascriptExecutor js;
 	
-	@FindBy(xpath="//tagname[@id='firstname']") WebElement firstName;
-	@FindBy(xpath="//tagname[@id='lastname']")  WebElement lastName;
-	@FindBy (xpath="//tagname[@id='username']") WebElement userName;
-	@FindBy (xpath="//tagname[@id='password']") WebElement passWord;
-	@FindBy(xpath = "//tagname[text()=' House Number']")WebElement address;
-	@FindBy(xpath = "(//tagname[@Attribute='value'])")WebElement phoneNumber;
-	@FindBy(xpath = "//tagname[@Attribute='value1']")WebElement emailAddress;
-	@FindBy(xpath = "//tagname[text()='street']")WebElement streetName;
-	@FindBy(xpath = "//tagname[text()='city']")WebElement cityName;
-	@FindBy(xpath = "//tagname[@Attribute='value']")WebElement stateName;
-	@FindBy(xpath = "//tagname[@Attribute='value']")WebElement birthDate;
-	@FindBy(xpath = "//tagname[@Attribute='value']")WebElement zipCode;
-	@FindBy(xpath=("//div[contains(text(),'Registration Successful')]"))WebElement signUpSuccess;
-	@FindBy(xpath=("//div[contains(text(),'Enter')]"))WebElement invalidMsg1;
-	@FindBy(xpath=("//div[contains(text(),'Required')]"))WebElement invalidMsg2;
-	@FindBy(xpath=("//div[contains(text(),'name already exist')]"))WebElement invalidMsg3;
+	
+	
 //------------------validation of batch page-------------------------------------
 	@FindBy(xpath = "//tagname[text()='Batch']") WebElement batchButton;
 	@FindBy(xpath = "//tagname[text()=' Manage Batch']") WebElement headerName;
@@ -69,9 +54,10 @@ public class BatchModule {
 	
 	@FindBy(xpath = "//tagname[@Attribute='addBtch']")WebElement addNewBatchButton;
 	@FindBy(xpath = "//tagname[text()='Batch header']")WebElement addBatchHeader;
-	
+	@FindBy(xpath=("//div[@class= 'alert popUp']")) WebElement errorMsgforInvalidvalues;
 	@FindBy(xpath = "//tagname[@Attribute='Batch Details']")WebElement batchDetails;
 	@FindBy(xpath = "//tagname[@Attribute='savform']")WebElement saveForm;
+	
 	@FindBy(xpath = "//tagname[@Attribute='errmsg']")WebElement errorMessageNameRequired;
 	@FindBy(xpath = "//tagname[text()='Cancel']")WebElement cancelForm;
 	@FindBy(xpath = "//tagname[@id='batchName']")WebElement formBatchName;
@@ -106,6 +92,7 @@ public class BatchModule {
 
 	@FindBy(xpath = "//tagname[@Attribute='chkbx']")List<WebElement> checkboxs;
 
+	@FindBy(xpath=("//div[@class= 'alert popUp for blank mandatory field']")) WebElement errorMsgforblankvalues;
 	// =================pagination===============
 	
 	@FindBy(xpath = "//tagname[@Attribute='paginationTxt']")WebElement paginationText;
@@ -155,6 +142,10 @@ public class BatchModule {
 	
 	// ============Navigate to Batch page(batch page validation=============
 	
+	public String getCurrentUrl() {
+		return driver.getCurrentUrl();
+	}
+	
 	public void navigateToBatch() {
 		try {
 			Thread.sleep(2000);
@@ -199,23 +190,10 @@ public class BatchModule {
 			e.printStackTrace();
 		}
 	}
-	// Verify footer 
 	
-	public String footerString() {
-		String footer = "";
-		try {
-		footer=footerRecords.getText();
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-	    return footer;
-	}
 	public boolean batchPopup() {
 		
-	
-	try {
+		try {
 		if (batchPopup.isDisplayed() && batchPopup.getText().contains("batch details")) {
 			return true;
 		} else {
@@ -247,40 +225,7 @@ public class BatchModule {
 				List<WebElement> headerCells = batchDataTableHeader.findElements(By.tagName("td"));		
 				return headerCells;
 			}
-	
-	public String totalRecords() {
-		String footer = "";
-		try {
-		footer=footerRecords.getText();
-		footer=footer.replaceAll("[^0-9]", " ");
-		footer=footer.replaceAll(" +", " ");
-		
-		if (footer.equals(" ")) {
-			return "-1";
-		}
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-	    return footer;
-	}
 
-	public int verifyNumberOfRecords() throws InterruptedException {
-		int records = 0;
-		try {
-			for (int i = 1; i <= 5; i++) {
-				pageNumbers = driver.findElement(By.xpath("//button[text()="+ i +"]"));
-				pageNumbers.click();
-				Thread.sleep(2000);
-				records = driver.findElements(By.tagName("//tbody/tr")).size();
-			}
-			System.out.println(records);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return records;
-	}
 
 	public String recordsAvailable() {
 		String num = "";
@@ -293,16 +238,6 @@ public class BatchModule {
 		return num;
 	}
 	
-	//verify number of rows
-	public int checknumberofRows() {
-		String rowValue= numberOfRows.getAttribute("row value");
-		return Integer.valueOf(rowValue);
-	}
-	//verify search
-	public String getSearchText() {
-		String textSearch=searchtext.getText();
-		return textSearch;
-	}
 	
 	public String enterBatchNameInSearch(String batchName) {
 		searchButton.sendKeys(batchName);
@@ -334,62 +269,7 @@ public class BatchModule {
 		return actualName;
 	}
 	
-	public String enterStatusInSerach(String status) {
-		searchButton.sendKeys(status);
-		return status;
-	}
 	
-	public String getSearchedStatus(String status) {
-		String stasText = "";
-		for(WebElement Stas : statusColoumn) {
-			stasText=Stas.getText();
-			if(stasText.equalsIgnoreCase(status));	
-		}
-		return stasText;
-	}
-	
-	public String enterClassesInSerach(String classes) {
-		searchButton.sendKeys(classes);
-		return classes;
-	}
-	
-	public String getSearchedClasses(String classes) {
-		String className = "";
-		for(WebElement clas : classesColoumn) {
-			className=clas.getText();
-			if(className.equalsIgnoreCase(classes));	
-		}
-		return className;
-	}
-	
-	public String enterProgramNameInSearch(String proName) {
-		searchButton.sendKeys(proName);
-		return proName;
-	}
-	
-	public String getSearchedProgramName(String proName) {
-		String programName = "";
-		for(WebElement pro : programNames) {
-			programName=pro.getText();
-			if(programName.equalsIgnoreCase(proName));	
-		}
-		return programName;
-	}
-	
-	public void checkBoxBatchIsSelected() {
-		checkBoxBatch.click();
-		
-	}
-
-	
-	public boolean getAllcheckboxSelected() {
-		
-		for (WebElement check:allCheckbox) {
-			if (check.isSelected()) 
-				return true;
-			}	
-		return false;
-	}
 	public boolean batchEditIconEnabled()
 	{
 	try {
@@ -436,7 +316,7 @@ public class BatchModule {
 
 	public boolean batchDetailForm() {
 		try {
-			if (batchDetails.isDisplayed()) {
+			if (batchDetails.isEnabled()) {
 				return true;
 			}  	
 		} catch (Exception e) {
@@ -467,42 +347,15 @@ public class BatchModule {
 
 	}
 	
-	
-	public void clickOnDropdown() {
-		dropdownButton.click();
-	}
-	
-	public List<String> checkAllDropdownValues() {
-		List<String> dpValues= new ArrayList<String>();
-		for(WebElement dValues : dropdownValues) {
-			String val=dValues.getText();
-			dpValues.add(val);
-		}return dpValues;
-	}
-
-	public String verifySuccessMessage() {
-		String success=successMessage.getText();
-		return success;
-	}
-	
-	public void clickOnCancel() {
-		try {
-			cancelForm.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 
 	public String enterName(String addBatchName) throws InterruptedException {
 		// Thread.sleep(3000);
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 			wait.until(ExpectedConditions.visibilityOf(formBatchName));
 
 			formBatchName.sendKeys(addBatchName);
-			// js = (JavascriptExecutor)driver;
-			// js.executeScript("arguments[0].value="+addBatchName+";", formBatchName);
-
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -523,16 +376,19 @@ public class BatchModule {
 	}
 	
 
-	public String selectProgramName() {
-		String program = null;
+	public String selectProgramName(String program) {
+		
+		if (program == null) {
+			return null;
+		}
 		try {
 			dropdownButton.click();
-			String firstValue = firstOptionSelection.getText();
+			//String firstValue = firstOptionSelection.getText();
 
 			for (WebElement pName : dropdownValues) {
-				program = pName.getText();
+				String dropDownValue = pName.getText();
 
-				if (firstValue.equalsIgnoreCase(program)) {
+				if (program.equalsIgnoreCase(dropDownValue)) {
 					firstOptionSelection.click();
 				} else {
 					System.out.println("program name is Different");
@@ -545,14 +401,11 @@ public class BatchModule {
 		return program;
 	}
 
-	public void selectStatus() throws InterruptedException {
+	public void selectStatus(String statusInput) throws InterruptedException {
 		try {
-			for (WebElement stat : status) {
-				stat.click();
-			}
-			String currentStatus = "Active";
+
 			Thread.sleep(2000);
-			switch (currentStatus) {
+			switch (statusInput) {
 			case "Active":
 				activeStatus.click();
 				break;
@@ -565,7 +418,14 @@ public class BatchModule {
 			e.printStackTrace();
 		}
 	}
-
+	
+	public String errorMsgInvalidvalues() {
+		String errmsg=errorMsgforInvalidvalues.getText();
+		return errmsg;
+	}
+	
+	
+	
 	public boolean statusEnable() {
 		try {
 			if (activeStatus.isEnabled()) {
@@ -608,6 +468,20 @@ public class BatchModule {
 		}
 		return editName;
 	}
+	public void editNamewithEmptyValue() {
+		try {
+			Thread.sleep(1000);
+			editBatch.click();
+			formBatchName.clear();
+			} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public String errorMsgforblankvaluesEdit() {
+		String errmsg=errorMsgforblankvalues.getText();
+		return errmsg;
+	}
 
 	public String getEditedText() {
 		String getText = formBatchName.getAttribute("ng-reflect-model");
@@ -624,51 +498,16 @@ public class BatchModule {
 		}
 		return editedDescription;
 	}
-
-	public String getEditedDesc() {
-		String editedDescSeen = null;
+	public void editDescriptionBlankValue() {
 		try {
-			editedDescSeen = formDescription.getAttribute("ng-reflect-model");
-		} catch (Exception e) {
+			editBatch.click();
+			formDescription.clear();
+			} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return editedDescSeen;
+		
 	}
 
-	public String editProgramName() {
-		try {
-			Thread.sleep(1000);
-			dropdownButton.click();
-			editProgramName.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	public String getEditedProgramName() {
-		String enteredEditedName = "";
-		try {
-			dropdownButton.click();
-			enteredEditedName = editProgramName.getAttribute("ng-reflect-model");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return enteredEditedName;
-	}
-
-	public void selectInactive() {
-		try {
-			inactiveStatus.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public String getStatusText() {
-		String staText=inactiveStatus.getText();
-		return staText;
-	}
 
 	public void selectActive() {
 		try {
@@ -676,27 +515,6 @@ public class BatchModule {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-
-	public int editedNoClasses(String editedNoOfClasses) {
-		try {
-			Thread.sleep(1000);
-			noOfClasses.clear();
-			noOfClasses.sendKeys(editedNoOfClasses);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return 0;
-	}
-
-	public int getNumbersOfClasses() {
-		int getNumber = 0;
-		try {
-			getNumber = Integer.valueOf(noOfClasses.getAttribute("ng-reflect-model"));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return getNumber;
 	}
 
 	//===================  methods for Delete operations ==============
@@ -730,14 +548,19 @@ public class BatchModule {
 		}
 	}
 
-	public void confirmMessageDisplayed() {
+	public String confirmMessageDisplayed() {
 		try {
 			confirmMessage.isDisplayed();
+			
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		String text=confirmMessage.getText();
+		return text;
 	}
 
+	
 	public boolean searchDeletedName(String deletedBatchName) throws InterruptedException {
 		try {
 			searchButton.sendKeys(deletedBatchName);
@@ -761,15 +584,6 @@ public class BatchModule {
 		return false;
 	}
 
-	public void verifyDeletedRecords() {
-		try {
-			if (zeroRecords.isDisplayed()) {
-				System.out.println("Zero records displayed");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 
 	public void selectMutipleCheckboxes() {
 		try {
@@ -817,73 +631,6 @@ public class BatchModule {
 		return pagiText;
 	}
 	
-
-
-	public void clickOnPreviousLink() {
-		try {
-			singleBackwardLink.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void clickOnNextLink() {
-		try {
-			singleForwardLink.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public int checkHighLightedPageNumber() {
-		int pagenum = 0;
-		try {
-			String pageHighLight = highLightedPageNumber.getText();
-			pagenum=Integer.valueOf(pageHighLight);
-			System.out.println(pagenum);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return pagenum;
-	}
-	
-	public void lastEnabledLink() {
-		lastEnablePageNumber.click();
-	}
-
-
-	public void firstEnabledLink() {
-		firstEnablePageNumber.click();
-	}
-
-	// Sorting methods started from here
-	public void setBatchNameAsc() {
-		try {
-			batchNameSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchNameDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchNameSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setBatchDescriptionAsc() {
-		try {
-			batchDescriptionSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 	
 	public void setBatchDescriptionDesc() {
 		try {
@@ -914,100 +661,5 @@ public class BatchModule {
 			e.printStackTrace();
 		}
 	}
-
-	public void setBatchClassesAsc() {
-		try {
-			batchNoOfClassesSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchClassesDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchNoOfClassesSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setProgramNameAsc() {
-		try {
-			programNameSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setProgramNameDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			programNameSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public String checkBatchNameColoumnSorting() throws InterruptedException {
-		String currentSort = "";
-		try {
-			Thread.sleep(2000);
-			currentSort = batchNameColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchName: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchDescriptionColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchDescriptionColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchDescription: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchStatusColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchStatusColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchStatus: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchClassesColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchNoOfClassesColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchclasses: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkProgramNameColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = programNameColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of ProgramName: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
 
 }

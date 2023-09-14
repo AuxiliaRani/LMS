@@ -16,7 +16,7 @@ Then The newly added batch should be present in the data table in Manage Batch p
 Scenario: Check if the program details are added in data table in the Batch Page
 Given A new pop up with Batch details appears to check valid values in Manage Batch page
 When Fill in all the fields with valid values and click save in Manage Batch page
-Then The newly added batch should be present in the data table in Manage Batch page
+Then The newly added batch should be present in the data table in Manage Batch page with all filled values
 
 @TC_Add_new_Batch_04
 Scenario: Check for error messages for invalid fields in the Batch Page

@@ -13,8 +13,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
-
-
+import pageObjects.BatchModule;
+import pageObjects.ProgramModule;
 import utilities.ConfigReader;
 import utilities.LoggerLoad;
 
@@ -22,6 +22,8 @@ public class Hooks {
 	
 	public static WebDriver driver;
 	public static DriverFactory driverfactory;
+	private BatchModule batch;
+	private ProgramModule pm;
 
 	@BeforeAll
 	public static void before() throws Throwable {
@@ -42,7 +44,6 @@ public class Hooks {
 		LoggerLoad.info("===============================================================================================");
 		LoggerLoad.info(scenario.getSourceTagNames() +" : "+scenario.getName());
 		LoggerLoad.info("-----------------------------------------------------------------------------------------------");
-		
 	}
 	
 	@AfterStep
@@ -62,5 +63,25 @@ public class Hooks {
 		LoggerLoad.info("Closing Driver");
 		driverfactory.closeallDriver();
 	}
+	
+	public void setBatchProgramModule() {
+		batch=new BatchModule(driver);
+		pm = new ProgramModule(driver);
+	}
+	
+	public BatchModule getBatchModuleObject() {
+		if (this.batch == null) {
+			batch=new BatchModule(driver);
+		}
+		return batch;
+	}
+	
+	public ProgramModule getProgramModuleObject() {
+		if (this.pm == null) {
+			pm=new ProgramModule(driver);
+		}
+		return pm;
+	}
+	
 	
 }

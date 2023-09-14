@@ -10,7 +10,7 @@ Then A new pop up with Batch details appears in batch page
 Scenario Outline: Check if the fields are updated in batch page for edit
 Given Admin clicks the edit icon to Update valid values "<Name>" , "<Description>" , "<Program Name>", "<Number of classes>" ,"<Status"> of in batch page
 When Update the fields with valid values and click save in batch page
-Then The updated batch details should appear on the data table in batch page with updated value
+Then The updated batch details should appear on the data table in batch page with updated value "<Name>"
 
 Examples:    
      |Name     | Description             | Program Name   | Number of classes     | Status |
