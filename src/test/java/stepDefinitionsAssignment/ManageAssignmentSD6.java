@@ -14,7 +14,7 @@ import utilities.LoggerLoad;
 public class ManageAssignmentSD6 {
 
 	
-	@Given("Admin is in Edit assignment detail popup window")
+	@Given("Admin is in Edit assignment detail popup window ")
 	public static void Admin_is_in_Edit_assignment_detail_popup_window() {
 		System.out.format("Admin is in  Edit assignment detail popup window");
 		try {
@@ -99,8 +99,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_data_missing_value_in_program_name_and_clicks_save_button_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5_on_assignment() {
 		System.out.format("Admin enters  data missing value in program name and clicks save button");
 	}
-	@Then("Program Name is missing")
-	public void Program_Name_is_missing() {
+	@Then("Program Name is missing on assignment")
+	public void Program_Name_is_missing_on_assignment() {
 		System.out.format("Program Name is missing");
 		LoggerLoad.info("Program Name is missing");
 		try {
@@ -115,8 +115,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_data_missing_value_in_Batch_number_and_clicks_save_button_Program_name_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file3_Assignment_file4_Assignment_file5_on_assignment_page() {
 		System.out.format("Admin enters data missing value");
 	}
-	@Then("Batch number is missing")
-	public void Batch_number_is_missing() {
+	@Then("Batch number is missing on assignment")
+	public void Batch_number_is_missing_on_assignment() {
 		System.out.format("Batch number is missing");
 		LoggerLoad.info("Batch number is missing");
 		try {
@@ -131,8 +131,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_data_missing_value_in_Assignment_name_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_Assignment_Due_date_on_assignment_page() {
 		System.out.format("Admin enters data missing value in Assignment name and clicks save button");
 	}
-	@Then("Assignment name is missing")
-	public void Assignment_name_is_missing() {
+	@Then("Assignment name is missing on assignment")
+	public void Assignment_name_is_missing_on_assignment() {
 		System.out.format("Assignment name is missing");
 		LoggerLoad.info("Assignment name is missing");
 		try {
@@ -147,8 +147,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_data_missing_value_in_Assignment_due_date_and_clicks_save_button_Program_name_batch_number_Assignment_Name_grade_by_on_assignment_page() {
 		System.out.format("Admin enters data missing value in Assignment due date and clicks save button");
 	}
-	@Then("Assignment due date is missing")
-	public void Assignment_due_date_is_missing() {
+	@Then("Assignment due date is missing on assignment")
+	public void Assignment_due_date_is_missing_on_assignment() {
 		System.out.format("Assignment due date is missing");
 
 	}
@@ -158,8 +158,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_data_missing_value_in_grade_by_and_clicks_save_button_Program_name_batch_number_Assignment_Name_Assignment_due_date_on_assignment_page() {
 		System.out.format("Admin enters data missing value in grade by  and clicks save button");
 	}
-	@Then("Grade by is missing")
-	public void Grade_by_is_missing() {
+	@Then("Grade by is missing on assignment")
+	public void Grade_by_is_missing_on_assignment() {
 		System.out.format("Grade by is missing");
 		LoggerLoad.info("Grade by is missing");
 		try {
@@ -191,8 +191,8 @@ public class ManageAssignmentSD6 {
 	public void Admin_clicks_Cancel_button_without_entering_values_in_the_fields_on_assignment_page() {
 		System.out.format("Admin clicks Cancel button without entering values in the fields");
 	}
-	@Then("Admin should land on manage assignment page")
-	public void Admin_should_land_on_manage_assignment_page() {
+	@Then("Admin should land on manage assignment page6")
+	public void Admin_should_land_on_manage_assignment_page6() {
 		System.out.format("Admin should land on manage assignment page");
 		LoggerLoad.info("Admin should land on manage assignment page");
 		try {
