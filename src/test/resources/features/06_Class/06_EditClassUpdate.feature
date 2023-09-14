@@ -40,9 +40,9 @@ Feature: Edit Class Validation
     Then class cannot be updated for the passed date message is displayed
 
   Scenario: Validate cancel button function in Edit class details popup window
-    When Admin clicks Cancel button without entering values in the fields
+    When Admin clicks Cancel button without entering values in the fields for class page
     Then Admin should land on Manage Class page from popup window
 
   Scenario: Validate cancel button function in Edit class details popup window with values in field
-    When Admin clicks Cancel button entering values in the fields
+    When Admin clicks Cancel button entering values in the fields for class page
     Then Admin should land on Manage Class Page and validate particular class details are not changed  in the data table
