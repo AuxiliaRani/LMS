@@ -36,10 +36,7 @@ public class ManageAssignmentSD3 {
 	}
 	
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_Is_on_manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_click_Add_New_assignment_button() {
 		System.out.format("Admin click +Add new assignment button");
@@ -56,10 +53,7 @@ public class ManageAssignmentSD3 {
 				}
 	
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_on_Manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_New_Assignment_Button(){
 		System.out.format("Admin click +Add new assignment button");
@@ -77,10 +71,6 @@ public class ManageAssignmentSD3 {
 	}
 	
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_on_manage_Assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_add_New_Assignment_Button(){
 		System.out.format("Admin click +Add new assignment button");
@@ -97,10 +87,6 @@ public class ManageAssignmentSD3 {
 	}
 	
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_On_manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
 	@When("Admin click +Add new assignment button")
 	public void Admin_click_Add_new_assignment_Button() {
 		System.out.format("Admin click +Add new assignment button");
@@ -116,10 +102,7 @@ public class ManageAssignmentSD3 {
 		}
 	}
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_Is_on_Manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_new_assignment_Button(){
 		System.out.format("Admin click +Add new assignment button");
@@ -135,10 +118,6 @@ public class ManageAssignmentSD3 {
 		}
 	}
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_on_Manage_Assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_New_assignment_button(){
 		System.out.format("Admin click +Add new assignment button");
@@ -148,10 +127,7 @@ public class ManageAssignmentSD3 {
 		System.out.format("Admin should see  save button");
 	}
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_On_Manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_new_assignment_button() {
 		System.out.format("Admin click +Add new assignment button");
@@ -168,10 +144,6 @@ public class ManageAssignmentSD3 {
 	}
 	
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_Is_On_Manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_New_assignment_Button() {
 		System.out.format("Admin click +Add new assignment button");
@@ -187,10 +159,7 @@ public class ManageAssignmentSD3 {
 		}
 	}
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_Is_On_manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_Click_Add_New_Assignment_button() {
 		System.out.format("Admin click +Add new assignment button");
