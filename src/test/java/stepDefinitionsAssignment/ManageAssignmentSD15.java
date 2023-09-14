@@ -40,10 +40,7 @@ public class ManageAssignmentSD15 {
 	}
 	}
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_Manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
+	
 	@When("Admin clicks Program button in the navigation bar")
 	public void Admin_clicks_Program_button_in_the_navigation_bar() {
 		System.out.format("Admin clicks Program button in the navigation bar");
@@ -60,10 +57,6 @@ try {
 	}
 	}
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_Manage_Assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
 	@When("Admin clicks Batch button in the navigation bar")
 	public void Admin_clicks_Batch_button_in_the_navigation_bar() {
 		System.out.format("Admin clicks Batch button in the navigation bar");
@@ -81,10 +74,7 @@ try {
 	}
 
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_Assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
+	
 	@When("Admin clicks User button in the navigation bar")
 	public void Admin_clicks_User_button_in_the_navigation_bar() {
 		System.out.format("Admin clicks User button in the navigation bar");
@@ -101,10 +91,6 @@ try {
 	}
 	}
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_Is_in_manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
 	@When("Admin clicks class button in the navigation bar")
 	public void Admin_clicks_class_button_in_the_navigation_bar() {
 		System.out.format ("Admin clicks class button in the navigation bar");
@@ -122,10 +108,7 @@ try {
 		
 	}
 	
-	@Given("Admin is in manage assignment page")
-	public void Admin_is_in_manage_assignment_Page() {
-		System.out.format ("Admin is in manage assignment page");
-	}
+
 	@When("Admin clicks Attendance button in the navigation bar")
 	public void Admin_clicks_Attendance_button_in_the_navigation_bar() {
 		System.out.format ("Admin clicks \" Attendance\" button in the navigation bar");
@@ -141,11 +124,7 @@ try {
 			LoggerLoad.error("Assertion failed: " + e.getMessage());
 	}
 	}
-	
-	@Given("Admin is in manage assignment page")
-	public void Admin_Is_In_manage_assignment_page() {
-		System.out.format("Admin is in manage assignment page");
-	}
+
 	@When("Admin clicks Logout button in the navigation bar")
 	public void Admin_clicks_Logout_button_in_the_navigation_bar() {
 		System.out.format("Admin clicks Logout buton in the navigation bar");
