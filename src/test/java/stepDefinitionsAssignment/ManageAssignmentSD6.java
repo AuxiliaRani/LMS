@@ -92,16 +92,7 @@ public class ManageAssignmentSD6 {
 	public void Admin_enters_with_invalid_data_in_optional_fields_and_clicks_save_button_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
 		System.out.format("Admin enters with invalid data in optional fields and clicks save button");
 	}
-	@Then("Error message should appear in alert")
-	public void Error_Message_should_appear_in_alert() {
-		System.out.format("Error message should appear in alert");
-		LoggerLoad.info("Error message should appear in alert");
-		try {
-			ManageAssignment.Error_message_Should_appear_in_alert();
-		} catch (Error e) {
-			LoggerLoad.error(e.getMessage());
-		}
-	}
+	
 	
 	
 	@When("Admin enters  data missing value in program name and clicks save button batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
