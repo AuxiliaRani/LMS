@@ -47,8 +47,8 @@ public class ManageAttendanceSD {
 	    LoggerLoad.info("**********Navigate to Attendance Module**********");
 	}
 
-	@When("Admin clicks {string} on the navigation bar")
-	public void admin_clicks_on_the_navigation_bar(String string) {
+	@When("Admin clicks {string} on the navigation bar for Attendance module")
+	public void admin_clicks_on_the_navigation_bar_for_attendance_module(String string) {
 	
 		attendanceModule.verifyPageTitle();
 	}
