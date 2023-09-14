@@ -46,8 +46,8 @@ public class MangeAssignmentSD2 {
 		public void Admi_enters_assignment_name_is_not_existing_the_table_into_search_box() {
 			System.out.format("enter assignment is not in existing table");
 		}
-		@Then("Displays empty details in the data table")
-		public void Displays_empty_details_in_the_data_table() {
+		@Then("Displays empty details in the data table for search box")
+		public void Displays_empty_details_in_the_data_table_for_search_box() {
 			System.out.format("empty Details");
 			 LoggerLoad.info("Displays empty details in the data table");
 				try {
