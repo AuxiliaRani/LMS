@@ -14,11 +14,11 @@ import utilities.LoggerLoad;
 public class ManageAssignmentSD6 {
 
 	
-	@Given("Admin is in  Edit assignment detail popup window")
+	@Given("Admin is in Edit assignment detail popup window")
 	public static void Admin_is_in_Edit_assignment_detail_popup_window() {
 		System.out.format("Admin is in  Edit assignment detail popup window");
 		try {
-			ManageAssignment. Admin_should_see_cancel_button_in_the_Assignment_detail_popup_window();
+			ManageAssignment.Admin_should_see_cancel_button_in_the_Assignment_detail_popup_window();
 		}
 	     catch (AssertionError e){
 	    	 LoggerLoad.info("Edit assignment detail popup window" + e);
@@ -81,7 +81,7 @@ public class ManageAssignmentSD6 {
 			System.out.format("Admin should see updated assignment details is added in the data tabl");
 			LoggerLoad.info("Admin should see updated assignment details is added in the data tabl ");
 			try {
-				ManageAssignment. Admin_should_see_new_assignment_details_is_added_in_the_data_table();
+				ManageAssignment.Admin_should_see_new_assignment_details_is_added_in_the_data_table();
 			} catch (Error e) {
 				LoggerLoad.error(e.getMessage());
 			}
@@ -97,7 +97,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Error message should appear in alert");
 		LoggerLoad.info("Error message should appear in alert");
 		try {
-			ManageAssignment.  Error_message_Should_appear_in_alert();
+			ManageAssignment.Error_message_Should_appear_in_alert();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -113,7 +113,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Program Name is missing");
 		LoggerLoad.info("Program Name is missing");
 		try {
-			ManageAssignment. Program_Name_is_missing();
+			ManageAssignment.Program_Name_is_missing();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -129,7 +129,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Batch number is missing");
 		LoggerLoad.info("Batch number is missing");
 		try {
-			ManageAssignment. Batch_number_is_missing();
+			ManageAssignment.Batch_number_is_missing();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -145,7 +145,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Assignment name is missing");
 		LoggerLoad.info("Assignment name is missing");
 		try {
-			ManageAssignment. Assignment_name_is_missing();
+			ManageAssignment.Assignment_name_is_missing();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -172,7 +172,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Grade by is missing");
 		LoggerLoad.info("Grade by is missing");
 		try {
-			ManageAssignment. Grade_by_is_missing();
+			ManageAssignment.Grade_by_is_missing();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -188,7 +188,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Assignment cannot be updated for the passed date");
 		LoggerLoad.info("Assignment cannot be updated for the passed date");
 		try {
-			ManageAssignment. Assignment_cannot_be_created_for_the_passed_date();
+			ManageAssignment.Assignment_cannot_be_created_for_the_passed_date();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -205,7 +205,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Admin should land on manage assignment page");
 		LoggerLoad.info("Admin should land on manage assignment page");
 		try {
-			ManageAssignment. Admin_should_land_on_manage_assignment_page();
+			ManageAssignment.Admin_should_land_on_manage_assignment_page();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
@@ -221,7 +221,7 @@ public class ManageAssignmentSD6 {
 		System.out.format("Admin should land on manage assignment Page and validate new assignment is not created in the data table");
 		LoggerLoad.info("Admin should land on manage assignment Page and validate new assignment is not created in the data table");
 		try {
-			ManageAssignment.  Admin_should_land_on_manage_assignment_Page_and_validate_new_assignment_is_not_created_in_the_data_table();
+			ManageAssignment.Admin_should_land_on_manage_assignment_Page_and_validate_new_assignment_is_not_created_in_the_data_table();
 		} catch (Error e) {
 			LoggerLoad.error(e.getMessage());
 		}
