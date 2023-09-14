@@ -29,27 +29,27 @@ Then: Error message should appear in alert on assignment page on assignment page
 @Assignment5
 Scenario: Validate admin able to update assignment missing program name
 When: Admin enters  data missing value in program name and clicks save button (batch number,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5) on assignment page
-Then: Program Name is missing
+Then: Program Name is missing on assignment
 
 @Assignment6
 Scenario: Validate admin able to update assignment missing batch number
 When: Admin enters data missing value in Batch number and clicks save button (Program name,Assignment Name, Assignment Description, grade by, Assignment due date, Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5) on assignment page
-Then: Batch number is missing
+Then: Batch number is missing on assignment
 
 @Assignment7
 Scenario: Validate admin able to update assignment missing assignment name
 When: Admin enters data missing value in Assignment name and clicks save button (Program name, batch number,Assignment Name,  grade by, Assignment Due date ) on assignment page
-Then: Assignment name is missing
+Then: Assignment name is missing on assignment
 
 @Assignment8
 Scenario: Validate admin able to update assignment missing due date
 When: Admin enters data missing value in Assignment due date and clicks save button ( Program name, batch number,Assignment Name, grade by) on assignment page
-Then: Assignment due date is missing
+Then: Assignment due date is missing on assignment
 
 @Assignment9
 Scenario: Validate admin able to update assignment missing grade by
 When: Admin enters data missing value in grade by  and clicks save button (Program name, batch number,Assignment Name, Assignment due date) on assignment page
-Then: Grade by is missing
+Then: Grade by is missing on assignment
 
 
 @Assignment10
@@ -59,8 +59,8 @@ Then: Assignment cannot be updated for the passed date on assignment page
 
 @Assignment11
 Scenario: Validate cancel button function in assignment details popup window
-When: Admin clicks Cancel button without entering values in the fields on assignment page
-Then: Admin should land on manage assignment page
+When: Admin clicks Cancel button without entering values in the fields on assignment page6
+Then: Admin should land on manage assignment page6
 
 @Assignment12
 Scenario: Validate cancel button function in assignment details popup window with values in field
