@@ -34,10 +34,6 @@ public class ManageassignmentSD7 {
 	}
 	
 	
-	@When("Admin clicks delete button in data table row level")
-	public void Admin_Clicks_delete_button_in_data_table_row_level() {
-		System.out.format("Admin clicks delete button in data table row level");
-	}
 	@Then("Alert should have yes button to accept")
 	public void Alert_should_have_yes_button_to_accept() {
 		System.out.format("Alert should have yes button to accept");
@@ -48,11 +44,7 @@ public class ManageassignmentSD7 {
 			LoggerLoad.error(e.getMessage());
 		}
 	}
-	
-	@When("Admin clicks delete button in data table row level")
-	public void Admin_Clicks_Delete_button_in_data_table_row_level() {
-		System.out.format("Admin clicks delete button in data table row level");
-	}
+
 	@Then("Alert should have No button to reject")
 	public void Alert_should_have_No_button_to_reject() {
 		System.out.format("Alert should have No button to reject");
