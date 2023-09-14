@@ -42,10 +42,7 @@ public class ManageAssignmentSD14 {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	@Given("Admin is in add assignment details popup window")
-	public void Admin_Is_in_add_assignment_details_popup_window() {
-		System.out.format("Admin is in add assignment details popup window");
-	}
+	
 	@When("Admin creates less than or equal to 5 new  assignment") 
 	public void Admin_Creates_less_than_or_Equal_to_5_new_assignment() {
 		System.out.format("Admin creates less than or equal to 5 new  assignment");
