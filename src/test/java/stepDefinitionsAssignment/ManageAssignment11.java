@@ -9,10 +9,6 @@ import utilities.LoggerLoad;
 
 public class ManageAssignment11 {
 	
-	@Given("Admin is in delete alert")
-	public void Admin_is_in_delete_alert() {
-		System.out.format("Admin is in delete alert");
-	}
 	@When("Admin clicks yes button")
 	public void Admin_clicks_yes_button() {
 		System.out.format("Admin clicks yes button");
@@ -29,10 +25,6 @@ public class ManageAssignment11 {
 	}
 
 	
-	@Given("Admin is in delete alert")
-	public void Admin_is_in_Delete_alert() {
-		System.out.format("Admin is in delete alert");
-	}
 	@When("Admin clicks no button")
 	public void Admin_clicks_no_button() {
 		System.out.format("Admin clicks no button");
