@@ -17,8 +17,8 @@ public class ManageClassSD extends DriverFactory{
 	ManageClass manageclass = new ManageClass();
 	
 	
-	@Given("Admin is on dashboard page after Login")
-	public void admin_is_on_dashboard_page_after_login() {
+	@Given("Admin is on dashboard page after Login for Manage Class")
+	public void admin_is_on_dashboard_page_after_login_for_manage_class() {
 	driver.get(config.getString("DashBoardPageUrl"));
 	LoggerLoad.info("Admin is On Dashboard Page after Login");
 	}
