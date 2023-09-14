@@ -1,9 +1,3 @@
-/**
- * Author:    Auxilia
- * Created:   09.10.2023
- * 
- * Numpy Ninja
- **/
 
 package pageObjects;
 
@@ -27,6 +21,7 @@ public class MainPage extends DriverFactory {
 
 	String lmsPortal = ConfigReader.getHomePage();
 	String invalidUrl = ConfigReader.getInvalidUrl();
+	//String invalidUrl = ConfigReader.getInvalidUrl();
 	String loginPage = ConfigReader.getLoginPage();
 	Boolean isRequired;
 
@@ -99,9 +94,11 @@ public class MainPage extends DriverFactory {
 	}
 
 	// get the invalid url
+
 	public void getInvalidUrl() {
 		driver.get(invalidUrl);
 	}
+
 
 	// Verify the spelling for the Learning field
 	public String getLearningTxt() {
@@ -455,4 +452,7 @@ public class MainPage extends DriverFactory {
 
 	}
 
+
 }
+
+

@@ -4,13 +4,23 @@ package pageObjects;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-//AddNewClass + ClassPopUpWindow pageobject
+import factory.DriverFactory;
 
+//AddNewClass + ClassPopUpWindow pageobject
 public class ClassPopUpWindow {
+	
+	public ClassPopUpWindow() {
+		PageFactory.initElements(driver, this);
+	}
+		
+	public static WebDriver driver = DriverFactory.getdriver();
+
 
 	@FindBy(xpath = ("//*[@id='AddNewClass']"))
 	WebElement addNewClassButton;
@@ -52,7 +62,7 @@ public class ClassPopUpWindow {
 	WebElement cancelbutton;
 	
 	@FindBy(xpath = ("//*[@id='textbox']"))
-	WebElement textbox;
+	WebElement batchIdtextbox;
 	
 	@FindBy(xpath = ("//*[@id='classdatetextbox']"))
 	WebElement classdatetextbox;
@@ -78,12 +88,17 @@ public class ClassPopUpWindow {
 	@FindBy(xpath = ("//*[@id='alert']"))
 	WebElement alert;
 	
+	
+	
 	public void clickAddNewClassButton() {
 		addNewClassButton.click();
 	}
 	
 	public String headerText() {
 		return 	headerText.getText();		
+	}
+	public void batchIdClear() {
+		 batchIdOnAddClassPage.clear();;
 	}
 	
 	public String batchId() {
@@ -112,28 +127,69 @@ public class ClassPopUpWindow {
 		return classTopicOnAddClassPage.getText();
 	}
 	
+	public void classTopicClear() {
+		classTopicOnAddClassPage.clear();;
+	}
+	
+	public void classTopicSendKeys(String string) {
+		classTopicOnAddClassPage.sendKeys(string);
+	}
+	
 	public String staffID() {
 		return staffIdOnAddClassPage.getText();
 	}
-	
 	public String classDescription() {
 		return classDescriptionOnAddClassPage.getText();
+	}
+	public void classDescriptionClear() {
+		 classDescriptionOnAddClassPage.clear();
+	}
+	public void classDescription(String string) {
+		 classDescriptionOnAddClassPage.sendKeys(string);
 	}
 	
 	public String comments() {
 		return commentsOnAddClassPage.getText();
 	}
+	public void commentsclear() {
+		 commentsOnAddClassPage.clear();
+	}
+	public void commentssendkeys(String string) {
+		 commentsOnAddClassPage.sendKeys(string);
+	}
+	
 	
 	public String notes() {
 		return notesOnAddClassPage.getText();
+	}
+	
+	public void notesclean() {
+		notesOnAddClassPage.clear();
+	}
+	
+	public void notesSendKeys(String string) {
+		 notesOnAddClassPage.sendKeys(string);;
 	}
 	public String recordings() {
 		return recordingsOnAddClassPage.getText();
 	}
 	
-	public boolean textBox() {
-		return textbox.isDisplayed();
+	public  void recordingsClear() {
+		 recordingsOnAddClassPage.clear();
 	}
+	
+	public void recordingsSendKeys(String string) {
+		 recordingsOnAddClassPage.sendKeys(string);
+	}
+	
+	public boolean textBox() {
+		return batchIdtextbox.isDisplayed();
+	}
+	
+	public void clearTextBox() {
+		batchIdtextbox.clear();
+    }
+	
 	
 	public boolean dropdownBatchId() {
 		return dropdownbatchid.isDisplayed();
@@ -197,9 +253,18 @@ public class ClassPopUpWindow {
 	public boolean closeButtonDisplayed() {
 		return closebutton.isDisplayed();
 	}
-	
-	public void classNoTextBox(String InvalidClassNo) {
-		classNotextbox.sendKeys(InvalidClassNo);
+	public void classNoClear() {
+		classNotextbox.clear();
 	}
 	
+	public void classNoTextBox(String string) {
+		classNotextbox.sendKeys(string);
+	}
+	
+	public void classDateClear() {
+		classdatetextbox.clear();
+	}
+	public void classDateTextBox(String string) {
+		classdatetextbox.sendKeys(string);
+	}
 }

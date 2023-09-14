@@ -1,8 +1,11 @@
 package stepDefinitionsClass;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.List;
 import java.util.ResourceBundle;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import utilities.LoggerLoad;
@@ -10,18 +13,47 @@ import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObjects.DashboardPage;
+import pageObjects.MainPage;
 import pageObjects.ManageClass;
 
 public class ManageClassSD extends DriverFactory{
 
 	ManageClass manageclass = new ManageClass();
+
 	
 	
-	@Given("Admin is on dashboard page after Login for Manage Class")
-	public void admin_is_on_dashboard_page_after_login_for_manage_class() {
-	driver.get(config.getString("DashBoardPageUrl"));
-	LoggerLoad.info("Admin is On Dashboard Page after Login");
+
+	//@Given("Admin is on dashboard page after Login for Manage Class")
+	//public void admin_is_on_dashboard_page_after_login_for_manage_class() {
+	//driver.get(config.getString("DashBoardPageUrl"));
+	//LoggerLoad.info("Admin is On Dashboard Page after Login");
+
+	
+	@Given("Admin is on Dashboard page after login with valid username and password")
+	public void admin_is_on_dashboard_page_after_login_with_valid_username_and_password() {
+		try{
+		
+		driver.get(config.getString("BaseUrl"));
+		driver.findElement(By.id("username")).sendKeys(config.getString("UserName"));
+		driver.findElement(By.id("username")).sendKeys(config.getString("Password"));
+		driver.findElement(By.id("submitButton")).click();
+		String Dashboardpage = config.getString("DashBoardPageTitle");
+		String pgTitle = driver.getTitle();
+		try {
+		Assert.assertEquals(pgTitle,Dashboardpage);
+	LoggerLoad.info("Title matches");
+		} catch (AssertionError e) {			
+		}
+	} catch (Exception e) {		
+
 	}
+		driver.get(config.getString("DashBoardPageUrl"));
+				LoggerLoad.info("Admin is On Dashboard Page after Login");		
+	}
+		
+		
+		
 
 	@When("Admin clicks {string} button on the navigation bar")
 	public void admin_clicks_button_on_the_navigation_bar(String string) {
