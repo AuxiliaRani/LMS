@@ -59,33 +59,33 @@ Then: Assignment cannot be created for the passed date
 
 @Assignment11
 Scenario: Validate date picker
-When: Admin clicks date from date picker
-Then: selected date should be their in class date text box
+When: Admin clicks date from date picker on assignment
+Then: selected date should be their in class date text box on assignment
 
 @Assignment12
 Scenario: validate date picker should be correct format
-When: Admin clicks date from date picker
-Then: selected date should be in  mm/dd/yyyy format
+When: Admin clicks date from date picker on assignment
+Then: selected date should be in  mm/dd/yyyy format on assignment
 
 @Assignment13
 Scenario: Validate right arrow in data picker to navigate to next month
-When: Admin clicks right arrow in the date picker near month
-Then: Next month calender should visible
+When: Admin clicks right arrow in the date picker near month on assignment
+Then: Next month calender should visible on assignment
 
 @Assignment14
 Scenario: Validate left arrow in data picker to navigate to previous month
-When: Admin clicks left arrow in the date picker near month
-Then: previous month calender should visible
+When: Admin clicks left arrow in the date picker near month on assignment
+Then: previous month calender should visible on assignment
 
 @Assignment15
 Scenario: Validate current date is highlighted in the date picker
-When: Admin clicks date picker button
-Then: Admin should see current date is highled in the date picker
+When: Admin clicks date picker button on assignment
+Then: Admin should see current date is highled in the date picker on assignment
 
 @Assignment16
 Scenario: Validate selected date is highlighted in the date picker
-When: Admin clicks date picker button and selects future date
-Then: Admin should see selected date is highled in the date picker
+When: Admin clicks date picker button and selects future date on assignment
+Then: Admin should see selected date is highled in the date picker on assignment
 
 @Assignment17
 Scenario: Validate cancel button function in assignment details popup window
