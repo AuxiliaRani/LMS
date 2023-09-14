@@ -1,9 +1,3 @@
-/**
- * Author:    Auxilia
- * Created:   09.10.2023
- * 
- * Numpy Ninja
- **/
 
 package pageObjects;
 
@@ -26,7 +20,7 @@ import utilities.LoggerLoad;
 public class MainPage extends DriverFactory {
 
 	String lmsPortal = ConfigReader.getHomePage();
-	//String invalidUrl = ConfigReader.getInvalidUrl();
+	String invalidUrl = ConfigReader.getInvalidUrl();
 	String loginPage = ConfigReader.getLoginPage();
 	Boolean isRequired;
 
