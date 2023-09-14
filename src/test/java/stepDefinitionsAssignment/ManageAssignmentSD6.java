@@ -88,8 +88,8 @@ public class ManageAssignmentSD6 {
 	}	
 	
 	
-	@When("Admin enters with invalid data in optional fields and clicks save button Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
-	public void Admin_enters_with_invalid_data_in_optional_fields_and_clicks_save_button_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
+	@When("Admin enters with invalid data in optional fields and clicks save button Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5 on assignment page")
+	public void Admin_enters_with_invalid_data_in_optional_fields_and_clicks_save_button_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5_on_assignment_page() {
 		System.out.format("Admin enters with invalid data in optional fields and clicks save button");
 	}
 	
