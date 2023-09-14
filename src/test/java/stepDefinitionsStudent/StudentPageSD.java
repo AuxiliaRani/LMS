@@ -43,8 +43,8 @@ public class StudentPageSD extends DriverFactory{
 
 	
 
-	@When("Admin clicks {string} on the navigation bar")
-	public void admin_clicks_on_the_navigation_bar(String string) {
+	@When("Admin clicks {string} on the navigation bar for Student module")
+	public void admin_clicks_on_the_navigation_bar_for_student_module(String string) {
 		Studentpage.Clickstudent();
 	    
 	}
@@ -106,8 +106,8 @@ try {
 		}
 	}
 
-	@Then("Admin should see LMS -Learning management system  as title")
-	public void admin_should_see_lms_learning_management_system_as_title() {
+	@Then("Admin should see LMS -Learning management system  as title for Student module")
+	public void admin_should_see_lms_learning_management_system_as_title_for_student_module() {
 		boolean title = Studentpage.isTitlelmsDisplayed();
 		LoggerLoad.info("Title of the current page: " + title);
 		try {
