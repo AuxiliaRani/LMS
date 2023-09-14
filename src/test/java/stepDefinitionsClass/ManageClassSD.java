@@ -73,8 +73,8 @@ public class ManageClassSD extends DriverFactory{
 		LoggerLoad.info("Admin see header with :"+ text);		
 	}
 
-	@Then("Admin should see disabled delete icon below the {string}")
-	public void admin_should_see_disabled_delete_icon_below_the(String string) {
+	@Then("Admin should see disabled delete icon below the Manage Class")
+	public void admin_should_see_disabled_delete_icon_below_the_manage_class() {
 	 // boolean isdisabled = manageclass.deleteIconIsDisabled();
 	  	  try { 
 		Assert.assertTrue(manageclass.deleteIconIsDisabled());}
