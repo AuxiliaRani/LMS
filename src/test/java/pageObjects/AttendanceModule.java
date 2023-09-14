@@ -36,9 +36,10 @@ public class AttendanceModule {
 
 //------------------validation of Attendance page-------------------------------------
 	
-	@FindBy(xpath = "//tagname[text()='Attendance-header']") WebElement attendanceHeader; 
-	@FindBy(xpath = "//tagname[text()='Attendance-header']") WebElement manageAttendanceTitle;
 	
+	@FindBy(xpath = "//tagname[text()='Attendance-header']") WebElement attendanceHeader; 
+	@FindBy(xpath = "//tagname[text()='manage-Attendance-header']") WebElement manageAttendanceTitle;
+	@FindBy(xpath = "//tagname[text()='dashboard-header']") WebElement dashboardTitle;
 	@FindBy(xpath = "//tagname[text()='form-Attendance-header']") WebElement formAttendanceHeaderName;
 	@FindBy(xpath = "//tagname[text()='attendanceLable']") WebElement attendanceLable;
 	
@@ -51,6 +52,7 @@ public class AttendanceModule {
 
 	@FindBy(xpath = "//tagname[@Attribute='addAttendance']")WebElement editButton;
 	@FindBy(xpath = "//tagname[@Attribute='SText']")WebElement searchtext;
+	@FindBy(xpath = "//tagname[@Attribute='Sbar']")WebElement searchBar;
 	
 	
 	@FindBy(xpath="//tagname[@Attribute='Classcolmn']")List<WebElement> classesColoumn;
@@ -164,6 +166,25 @@ public class AttendanceModule {
 
 	@FindBy(xpath = "//tagname[@Attribute='chkbx']")List<WebElement> checkboxs;
 	@FindBy(xpath = "//tagname[@Attribute='singleCheckbox']")WebElement singleCheckbox;
+	
+	// ================= Navidation bar  =================
+	
+	@FindBy(xpath = "//tagname[text()='std-header']") WebElement navigationBarStudent;
+	@FindBy(xpath = "//tagname[text()='prog-header']") WebElement navigationBarProg; 
+	@FindBy(xpath = "//tagname[text()='batch-header']") WebElement navigationBarBatch;
+	@FindBy(xpath = "//tagname[text()='class-header']") WebElement navigationBarClass;
+	@FindBy(xpath = "//tagname[text()='usr-header']") WebElement navigationBarUser;
+	@FindBy(xpath = "//tagname[text()='Asn-header']") WebElement navigationBarAssignment;
+	@FindBy(xpath = "//tagname[text()='Att-header']") WebElement navigationBarAttendance;
+	@FindBy(xpath = "//tagname[text()='t1']") WebElement navigationBarLogout;
+	@FindBy(xpath = "//tagname[text()='t2']") WebElement studentTitle;
+	@FindBy(xpath = "//tagname[text()='t3]") WebElement programTitle;
+	@FindBy(xpath = "//tagname[text()='t4']") WebElement batchTitle;
+	@FindBy(xpath = "//tagname[text()='t5']") WebElement classTitle;
+	@FindBy(xpath = "//tagname[text()='t6']") WebElement userTitle;
+	@FindBy(xpath = "//tagname[text()='t6']") WebElement assignmentTitle;
+	@FindBy(xpath = "//tagname[text()='t7']") WebElement attendanceTitle;
+	@FindBy(xpath = "//tagname[text()='t8']") WebElement loginTitle;
 
 	// =================pagination===============
 	
@@ -206,30 +227,6 @@ public class AttendanceModule {
 	
 	
 	
-	public void navigateToAttendance() {
-		try {
-			Thread.sleep(2000);
-			attendanceButton.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	// Verify page title method
-	public String verifyPageTitle() {
-		String actualHeaderName = "";
-		try {
-
-			if (headerName.isDisplayed()) {
-				actualHeaderName = headerName.getText();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return actualHeaderName;
-	}
-	
-	
 
 	// method to click Attendance on navigation bar 
 			public void clickAttandanceButton() {
@@ -260,7 +257,7 @@ public class AttendanceModule {
 			public boolean searchBarVisible()
 			{
 				try {
-				manageAttendanceTitle.isDisplayed();
+					searchBar.isDisplayed();
 				
 				}
 				catch (Exception e) {
@@ -270,6 +267,20 @@ public class AttendanceModule {
 				return true;
 			}
 	
+			public boolean attendanceDetailsVisible()
+			{
+				try {
+				manageAttendanceTitle.isDisplayed();
+				
+				}
+				catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				return true;
+			}
+			
+			
 			
 			
 			public boolean addNewAttendancebuttonVisible()
@@ -282,6 +293,30 @@ public class AttendanceModule {
 				}
 				return true;
 			}
+			
+			public void navigateToAttendance() {
+				try {
+					Thread.sleep(2000);
+					attendanceButton.click();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			// Verify page title method
+			public String verifyPageTitle() {
+				String actualHeaderName = "";
+				try {
+
+					if (headerName.isDisplayed()) {
+						actualHeaderName = headerName.getText();
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				return actualHeaderName;
+			}
+			
 			
 	// Verify Delete button state
 	public void verifyDeleteButton() {
@@ -1199,22 +1234,7 @@ public class AttendanceModule {
 	
 	
 	
-	@FindBy(xpath = "//tagname[text()='std-header']") WebElement navigationBarStudent;
-	@FindBy(xpath = "//tagname[text()='prog-header']") WebElement navigationBarProg; 
-	@FindBy(xpath = "//tagname[text()='batch-header']") WebElement navigationBarBatch;
-	@FindBy(xpath = "//tagname[text()='class-header']") WebElement navigationBarClass;
-	@FindBy(xpath = "//tagname[text()='usr-header']") WebElement navigationBarUser;
-	@FindBy(xpath = "//tagname[text()='Asn-header']") WebElement navigationBarAssignment;
-	@FindBy(xpath = "//tagname[text()='Att-header']") WebElement navigationBarAttendance;
-	@FindBy(xpath = "//tagname[text()='t1']") WebElement navigationBarLogout;
-	@FindBy(xpath = "//tagname[text()='t2']") WebElement studentTitle;
-	@FindBy(xpath = "//tagname[text()='t3]") WebElement programTitle;
-	@FindBy(xpath = "//tagname[text()='t4']") WebElement batchTitle;
-	@FindBy(xpath = "//tagname[text()='t5']") WebElement classTitle;
-	@FindBy(xpath = "//tagname[text()='t6']") WebElement userTitle;
-	@FindBy(xpath = "//tagname[text()='t6']") WebElement assignmentTitle;
-	@FindBy(xpath = "//tagname[text()='t7']") WebElement attendanceTitle;
-	@FindBy(xpath = "//tagname[text()='t8']") WebElement loginTitle;
+
 	
 	
 	
@@ -1366,6 +1386,15 @@ public class AttendanceModule {
 
 	
 	}
+    
+public void verifyDashboardPage() {
+		
+		String dashTxt = dashboardTitle.getText();
+		
+		Assert.assertEquals("dashboard Page", dashTxt);
+
+	
+	}
  
  
 
@@ -1418,162 +1447,6 @@ public class AttendanceModule {
 		firstEnablePageNumber.click();
 	}
 
-	// Sorting methods started from here
 	
-	
-	/*
-	
-	public void setBatchNameAsc() {
-		try {
-			batchNameSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchNameDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchNameSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setBatchDescriptionAsc() {
-		try {
-			batchDescriptionSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchDescriptionDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchDescriptionSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setBatchStatusAsc() {
-		try {
-			batchStatusSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchStatusDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchStatusSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setBatchClassesAsc() {
-		try {
-			batchNoOfClassesSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setBatchClassesDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			batchNoOfClassesSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void setProgramNameAsc() {
-		try {
-			programNameSorting.click();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void setProgramNameDesc() {
-		try {
-			for(int i=0;i<2;i++) 
-			{
-			programNameSorting.click();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public String checkBatchNameColoumnSorting() throws InterruptedException {
-		String currentSort = "";
-		try {
-			Thread.sleep(2000);
-			currentSort = batchNameColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchName: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchDescriptionColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchDescriptionColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchDescription: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchStatusColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchStatusColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchStatus: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkBatchClassesColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = batchNoOfClassesColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of batchclasses: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-	public String checkProgramNameColoumnSorting() {
-		String currentSort = "";
-		try {
-			currentSort = programNameColoumn.getAttribute("aria-sort");
-			System.out.print("current sorting of ProgramName: " + currentSort);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return currentSort;
-	}
-
-*/
 
 }
