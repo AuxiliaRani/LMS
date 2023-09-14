@@ -19,7 +19,7 @@ Feature: Manage Class Page Verification
 
 @TC_ManageClass_04
   Scenario: Verify delete icon below the header
-    Then Admin should see disabled delete icon below the "Manage Class"
+    Then Admin should see disabled delete icon below the Manage Class
 
 @TC_ManageClass_05
   Scenario: Verify search bar on the class page
