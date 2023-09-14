@@ -80,8 +80,8 @@ public class MangeAssignmentSD2 {
 		public void Admin_enters_assignment_description_which_is_not_existing_the_table_into_search_box() {
 			System.out.format("Enter assignment description");
 		}
-		@Then("Displays empty details in the data table")
-		public void Displays_empty_details_in_the_Data_table() {
+		@Then("Displays empty details in the data table for search box1")
+		public void Displays_empty_details_in_the_Data_table_for_search_box1() {
 			System.out.format("Display empty Details");
 			LoggerLoad.info("Displays empty details in the data table");
 			try {
@@ -112,8 +112,8 @@ public class MangeAssignmentSD2 {
 		public void Admin_enters_assignment_due_date_which_is_not_existing_the_table_into_search_box() {
 			System.out.format("Admin enters assignment due date");
 		}
-		@Then("Displays empty details in the data table")
-		public void Displays_empty_details_in_the_data_Table() {
+		@Then("Displays empty details in the data table for search box2")
+		public void Displays_empty_details_in_the_data_Table_for_search_box2() {
 			System.out.format("Display empty deatails");
 			LoggerLoad.info("Displays empty details in the data table");
 			try {
@@ -145,8 +145,8 @@ public class MangeAssignmentSD2 {
 		public void Admin_enters_Grade_value_Which_Is_Not_existing_the_table_into_search_box() {
 			System.out.format("Admin enters grade value which is not existing the table");
 		}
-		@Then("Displays empty details in the data table")
-		public void Displays_Empty_details_in_the_data_table() {
+		@Then("Displays empty details in the data table for search box3")
+		public void Displays_Empty_details_in_the_data_table_for_search_box3() {
 			System.out.format("Displays empty details in Display the data table");
 			LoggerLoad.info("Displays empty details in the data table");
 			try {
