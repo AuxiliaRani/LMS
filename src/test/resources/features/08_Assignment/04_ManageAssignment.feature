@@ -89,7 +89,7 @@ Then: Admin should see selected date is highled in the date picker
 
 @Assignment17
 Scenario: Validate cancel button function in assignment details popup window
-When: Admin clicks Cancel button without entering values in the fields
+When: Admin clicks Cancel button without entering values in the fields on manage assignment page
 Then: Admin should land on manage assignment page
 
 @Assignment18
