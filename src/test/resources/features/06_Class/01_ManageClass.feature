@@ -1,7 +1,7 @@
 Feature: Manage Class Page Verification
 
   Background: Logged on the LMS portal as Admin
-    Given Admin is on dashboard page after Login
+  Given Admin is on Dashboard page after login with valid username and password
     When Admin clicks "Class" button on the navigation bar
 
 @TC_ManageClass_01

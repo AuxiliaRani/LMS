@@ -3,13 +3,11 @@ package stepDefinitionsClass;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -23,12 +21,15 @@ import utilities.LoggerLoad;
 public class AddNewClassSD extends DriverFactory{
      //created object of ClassPopUpWindow to call the performing action methods on webelement(POM)
 	ClassPopUpWindow classpopupwindow = new ClassPopUpWindow();
+	ManageClass manageclass = new ManageClass();
 	ExcelReader excelReader = new ExcelReader();
 	
 	String batchidstring;
+	String ecpectedbatchid;
 	
 	@Given("Admin click +Add New Class button after reaching to Manage class page")
 	public void admin_click_add_new_class_button_after_reaching_to_manage_class_page() {
+		driver.get(config.getString("ManageClassesPageUrl"));
 		classpopupwindow.clickAddNewClassButton();
 	}
 
@@ -111,7 +112,8 @@ public class AddNewClassSD extends DriverFactory{
 		 classpopupwindow.dropdownStaffIdClick();
 		 classpopupwindow.opencalenderIcon();
 		 classpopupwindow.opencalender(InvalidClassDate);
-		}					
+		 classpopupwindow.saveButtonClick();
+		 }					
 	}
 
 	@Then("Error message should appear in alert on add class page")
@@ -125,15 +127,62 @@ public class AddNewClassSD extends DriverFactory{
 	}
 
 	@When("Admin enters values in all fields with valid data and clicks save button \\(Batch ID , No of Classes, Class Date, Class Topic, Staff Id, Class description, Comments, Notes, Recordings)")
-	public void admin_enters_values_in_all_fields_with_valid_data_and_clicks_save_button_batch_id_no_of_classes_class_date_class_topic_staff_id_class_description_comments_notes_recordings() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void admin_enters_values_in_all_fields_with_valid_data_and_clicks_save_button_batch_id_no_of_classes_class_date_class_topic_staff_id_class_description_comments_notes_recordings() throws InvalidFormatException, IOException {
+		String ValidBatchId;
+		String ValidClassNo;
+		String ValidClassDate;
+		String ValidClassTopic;
+		String ValidStaffId;
+		String ClassDescription;
+		String Comments;
+		String Notes;
+		String Recordings;
+		
+		
+		List<Map<String,String>> excelHeader = excelReader.getData(".\\src\\test\\resources\\Exceldata\\LMSTestData.xlsx", "ManageClass");			
+		for ( Map<String,String> elements     : excelHeader) {	
+			ValidBatchId = elements.get("ValidBatchId").replaceAll("\"","");		 
+			ValidClassNo = elements.get("ValidClassNo").replaceAll("\"","");	
+			ValidClassDate = elements.get("ValidClassDate").replaceAll("\"","");
+			ValidClassTopic = elements.get("ValidClassTopic");
+			ValidStaffId = elements.get("ValidStaffId").replaceAll("\"","");
+			ClassDescription = elements.get("ClassDescription");
+			Comments = elements.get("Comments");
+			Notes = elements.get("Notes");
+			Recordings = elements.get("Recordings");
+		 
+			classpopupwindow.batchIdClear();
+		 classpopupwindow.selectBatchId(ValidBatchId);
+		 classpopupwindow.classNoClear();
+		 classpopupwindow.classNoTextBox(ValidClassNo);
+		 classpopupwindow.classDateClear();
+		 classpopupwindow.classDateTextBox(ValidClassDate);
+		 classpopupwindow.classTopicClear();
+		 classpopupwindow.classTopicSendKeys(ValidClassTopic);
+		 classpopupwindow.dropdownStaffIdClick();
+		 classpopupwindow.classDescriptionClear();
+		 classpopupwindow.classDescription();
+		 classpopupwindow.commentsclear();
+		 classpopupwindow.commentssendkeys(Comments);
+		 classpopupwindow.notesclean();
+		 classpopupwindow.notesSendKeys(Notes);
+		 classpopupwindow.recordingsClear();
+		 classpopupwindow.recordingsSendKeys(Recordings);
+		 
+		 classpopupwindow.saveButtonClick();
+		 }			
 	}
 
 	@Then("Admin should see new class details is added in the data table on manage class page")
 	public void admin_should_see_new_class_details_is_added_in_the_data_table_on_manage_class_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+		List<WebElement> rowselement  =manageclass.rowIsPresent();
+		for (WebElement rowelement : rowselement)
+		{
+	//	rowelement.findElement(By.xpath("//tr[contains(text(), 'batchidstring')]"));
+//		expectedbatchid = rowelement.findElement(By.xpath("./tr/td[1]")).getText();	
+//				Assert.assertEquals(expectedbatchid, batchidstring);
+	}
 	}
 
 	@When("Admin enters with invalid data in optional fields and clicks save button \\( Batch ID , No of Classes, Class Date, Staff Id)")

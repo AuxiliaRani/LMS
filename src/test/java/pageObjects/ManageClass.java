@@ -67,7 +67,6 @@ public class ManageClass {
 	
 	
 	
-	
 	// method to click class button
 		public void clickClassButton() {
 			classButton.click();
@@ -116,8 +115,8 @@ public class ManageClass {
 		}
 		
 		public List<WebElement> rowIsPresent() {			
-			List<WebElement> dataTableRows = classDataTable.findElements(By.tagName("tr"));
-			return dataTableRows;
+			List<WebElement> dataTableRowsWebElement = classDataTable.findElements(By.xpath("//table[@id='exampleTable']/tbody/tr/td"));
+			return dataTableRowsWebElement;
 		}
 		
 		public boolean editIconIsPresent() {

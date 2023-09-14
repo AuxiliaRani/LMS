@@ -1,8 +1,10 @@
 package stepDefinitionsClass;
 
 import java.util.List;
-import org.junit.Assert;
+
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
