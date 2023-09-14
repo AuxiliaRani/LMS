@@ -277,8 +277,8 @@ public class ManageAssignmentSD4 {
 		}
 	}
 	
-	@When("Admin clicks Cancel button without entering values in the fields")
-	public void Admin_clicks_Cancel_button_without_entering_values_in_the_fields() {
+	@When("Admin clicks Cancel button without entering values in the fields on manage assignment page")
+	public void Admin_clicks_Cancel_button_without_entering_values_in_the_fields_on_manage_assignment_page() {
 		System.out.format("Admin clicks Cancel button without entering values in the fields");
 	}
 	
