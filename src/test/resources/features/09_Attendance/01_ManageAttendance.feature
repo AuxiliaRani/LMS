@@ -32,7 +32,7 @@ Feature: Manage Attendance Page verification
 
   @TC_Attendance_07
   Scenario: Verify delete icon below the header on manage attendance page
-    Then Admin should see disabled delete icon below the "Manage Attendance"
+    Then Admin should see disabled delete icon below the Manage Attendance
 
   @TC_Attendance_08
   Scenario: Verify search bar on the Attendance page
