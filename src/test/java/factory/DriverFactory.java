@@ -1,6 +1,7 @@
 package factory;
 
 import java.time.Duration;
+import java.util.ResourceBundle;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,11 +16,17 @@ public class DriverFactory {
 
 	public static WebDriver driver;
 
+	public static ResourceBundle config = ResourceBundle.getBundle("config");
+	
+
 	
 	public WebDriver initializeDrivers(String browser) {
 
 		if (browser.equalsIgnoreCase("firefox")) {
+
 			LoggerLoad.info("Testing on firefox");
+		
+
 			//WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 
@@ -41,9 +48,7 @@ public class DriverFactory {
 		}
 		// Set Page load timeout
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-
 		driver.manage().window().maximize();
-
 		return driver;
 	}
 
@@ -51,6 +56,9 @@ public class DriverFactory {
 		return driver;
 
 	}
+	
+	
+	
 
 	public void closeallDriver() {
 		driver.close();
