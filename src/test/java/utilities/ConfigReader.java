@@ -83,27 +83,6 @@ public class ConfigReader {
 				}
 	
 	
-
-
-	// method to get the login page url
-	public static String getLoginPage() {
-		String loginpage = prop.getProperty("loginpage");
-		if (loginpage != null) {
-			return loginpage;
-		} else {
-			throw new RuntimeException("loginpage not specified in the config.properties file.");
-		}
-	}
-
-	// method to get the excel file path
-	public static String getExcelFilePath() {
-		String excelfilepath = prop.getProperty("excelfilepath");
-		if (excelfilepath != null) {
-			return excelfilepath;
-		} else {
-			throw new RuntimeException("excelfilepath not specified in the config.properties file.");
-		}
-	}
 	
 	public static String getJsonFilePath() {
 		String excelfilepath = prop.getProperty("jsonfilepath");
@@ -114,14 +93,7 @@ public class ConfigReader {
 		}
 	}
 	
-	public static String getDashboardURL() {
-		String urlPath = prop.getProperty("dashboardurl");
-		if (urlPath != null) {
-			return urlPath;
-		} else {
-			throw new RuntimeException("dashboardurl not specified in the config.properties file.");
-		}
-	}
+	
 	/*
 	 * Create Batch Inputs from config */
 	
