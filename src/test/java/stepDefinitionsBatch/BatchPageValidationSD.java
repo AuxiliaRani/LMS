@@ -25,8 +25,8 @@ public class BatchPageValidationSD {
 	}
 	
 	
-	@Given("Admin is on dashboard page after Login")
-	public void admin_is_on_dashboard_page_after_login() {
+	@Given("Admin is on dashboard page after Login for Batch page")
+	public void admin_is_on_dashboard_page_after_login_for_batch_page() {
 		batchModule.clickBatchButton();
 		
 	}
