@@ -4,7 +4,7 @@ Feature: Manage Attendance Page verification
 
   Background: Logged on the LMS portal as Admin for Attendance module 
     Given Admin is on dashboard page after Login for Attendance module
-    When Admin clicks "Attendance" on the navigation bar
+    When Admin clicks "Attendance" on the navigation bar for Attendance module 
 
   @TC_Attendance_01
   Scenario: Validate the header of the page for Attendance module
