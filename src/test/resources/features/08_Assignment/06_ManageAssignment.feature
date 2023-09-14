@@ -23,7 +23,7 @@ Then: Admin should see updated assignment details is added in the data table
 
 @Assignment4
 Scenario: Validate admin able to update assignment with invalid data  in optional fields
-When: Admin enters with invalid data in optional fields and clicks save button (Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5)
+When: Admin enters with invalid data in optional fields and clicks save button (Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5) on assignment page
 Then: Error message should appear in alert
 
 @Assignment5
