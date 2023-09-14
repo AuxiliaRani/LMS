@@ -80,8 +80,8 @@ try {
 	    
 	
 
-	@Then("Admin should receive {string} error for the link")
-	public void admin_should_receive_error_for_the_link(String  expectedResponseCode) throws IOException {
+	@Then("Admin should receive {string} error for the link on Student Page")
+	public void admin_should_receive_error_for_the_link_on_student_page(String  expectedResponseCode) throws IOException {
 		
 		URL lmsLinkUrl = new URL(driver.getCurrentUrl());
 
@@ -97,8 +97,8 @@ try {
 
 	}
 
-	@Then("The link is broken")
-	public void the_link_is_broken() {
+	@Then("The link is broken on Student Page")
+	public void the_link_is_broken_on_student_page() {
 		try {
 			assertTrue("The Link is Broken", responseCode >= 400);
 		} catch (AssertionError e) {
