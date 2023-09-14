@@ -82,6 +82,7 @@ public class AttendanceModule {
 	@FindBy(xpath = "//tagname[@Attribute='savform']")WebElement saveForm;
 	@FindBy(xpath = "//tagname[@Attribute='closebutton']")WebElement closeButton;
 	@FindBy(xpath = "//tagname[@Attribute='savebutton']")WebElement saveButton;
+	@FindBy(xpath = "//tagname[@Attribute='cancelbutton']")WebElement cancelButton;
 	
 	@FindBy(xpath = "//tagname[text()='selectProgtxtLable']")WebElement selectProgtxtLable;
 	@FindBy(xpath = "//tagname[text()='selectClasstxtLable']")WebElement selectClasstxtLable;
@@ -536,6 +537,12 @@ public class AttendanceModule {
 		return true;
 	}
 	
+	public boolean cancelButtonDisplayed()
+	{
+		cancelButton.isDisplayed();
+		return true;
+	}
+	
 	// get location
 	public boolean VerifylocationCloseButton() {
 		
@@ -675,10 +682,20 @@ public class AttendanceModule {
 
 	}
 
+	// click on dropdown buttons
 	
-	
-	public void clickOnDropdown() {
+	public void clickOnProgDropdown() {
 		pdropdownButton.click();
+	}
+	
+	public void clickOnclassDropdown() {
+		cdropdownButton.click();
+	}
+	public void clickOnStudentDropdown() {
+		sdropdownButton.click();
+	}
+	public void clickOnAttendanceDropdown() {
+		adropdownButton.click();
 	}
 	
 	public List<String> checkAllDropdownValues() {
@@ -734,6 +751,7 @@ public class AttendanceModule {
 	public String selectClassName() {
 		String class1 = null;
 		try {
+			
 			cdropdownButton.click();
 			String firstValue = firstOptionSelection.getText();
 
@@ -988,8 +1006,6 @@ public class AttendanceModule {
 		
 		//save class ID of row level record
 		
-			//	String deleteValidationClassId = deleteValidationClassId.getText();
-		
 		WebElement tableContents = driver.findElement(By.tagName("table"));
 
 		List<WebElement> rows=tableContents.findElements(By.tagName("tr"));
@@ -1181,6 +1197,177 @@ public class AttendanceModule {
 		
 	}
 	
+	
+	
+	@FindBy(xpath = "//tagname[text()='std-header']") WebElement navigationBarStudent;
+	@FindBy(xpath = "//tagname[text()='prog-header']") WebElement navigationBarProg; 
+	@FindBy(xpath = "//tagname[text()='batch-header']") WebElement navigationBarBatch;
+	@FindBy(xpath = "//tagname[text()='class-header']") WebElement navigationBarClass;
+	@FindBy(xpath = "//tagname[text()='usr-header']") WebElement navigationBarUser;
+	@FindBy(xpath = "//tagname[text()='Asn-header']") WebElement navigationBarAssignment;
+	@FindBy(xpath = "//tagname[text()='Att-header']") WebElement navigationBarAttendance;
+	@FindBy(xpath = "//tagname[text()='t1']") WebElement navigationBarLogout;
+	@FindBy(xpath = "//tagname[text()='t2']") WebElement studentTitle;
+	@FindBy(xpath = "//tagname[text()='t3]") WebElement programTitle;
+	@FindBy(xpath = "//tagname[text()='t4']") WebElement batchTitle;
+	@FindBy(xpath = "//tagname[text()='t5']") WebElement classTitle;
+	@FindBy(xpath = "//tagname[text()='t6']") WebElement userTitle;
+	@FindBy(xpath = "//tagname[text()='t6']") WebElement assignmentTitle;
+	@FindBy(xpath = "//tagname[text()='t7']") WebElement attendanceTitle;
+	@FindBy(xpath = "//tagname[text()='t8']") WebElement loginTitle;
+	
+	
+	
+	//=================Navigation links methods================
+	
+	public void clickOnNavigationBarProg() {
+		try {
+			navigationBarProg.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarBatch() {
+		try {
+			navigationBarBatch.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarStudent() {
+		try {
+			navigationBarStudent.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarClass() {
+		try {
+			navigationBarClass.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarUser() {
+		try {
+			navigationBarUser.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarAssignment() {
+		try {
+			navigationBarAssignment.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarAttendance() {
+		try {
+			navigationBarAttendance.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickOnNavigationBarLogout() {
+		try {
+			navigationBarLogout.click();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	//Verify -//student, program, batch, class, user, assignment, attendance
+	
+	public void verifyStudentPageNavigation() {
+		
+		String stdTxt = studentTitle.getText();
+		
+		Assert.assertEquals("Student Details Page", stdTxt);
+
+	
+	}
+	
+	
+	public void verifyProgramPageNavigation() {
+		
+		String prTxt = programTitle.getText();
+		
+		Assert.assertEquals("Program Details Page", prTxt);
+
+	
+	}
+	
+    public void verifyBatchPageNavigation() {
+		
+		String btTxt = batchTitle.getText();
+		
+		Assert.assertEquals("Batch Details Page", btTxt);
+
+	
+	}
+    
+    public void verifyClassPageNavigation() {
+		
+		String btTxt = classTitle.getText();
+		
+		Assert.assertEquals("Class Details Page", btTxt);
+
+	
+	}
+    
+    public void verifyUserPageNavigation() {
+		
+		String usrTxt = userTitle.getText();
+		
+		Assert.assertEquals("Class Details Page", usrTxt);
+
+	
+	}
+    
+    public void verifyAssignmentPageNavigation() {
+		
+		String asnTxt = assignmentTitle.getText();
+		
+		Assert.assertEquals("Class Details Page", asnTxt);
+
+	
+	}
+    
+    public void verifyAttendancePageNavigation() {
+		
+		String attTxt = attendanceTitle.getText();
+		
+		Assert.assertEquals("Class Details Page", attTxt);
+
+	
+	}
+    
+
+    public void verifyLogoutToLoginPageNavigation() {
+		
+		String loginTxt = loginTitle.getText();
+		
+		Assert.assertEquals("Please Login to LMS application", loginTxt);
+
+	
+	}
+ 
+ 
 
 	//=================Pagination links methods================
 	

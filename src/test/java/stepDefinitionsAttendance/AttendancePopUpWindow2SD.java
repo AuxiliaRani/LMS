@@ -3,31 +3,45 @@ package stepDefinitionsAttendance;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import myHooks.Hooks;
+import pageObjects.AttendanceModule;
+import utilities.LoggerLoad;
 
 public class AttendancePopUpWindow2SD {
 	
+	Hooks hooks;
+	AttendanceModule attendanceModule;
+	
+	{
+		this.hooks=hooks;
+		this.attendanceModule = hooks.getAttendanceModuleObject();
+		
+		LoggerLoad.info("******* Attendance Pop up window Validations ********");
+	}
+	
 	@Given("Admin is on attendance details popup window {int}")
 	public void admin_is_on_attendance_details_popup_window(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		
+		attendanceModule.attendanceDetailForm();
 	}
 
 	@When("Admin clicks  program name dropdown for Attendance module")
 	public void admin_clicks_program_name_dropdown_for_attendance_module() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+		attendanceModule.programDrpIsDisplayed();
+		attendanceModule.clickOnProgDropdown();
 	}
 
 	@Then("Program Name in the drop down should match with  program name in  manage program page table for Attendance module")
 	public void program_name_in_the_drop_down_should_match_with_program_name_in_manage_program_page_table_for_attendance_module() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("Admin clicks class name dropdown for Attendance module")
 	public void admin_clicks_class_name_dropdown_for_attendance_module() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		
+		attendanceModule.classDrpIsDisplayed();
+		attendanceModule.clickOnclassDropdown();
 	}
 
 	@Then("Class Name in the drop down should match with  class name in  manage class page table for Attendance module")
@@ -38,8 +52,9 @@ public class AttendancePopUpWindow2SD {
 
 	@When("Admin clicks attendance dropdown for Attendance module")
 	public void admin_clicks_attendance_dropdown_for_attendance_module() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		
+		attendanceModule.attendanceDrpIsDisplayed();
+		attendanceModule.clickOnAttendanceDropdown();
 	}
 
 	@Then("Attendance field should have keywords such as - present, absent, late, excused for Attendance module")
@@ -50,8 +65,7 @@ public class AttendancePopUpWindow2SD {
 
 	@Then("Admin should see correct spellings in dropdown text for Attendance module")
 	public void admin_should_see_correct_spellings_in_dropdown_text_for_attendance_module() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("Admin clicks date from date picker for Attendance module")
