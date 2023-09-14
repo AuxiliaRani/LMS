@@ -23,8 +23,8 @@ import utilities.LoggerLoad;
 		
 		
 		ManageAssignmentSD AssignmentPage = new ManageAssignmentSD();
-		@Given("Admin is on dashboard page after login")
-		public void admin_is_on_dashboard_page_after_login() {
+		@Given("Admin is on dashboard page after login for Manage Assignment")
+		public void admin_is_on_dashboard_page_after_login_for_manage_assignment() {
 //			System.out.format("dashboard");
 			
 			LoggerLoad.info("Admin launch the LMS portal");
