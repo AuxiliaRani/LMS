@@ -194,10 +194,7 @@ public class ManageAssignmentSD4 {
 		}
 	}
 
-	@When("Admin clicks date from date picker on assignment")
-	public void Admin_Clicks_date_from_date_picker_on_assignment() {
-		System.out.format("Admin clicks date from date picker");
-	}
+	
 	@Then("selected date should be in  mm/dd/yyyy format on assignment")
 	public void Selected_date_should_be_in_mm_dd_yyyy_format_on_assignment(){
 		System.out.format("selected date should be in  mm/dd/yyyy format");
@@ -236,10 +233,7 @@ public class ManageAssignmentSD4 {
 	}
 	
 	
-	@When("Admin clicks date picker button on assignment")
-	public void Admin_clicks_date_picker_button_on_assignment() {
-		System.out.format("Admin clicks date picker button");
-	}
+	
 	@Then("Admin should see current date is highled in the date picker on assignment")
 	public void Admin_should_see_current_date_is_highled_in_the_date_picker_on_assignment() {
 		System.out.format("Admin should see current date");
