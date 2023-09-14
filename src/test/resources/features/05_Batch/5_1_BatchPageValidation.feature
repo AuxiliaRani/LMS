@@ -2,7 +2,7 @@
 Feature: Batch_Page_Validation
 
  Background: Logged on the LMS portal
- Given Admin is on dashboard page after Login
+ Given Admin is on dashboard page after Login for Batch page
   
 @TC_Batch_Page_Validation_01  
 Scenario: Validate landing in Batch page
