@@ -8,12 +8,12 @@ Background: Logged on the LMS portal as Admin
   Scenario: Validate the title of the pageforstudent
     
  Given Admin is on dashboard page after Login for student
- When Admin clicks "Student" on the navigation bar
+ When Admin clicks "Student" on the navigation bar for Student module
  Then Admin should see the Student details Page Title
     
   @ST2
   Scenario: Validate response time from dashboard page to student page
-   Then  Maximum navigation time in milliseconds, defaults to 30 seconds
+   Then  Maximum navigation time in milliseconds, defaults to 30 seconds for Student module
    
   @ST3
   Scenario: Validate the broken link
@@ -22,7 +22,7 @@ Background: Logged on the LMS portal as Admin
     
    @ST4
   Scenario: Verify LMS title 
-  Then Admin should see LMS -Learning management system  as title 
+  Then Admin should see LMS -Learning management system  as title for Student module
     
      @ST5
   Scenario: Verify the alignment of the Student detail title
