@@ -118,8 +118,8 @@ public class ManageAttendanceSD {
 		
 	}
 
-	@Then("Admin should see disabled delete icon below the {string}")
-	public void admin_should_see_disabled_delete_icon_below_the(String string) {
+	@Then("Admin should see disabled delete icon below the Manage Attendance")
+	public void admin_should_see_disabled_delete_icon_below_the_manage_attendance() {
 		
 		if(attendanceModule.deleteMultipleButtonEnabled())
 		{
