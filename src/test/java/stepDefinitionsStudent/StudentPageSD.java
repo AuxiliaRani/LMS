@@ -67,8 +67,8 @@ public class StudentPageSD extends DriverFactory{
         
 	}
 
-	@Then("Maximum navigation time in milliseconds, defaults to {int} seconds")
-	public void maximum_navigation_time_in_milliseconds_defaults_to_seconds(Integer int1) {
+	@Then("Maximum navigation time in milliseconds, defaults to {int} seconds for Student module")
+	public void maximum_navigation_time_in_milliseconds_defaults_to_seconds_for_student_module(Integer int1) {
 		 int actualSeconds = Studentpage.getNavigationTimeoutInSeconds();
 try {
 	       Assert. assertEquals("Maximum navigation time setting does not match", "30", actualSeconds);
