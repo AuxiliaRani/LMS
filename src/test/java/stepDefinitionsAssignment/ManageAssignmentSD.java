@@ -45,8 +45,8 @@ import utilities.LoggerLoad;
 			// TODO Auto-generated method stub
 			return null;
 		}
-		@When("Admin clicks {string} button on the navigation bar")
-		public void admin_clicks_button_on_the_navigation_bar(String string) {
+		@When("Admin clicks \"Assignment\" button on the navigation bar")
+		public void admin_clicks_assignment_button_on_the_navigation_bar() {
 			System.out.format("Navigation bar");
 			
 		}
@@ -89,7 +89,7 @@ import utilities.LoggerLoad;
 			 System .out.format("see Header with manage assignment");
 			 LoggerLoad.info("Admin is on header with manage assignment");
 			 try {
-				 AssignmentPage.admin_clicks__assignment_button_on_the_navigation_bar();
+				 AssignmentPage.admin_clicks_assignment_button_on_the_navigation_bar();
 			 }catch(Error e) {
 				 LoggerLoad.error(e.getMessage());
 			 }
