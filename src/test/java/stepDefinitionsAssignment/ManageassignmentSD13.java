@@ -10,8 +10,8 @@ import utilities.LoggerLoad;
 
 public class ManageassignmentSD13 {
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_on_dashboard_page_after_Login() {
+	@Given("Admin is on dashboard page after Login for Assignment page")
+	public void Admin_is_on_dashboard_page_after_Login_for_Assignment_page() {
 		System.out.format("Admin is on dashboard page after Login");
 	}
 	@When("Admin clicks Assignment button on the navigation bar")
@@ -30,10 +30,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" DisplayedData ");
 	}
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_on_Dashboard_page_after_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_button_on_the_navigation_Bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -50,10 +46,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Page enabled ");
 	}
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_on_dashboard_page_After_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_Button_on_the_navigation_bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -71,11 +63,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Disabled ");
 	}
 	
-	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_on_dashboard_Page_after_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_button_On_the_navigation_Bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -93,10 +80,6 @@ public class ManageassignmentSD13 {
 	}
 	
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_On_dashboard_page_after_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_Clicks_Assignment_Button_On_The_navigation_bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -113,10 +96,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Page enabled in page2 ");
 	}
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_is_on_Dashboard_page_After_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_Button_On_the_navigation_Bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -133,10 +112,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" DisplayedData ");
 	}
 	
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_Is_on_Dashboard_page_after_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_Button_On_the_navigation_bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
@@ -152,10 +127,7 @@ public class ManageassignmentSD13 {
 		  	  }
 		  	LoggerLoad.info(" Data table controls Enabled ");
 	}
-	@Given("Admin is on dashboard page after Login")
-	public void Admin_Is_on_Dashboard_page_After_Login() {
-		System.out.format("Admin is on dashboard page after Login");
-	}
+	
 	@When("Admin clicks Assignment button on the navigation bar")
 	public void Admin_clicks_Assignment_Button_On_The_navigation_bar() {
 		System.out.format("Admin clicks Assignment button on the navigation bar");
