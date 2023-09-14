@@ -62,17 +62,6 @@ public class ManageAssignmentSD4 {
 	public void Admin_enters_values_in_all_fields_with_valid_data_and_clicks_save_button_Program_name_batch_number_Assignment_Name_Assignment_Description_grade_by_Assignment_due_date_Assignment_File1_Assignment_file_2_Assignment_file_3_Assignment_file_4_Assignment_file_5() {
 		System.out.format("Admin enters values in all fields with valid data and clicks save button ");
 	}
-	@Then("Admin should see new assignment details is added in the data table")
-	public void Admin_should_se_new_assignment_details_is_added_in_the_data_table() {
-		System.out.format("Admin should see new assignment details is added in the data table");
-		LoggerLoad.info("Admin should see new assignment details is added in the data table");
-		try {
-			ManageAssignment.Admin_should_see_new_assignment_details_is_added_in_the_data_table();
-		} catch (Error e) {
-			LoggerLoad.error(e.getMessage());
-		}
-	}
-	
 	
 	
 	@When("Admin enters with invalid data in optional fields and clicks save button Assignment File1, Assignment file 2, Assignment file 3, Assignment file 4, Assignment file 5")
