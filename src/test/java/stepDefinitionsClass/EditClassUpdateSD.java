@@ -165,8 +165,8 @@ public class EditClassUpdateSD extends DriverFactory{
 	}
 
 
-	@When("Admin clicks Cancel button entering values in the fields")
-	public void admin_clicks_cancel_button_entering_values_in_the_fields() {
+	@When("Admin clicks Cancel button entering values in the fields for class page")
+	public void admin_clicks_cancel_button_entering_values_in_the_fields_for_class_page() {
 	    
 
 	}
