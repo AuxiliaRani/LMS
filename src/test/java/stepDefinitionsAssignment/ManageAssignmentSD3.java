@@ -10,16 +10,7 @@ import utilities.LoggerLoad;
 
 public class ManageAssignmentSD3 {
 	
-	@Given("Admin is on manage assignment Page")
-	public void Admin_is_on_manage_assignment_Page() {
-		System.out.format("Admin is on manage assignment Page");
-		LoggerLoad.info("Title of the current page: " );
-		try {
-			assertEquals( "LMS", "Manage Assignment");
-		} catch (AssertionError e) {
-			LoggerLoad.error("Assertion failed: " + e.getMessage());
-		}
-	}
+	
 	@When("Admin click +Add new assignment button")
 	public void Admin_click_Add_new_assignment_button(){
 		System.out.format("Admin click +Add new assignment button");
