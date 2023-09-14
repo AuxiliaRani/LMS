@@ -8,8 +8,8 @@ import io.cucumber.java.en.When;
 public class DeleteMultipleClassSingleCheckBoxSD {
 
 	
-	@Given("Admin is in delete alert")
-	public void admin_is_in_delete_alert() {
+	@Given("Admin is in delete alert on class page")
+	public void admin_is_in_delete_alert_on_class_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
