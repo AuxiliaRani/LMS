@@ -41,10 +41,7 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_Is_on_manage_assignment_page(){
-			System.out.format("manage assignemt");
-		}
+		
 		@When("Admin enters assignment name is not existing the table into search box")
 		public void Admi_enters_assignment_name_is_not_existing_the_table_into_search_box() {
 			System.out.format("enter assignment is not in existing table");
@@ -61,10 +58,7 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_is_On_manage_assignment_page() {
-			System.out.format("admin is on manage assignment page");
-		}
+		
 		@When("Admin enters assignment description into search box")
 		public void Admin_enters_assignment_description_into_search_box() {
 			System.out.format("Admin Enter assignment");
@@ -81,10 +75,7 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_is_on_manage_assignment_Page() {
-			System.out.format("admin is on manage page");
-		}
+		
 		@When("Admin enters assignment description which is not existing the table into search box")
 		public void Admin_enters_assignment_description_which_is_not_existing_the_table_into_search_box() {
 			System.out.format("Enter assignment description");
@@ -100,10 +91,7 @@ public class MangeAssignmentSD2 {
 			}
 		}
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_is_on_Manage_assignment_Page() {
-			System.out.format("admin is on manage page");
-		}
+		
 		@When("Admin enters assignment due date into search box")
 		public void Admin_enters_assignment_due_date_into_search_box(){
 			System.out.format("Due Date");
@@ -120,10 +108,6 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_Is_On_manage_assignment_page() {
-			System.out.format("Admin is on manage assignment");
-		}
 		@When("Admin enters assignment due date which is not existing the table into search box")
 		public void Admin_enters_assignment_due_date_which_is_not_existing_the_table_into_search_box() {
 			System.out.format("Admin enters assignment due date");
@@ -140,10 +124,6 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_is_On_Manage_assignment_Page() {
-			System.out.format("Admin is on manage assignment");
-		}
 		@When("Admin Enters Grade value Into search box")
 		public void Admin_Enters_Grade_value_Into_search_box(){
 			System.out.format("Admin Enters Grade value");
@@ -160,10 +140,7 @@ public class MangeAssignmentSD2 {
 		}
 		
 		
-		@Given("Admin is on manage assignment page")
-		public void Admin_is_On_Manage_assignment_page() {
-			System.out.format("Admin is on manage assignment page");
-		}
+		
 		@When("Admin enters grade value which is not existing the table into search box")
 		public void Admin_enters_Grade_value_Which_Is_Not_existing_the_table_into_search_box() {
 			System.out.format("Admin enters grade value which is not existing the table");
