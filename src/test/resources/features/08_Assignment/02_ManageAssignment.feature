@@ -4,13 +4,13 @@ Background: Admin logged into LMS portal and clicks assignment button on the nav
 Given: Admin is on manage assignment page
 
 @Assignment1
-Scenario: Validate search box function for assignment name
+Scenario: Validate search box function
 When: Admin enters assignment name into search box
 Then: Displays entries with that assignment name
 @Assignment2
 Scenario: Validate search box function
 When: Admin enters assignment name is not existing the table into search box
-Then: Displays empty details in the data table
+Then: Displays empty details in the data table for search box
 @Assignment3
 Scenario: Validate search box function
 When: Admin enters assignment description into search box
@@ -18,7 +18,7 @@ Then: Displays entries with that assignment description
 @Assignment4
 Scenario: Validate search box function
 When: Admin enters assignment description which is not existing the table into search box
-Then: Displays empty details in the data table
+Then: Displays empty details in the data table for search box1
 @Assignment5
 Scenario: Validate search box function
 When: Admin enters assignment due date into search box
@@ -26,7 +26,7 @@ Then: Displays entries with that assignment due date
 @Assignment6
 Scenario: Validate search box function
 When: Admin enters assignment due date which is not existing the table into search box
-Then: Displays empty details in the data table
+Then: Displays empty details in the data table for search box2
 @Assignment7
 Scenario: Validate search box function
 When: Admin enters grade value into search box
@@ -34,4 +34,4 @@ Then: Displays entries with that assignment grade
 @Assignment8
 Scenario: Validate search box function
 When: Admin enters grade value which is not existing the table into search box
-Then: Displays empty details in the data table
+Then: Displays empty details in the data table for search box3
