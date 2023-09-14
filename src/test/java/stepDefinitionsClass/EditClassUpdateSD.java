@@ -68,8 +68,8 @@ public class EditClassUpdateSD {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("Admin clicks Cancel button without entering values in the fields")
-	public void admin_clicks_cancel_button_without_entering_values_in_the_fields() {
+	@When("Admin clicks Cancel button without entering values in the fields for class page")
+	public void admin_clicks_cancel_button_without_entering_values_in_the_fields_for_class_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -80,8 +80,8 @@ public class EditClassUpdateSD {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("Admin clicks Cancel button entering values in the fields")
-	public void admin_clicks_cancel_button_entering_values_in_the_fields() {
+	@When("Admin clicks Cancel button entering values in the fields for class page")
+	public void admin_clicks_cancel_button_entering_values_in_the_fields_for_class_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
