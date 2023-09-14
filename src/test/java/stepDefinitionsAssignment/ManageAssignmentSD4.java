@@ -268,7 +268,7 @@ public class ManageAssignmentSD4 {
 	
 	
 	@When("Admin clicks Cancel button entering values in the fields")
-	public void Admin_s_in_assignment_details_popup_window() {
+	public void Admin_clicks_cancel_button_entering_values_in_the_fields() {
 		System.out.format("Admin clicks Cancel button entering values in the fields");
 	}
 	@Then("Admin should land on manage assignment Page and validate new assignment is not created in the data table")
