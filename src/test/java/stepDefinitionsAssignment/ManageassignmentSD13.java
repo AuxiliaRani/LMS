@@ -46,10 +46,7 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Page enabled ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_Button_on_the_navigation_bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
+	
 	@Then("Left arrow should be disabled in page one when entries are more than 5 available")
 	public void Left_arrow_should_be_disabled_in_page_one_when_entries_are_more_than_5_available() {
 		System.out.format("Left arrow should be disabled in page one");
@@ -63,10 +60,7 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Disabled ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_button_On_the_navigation_Bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
+	
 	@Then("Right arrow should be enabled in page two when entries are more than 10 available")
 	public void Right_arrow_should_be_enabled_in_page_two_when_entries_are_more_than_10_available() {
 		System.out.format("Right arrow should be enabled in page two ");
@@ -80,10 +74,6 @@ public class ManageassignmentSD13 {
 	}
 	
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_Clicks_Assignment_Button_On_The_navigation_bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
 	@Then("Left arrow should be enabled in page two")
 	public void Left_arrow_should_be_enabled_in_page_two() {
 		System.out.format("Left arrow should be enabled in page two");
@@ -96,10 +86,6 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Page enabled in page2 ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_Button_On_the_navigation_Bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
 	@Then("Data table should display page 1 when entries available")
 	public void Data_Table_Should_display_page_1_when_entries_available() {
 		System.out.format("Data table should display page 1");
@@ -112,10 +98,7 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" DisplayedData ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_Button_On_the_navigation_bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
+	
 	@Then("entries are more than 5 in data table pagination controls enabled")
 	public void entries_are_more_than_5_in_data_table_pagination_controls_enabled() {
 		System.out.format("entries are more than 5 in data table pagination controls enabled");
@@ -128,10 +111,7 @@ public class ManageassignmentSD13 {
 		  	LoggerLoad.info(" Data table controls Enabled ");
 	}
 	
-	@When("Admin clicks Assignment button on the navigation bar")
-	public void Admin_clicks_Assignment_Button_On_The_navigation_bar() {
-		System.out.format("Admin clicks Assignment button on the navigation bar");
-	}
+	
 	@Then("entries are less than 5 in data table pagination controls disabled")
 	public void entries_are_less_than_5_in_data_table_pagination_controls_disabled() {
 		System.out.format("entries are less than 5 in data table pagination controls disabled");
