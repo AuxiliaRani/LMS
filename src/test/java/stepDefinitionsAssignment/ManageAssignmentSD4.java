@@ -179,12 +179,12 @@ public class ManageAssignmentSD4 {
 	}
 	
 	
-	@When("Admin clicks date from date picker")
-	public void Admin_clicks_date_from_date_picker() {
+	@When("Admin clicks date from date picker on assignment")
+	public void Admin_clicks_date_from_date_picker_on_assignment() {
 		System.out.format("Admin clicks date from date picker");
 	}
-	@Then("selected date should be their in class date text box")
-	public void selected_date_should_be_their_in_class_date_text_box() {
+	@Then("selected date should be their in class date text box on assignment")
+	public void selected_date_should_be_their_in_class_date_text_box_on_assignment() {
 		System.out.format("selected date should be their in class date text box");
 		LoggerLoad.info("Assignment cannot be created for the passed date");
 		try {
@@ -194,12 +194,12 @@ public class ManageAssignmentSD4 {
 		}
 	}
 
-	@When("Admin clicks date from date picker")
-	public void Admin_Clicks_date_from_date_picker() {
+	@When("Admin clicks date from date picker on assignment")
+	public void Admin_Clicks_date_from_date_picker_on_assignment() {
 		System.out.format("Admin clicks date from date picker");
 	}
-	@Then("selected date should be in  mm/dd/yyyy format")
-	public void Selected_date_should_be_in_mm_dd_yyyy_format(){
+	@Then("selected date should be in  mm/dd/yyyy format on assignment")
+	public void Selected_date_should_be_in_mm_dd_yyyy_format_on_assignment(){
 		System.out.format("selected date should be in  mm/dd/yyyy format");
 		LoggerLoad.info("selected date should be in  mm/dd/yyyy format");
 		try {
@@ -210,22 +210,22 @@ public class ManageAssignmentSD4 {
 	}
 	
 	
-	@When("Admin clicks right arrow in the date picker near month")
-	public void Admin_clicks_right_arrow_in_the_date_picker_near_month() {
+	@When("Admin clicks right arrow in the date picker near month on assignment")
+	public void Admin_clicks_right_arrow_in_the_date_picker_near_month_on_assignment() {
 		System.out.format("Admin clicks right arrow in the date picker near month");
 	}
-	@Then("Next month calender should visible")
+	@Then("Next month calender should visible on assignment")
 	public void Next_month_calender_should_visible() {
 		System.out.format("Next month calender should visible");
 	}
 	
 	
-	@When("Admin clicks left arrow in the date picker near month")
-	public void Admin_clicks_left_arrow_in_the_date_picker_near_month() {
+	@When("Admin clicks left arrow in the date picker near month on assignment")
+	public void Admin_clicks_left_arrow_in_the_date_picker_near_month_on_assignment() {
 		System.out.format("Admin clicks left arrow in the date picker near month");
 	}
-	@Then("previous month calender should visible")
-	public void previous_month_calender_should_visible() {
+	@Then("previous month calender should visible on assignment")
+	public void previous_month_calender_should_visible_on_assignment() {
 		System.out.format("previous month calender should visible");
 		LoggerLoad.info("previous month calender should visible");
 		try {
@@ -236,12 +236,12 @@ public class ManageAssignmentSD4 {
 	}
 	
 	
-	@When("Admin clicks date picker button")
-	public void Admin_clicks_date_picker_button() {
+	@When("Admin clicks date picker button on assignment")
+	public void Admin_clicks_date_picker_button_on_assignment() {
 		System.out.format("Admin clicks date picker button");
 	}
-	@Then("Admin should see current date is highled in the date picker")
-	public void Admin_should_see_current_date_is_highled_in_the_date_picker() {
+	@Then("Admin should see current date is highled in the date picker on assignment")
+	public void Admin_should_see_current_date_is_highled_in_the_date_picker_on_assignment() {
 		System.out.format("Admin should see current date");
 		LoggerLoad.info("Admin should see current date is highled in the date picker");
 		try {
@@ -251,12 +251,12 @@ public class ManageAssignmentSD4 {
 		}
 	}
 	
-	@When("Admin clicks date picker button and selects future date")
-	public void Admin_clicks_date_picker_button_and_selects_futur_date() {
+	@When("Admin clicks date picker button and selects future date on assignment")
+	public void Admin_clicks_date_picker_button_and_selects_futur_date_on_assignment() {
 		System.out.format("Admin clicks date picker button and selects future date");
 	}
-	@Then("Admin should see selected date is highled in the date picker")
-	public void Admin_should_see_selected_date_is_highled_in_the_date_picker() {
+	@Then("Admin should see selected date is highled in the date picker on assignment")
+	public void Admin_should_see_selected_date_is_highled_in_the_date_picker_on_assignment() {
 		System.out.format("Admin should see selected date is highled in the date picker");
 		LoggerLoad.info("Admin should see current date is highled in the date picker");
 		try {
