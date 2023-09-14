@@ -65,7 +65,7 @@ Then: Admin should land on manage assignment page
 @Assignment12
 Scenario: Validate cancel button function in assignment details popup window with values in field
 When: Admin clicks Cancel button entering values in the fields
-Then: Admin should land on manage assignment Page and validate new assignment is not created in the data table
+Then: Admin should land on manage assignment Page and validate new assignment is not created in the data table for assignment page
 
 
 
